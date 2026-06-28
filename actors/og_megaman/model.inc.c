@@ -150,12 +150,8 @@ Texture og_megaman_openbeta_rgba16[] = {
 	#include "actors/og_megaman/openbeta.rgba16.inc.c"
 };
 
-Texture og_megaman_chin_rgba32[] = {
-	#include "actors/og_megaman/chin.rgba32.inc.c"
-};
-
-Texture og_megaman_mouthtest_rgba32[] = {
-	#include "actors/og_megaman/mouthtest.rgba32.inc.c"
+Texture og_megaman_Mouth_Combined_rgba16[] = {
+	#include "actors/og_megaman/Mouth_Combined.rgba16.inc.c"
 };
 
 Texture og_megaman_chin_rgba16[] = {
@@ -856,10 +852,10 @@ Vtx og_megaman_Head_DL_mesh_layer_1_vtx_0[203] = {
 	{{{176, 91, 84}, 0, {892, -260}, {0x1D, 0x4F, 0x5F, 0xFF}}},
 	{{{146, 91, 84}, 0, {508, 414}, {0xD3, 0x49, 0x5E, 0xFF}}},
 	{{{135, 121, 49}, 0, {764, -132}, {0xD8, 0x5C, 0x4E, 0xFF}}},
-	{{{185, 123, 26}, 0, {892, -78}, {0x3C, 0x66, 0x2E, 0xFF}}},
-	{{{223, 100, 1}, 0, {1020, -4}, {0x53, 0x60, 0x00, 0xFF}}},
-	{{{186, 133, 1}, 0, {892, -4}, {0x56, 0x5E, 0x00, 0xFF}}},
-	{{{185, 123, -24}, 0, {892, -78}, {0x3C, 0x66, 0xD2, 0xFF}}},
+	{{{185, 123, 26}, 0, {892, -78}, {0x3A, 0x6A, 0x28, 0xFF}}},
+	{{{223, 100, 1}, 0, {1020, -4}, {0x4F, 0x63, 0x00, 0xFF}}},
+	{{{186, 127, 1}, 0, {892, -4}, {0x4A, 0x67, 0x00, 0xFF}}},
+	{{{185, 123, -24}, 0, {892, -78}, {0x3A, 0x6A, 0xD8, 0xFF}}},
 	{{{219, 91, -34}, 0, {1020, -132}, {0x57, 0x50, 0xD1, 0xFF}}},
 	{{{185, 114, -45}, 0, {892, -132}, {0x2F, 0x67, 0xC6, 0xFF}}},
 	{{{205, 81, -71}, 0, {1020, -260}, {0x4E, 0x3F, 0xB2, 0xFF}}},
@@ -878,8 +874,8 @@ Vtx og_megaman_Head_DL_mesh_layer_1_vtx_0[203] = {
 	{{{135, 121, 49}, 0, {764, -132}, {0xD8, 0x5C, 0x4E, 0xFF}}},
 	{{{131, 92, 60}, 0, {-70, 1432}, {0x9C, 0x28, 0x43, 0xFF}}},
 	{{{146, 91, 84}, 0, {508, 414}, {0xD3, 0x49, 0x5E, 0xFF}}},
-	{{{185, 123, 26}, 0, {892, -78}, {0x3C, 0x66, 0x2E, 0xFF}}},
-	{{{185, 123, -24}, 0, {892, -78}, {0x3C, 0x66, 0xD2, 0xFF}}},
+	{{{185, 123, 26}, 0, {892, -78}, {0x3A, 0x6A, 0x28, 0xFF}}},
+	{{{185, 123, -24}, 0, {892, -78}, {0x3A, 0x6A, 0xD8, 0xFF}}},
 	{{{135, 121, -47}, 0, {764, -132}, {0xD8, 0x5C, 0xB2, 0xFF}}},
 	{{{137, 133, -25}, 0, {764, -78}, {0xDF, 0x6D, 0xC7, 0xFF}}},
 	{{{185, 114, -45}, 0, {892, -132}, {0x2F, 0x67, 0xC6, 0xFF}}},
@@ -1237,13 +1233,13 @@ Gfx og_megaman_Head_DL_mesh_layer_1_tri_1[] = {
 };
 
 Vtx og_megaman_Head_DL_mesh_layer_1_vtx_2[15] = {
-	{{{185, 123, 26}, 0, {892, -78}, {0x4D, 0x26, 0x5E, 0xFF}}},
-	{{{182, 134, 24}, 0, {892, -78}, {0x45, 0x44, 0x52, 0xFF}}},
+	{{{185, 123, 26}, 0, {892, -78}, {0x58, 0x27, 0x53, 0xFF}}},
+	{{{182, 134, 24}, 0, {892, -78}, {0x49, 0x43, 0x50, 0xFF}}},
 	{{{145, 143, 25}, 0, {764, -78}, {0xD2, 0x40, 0x64, 0xFF}}},
-	{{{186, 133, 1}, 0, {892, -4}, {0x79, 0x28, 0x00, 0xFF}}},
-	{{{183, 144, 1}, 0, {892, -4}, {0x51, 0x62, 0x00, 0xFF}}},
-	{{{182, 134, -22}, 0, {892, -78}, {0x45, 0x44, 0xAE, 0xFF}}},
-	{{{185, 123, -24}, 0, {892, -78}, {0x4D, 0x26, 0xA2, 0xFF}}},
+	{{{186, 127, 1}, 0, {892, -4}, {0x7C, 0x1C, 0x00, 0xFF}}},
+	{{{183, 144, 1}, 0, {892, -4}, {0x56, 0x5D, 0x00, 0xFF}}},
+	{{{182, 134, -22}, 0, {892, -78}, {0x49, 0x43, 0xB0, 0xFF}}},
+	{{{185, 123, -24}, 0, {892, -78}, {0x58, 0x27, 0xAD, 0xFF}}},
 	{{{145, 143, -23}, 0, {764, -78}, {0xD2, 0x40, 0x9C, 0xFF}}},
 	{{{137, 133, -25}, 0, {764, -78}, {0xD3, 0x3E, 0x9B, 0xFF}}},
 	{{{137, 147, 1}, 0, {764, -4}, {0xA8, 0x5B, 0x00, 0xFF}}},
@@ -1597,7 +1593,7 @@ Vtx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0[385] =
 	{{{111, 45, -103}, 0, {68, 987}, {0xA4, 0xC9, 0x44, 0xFF}}},
 	{{{77, 63, -96}, 0, {496, 880}, {0xFE, 0xC3, 0x70, 0xFF}}},
 	{{{158, 55, -117}, 0, {316, 971}, {0xE6, 0x24, 0x89, 0xFF}}},
-	{{{161, 25, -124}, 0, {532, 916}, {0xC0, 0xF1, 0x94, 0xFF}}},
+	{{{161, 25, -124}, 0, {532, 916}, {0xB1, 0xF4, 0x9E, 0xFF}}},
 	{{{183, 54, -137}, 0, {560, 944}, {0xF0, 0x07, 0x82, 0xFF}}},
 	{{{159, 83, -96}, 0, {354, 350}, {0xB2, 0x37, 0xAC, 0xFF}}},
 	{{{199, 129, -107}, 0, {560, -16}, {0x06, 0x62, 0xAF, 0xFF}}},
@@ -7528,7 +7524,7 @@ Vtx og_megaman_Switch_Option_Capless_Head_Switch_Option_Capless_Head_mesh_layer_
 	{{{111, 45, -103}, 0, {-92, 474}, {0xA4, 0xC9, 0x44, 0xFF}}},
 	{{{77, 63, -96}, 0, {764, 367}, {0xFE, 0xC3, 0x70, 0xFF}}},
 	{{{158, 55, -117}, 0, {403, 459}, {0xE6, 0x24, 0x89, 0xFF}}},
-	{{{161, 25, -124}, 0, {836, 403}, {0x01, 0xCE, 0x8B, 0xFF}}},
+	{{{161, 25, -124}, 0, {836, 403}, {0x02, 0xCC, 0x8C, 0xFF}}},
 	{{{183, 54, -137}, 0, {892, 431}, {0xF0, 0x07, 0x82, 0xFF}}},
 	{{{159, 83, -96}, 0, {480, -162}, {0xB2, 0x37, 0xAC, 0xFF}}},
 	{{{199, 129, -107}, 0, {892, -529}, {0x06, 0x62, 0xAF, 0xFF}}},
@@ -12023,27 +12019,20 @@ Gfx mat_revert_og_megaman_Open_Eyes__SKIN_[] = {
 Gfx mat_og_megaman_Mouth_Determined[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
-	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, COMBINED, TEXEL0_ALPHA, COMBINED, 0, 0, 0, ENVIRONMENT),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
-	gsDPSetCycleType(G_CYC_2CYCLE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_32b_LOAD_BLOCK, 1, og_megaman_chin_rgba32),
-	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_32b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
-	gsDPLoadBlock(7, 0, 0, 16383, 32),
-	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_32b, 32, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_Mouth_Combined_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 16383, 64),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_32b_LOAD_BLOCK, 1, og_megaman_mouthtest_rgba32),
-	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_32b_LOAD_BLOCK, 0, 8192, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
-	gsDPLoadBlock(6, 0, 0, 16383, 32),
-	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_32b, 32, 8192, 1, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0),
-	gsDPSetTileSize(1, 0, 0, 508, 508),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_revert_og_megaman_Mouth_Determined[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
-	gsDPSetCycleType(G_CYC_1CYCLE),
 	gsSPEndDisplayList(),
 };
 

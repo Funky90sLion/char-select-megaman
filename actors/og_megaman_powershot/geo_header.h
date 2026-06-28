@@ -1,0 +1,12 @@
+extern const GeoLayout og_megaman_powershot_geo[];
+extern Lights1 og_megaman_powershot_Lemon_002_lights;
+extern Vtx og_megaman_powershot_Shot_2_DL_mesh_layer_1_vtx_0[89];
+extern Gfx og_megaman_powershot_Shot_2_DL_mesh_layer_1_tri_0[];
+extern Vtx og_megaman_powershot_Shot_2_DL_mesh_layer_1_vtx_1[93];
+extern Gfx og_megaman_powershot_Shot_2_DL_mesh_layer_1_tri_1[];
+extern Gfx mat_og_megaman_powershot_Lemon[];
+extern Gfx mat_revert_og_megaman_powershot_Lemon[];
+extern Gfx mat_og_megaman_powershot_Lemon_002[];
+extern Gfx mat_revert_og_megaman_powershot_Lemon_002[];
+extern Gfx og_megaman_powershot_Shot_2_DL_mesh_layer_1[];
+extern Gfx og_megaman_powershot_material_revert_render_settings[];
