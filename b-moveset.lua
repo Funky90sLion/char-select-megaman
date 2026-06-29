@@ -31,6 +31,114 @@ function rock_update_movement_speed(m)
     end
 end
 
+function play_step_sound_custom(m, frame1, frame2)
+    local stepSound = SOUND_ACTION_TERRAIN_STEP
+
+    if (m.flags & MARIO_METAL_CAP) ~= 0 then
+        if (m.marioObj.header.gfx.animInfo.animID == get_character_anim(m, CHAR_ANIM_TIPTOE)) then
+            stepSound = SOUND_ACTION_METAL_STEP_TIPTOE
+        else
+            stepSound = SOUND_ACTION_METAL_STEP
+        end
+
+    elseif (m.quicksandDepth > 50.0) then
+        stepSound = SOUND_ACTION_QUICKSAND_STEP
+
+    elseif (m.marioObj.header.gfx.animInfo.animID == get_character_anim(m, CHAR_ANIM_TIPTOE)) then
+        stepSound = SOUND_ACTION_TERRAIN_STEP_TIPTOE
+    else
+        stepSound = SOUND_ACTION_TERRAIN_STEP
+    end
+
+    if (is_anim_past_frame(m, frame1) ~= 0 or is_anim_past_frame(m, frame2) ~= 0) then
+        
+        if m.pos.y + 80 < m.waterLevel or m.quicksandDepth > 50.0 then
+            play_sound(stepSound + m.terrainSoundAddend, m.marioObj.header.gfx.cameraToObject)
+        else
+            play_sound_and_spawn_particles(m, stepSound, 0)
+        end
+    end
+end
+
+function rock_anim_and_audio_for_walk(m)
+    if not m then return end
+    local val14
+    local marioObj = m.marioObj
+    local val0C = true
+    local targetPitch = 0
+    local val04
+
+    val04 = (m.intendedMag > m.forwardVel) and m.intendedMag or m.forwardVel
+
+    if val04 < 4.0 then
+        val04 = 4.0
+    end
+
+    if m.quicksandDepth > 50.0 then
+        val14 = math.floor(val04 / 4.0 * 0x10000)
+        set_character_anim_with_accel(m, CHAR_ANIM_MOVE_IN_QUICKSAND, val14)
+        play_step_sound_custom(m, 19, 93)
+        m.actionTimer = 0
+    else
+        while val0C do
+            if m.actionTimer == 0 then
+                if val04 > 8.0 then
+                    m.actionTimer = 2
+                else
+                    val14 = math.floor(val04 / 4.0 * 0x10000)
+                    if val14 < 0x1000 then
+                        val14 = 0x1000
+                    end
+                    set_character_anim_with_accel(m, CHAR_ANIM_START_TIPTOE, val14)
+                    play_step_sound_custom(m, 7, 22)
+                    if is_anim_past_frame(m, 23) then
+                        m.actionTimer = 2
+                    end
+                    val0C = false
+                end
+            elseif m.actionTimer == 1 then
+                if val04 > 8.0 then
+                    m.actionTimer = 2
+                else
+                    val14 = math.floor(val04 * 0x10000)
+                    if val14 < 0x1000 then
+                        val14 = 0x1000
+                    end
+                    set_character_anim_with_accel(m, CHAR_ANIM_TIPTOE, val14)
+                    play_step_sound_custom(m, 14, 72)
+                    val0C = false
+                end
+            elseif m.actionTimer == 2 then
+                if val04 < 5.0 then
+                    m.actionTimer = 1
+                elseif val04 > 22.0 then
+                    m.actionTimer = 3
+                else
+                    val14 = math.floor(val04 / 4.0 * 0x10000)
+                    set_character_anim_with_accel(m, CHAR_ANIM_WALKING, val14)
+                    play_step_sound_custom(m, 10, 49)
+                    val0C = false
+                end
+            elseif m.actionTimer == 3 then
+                if val04 < 18.0 then
+                    m.actionTimer = 2
+                else
+                    val14 = math.floor(val04 / 4.0 * 0xC000)
+                    set_character_anim_with_accel(m, CHAR_ANIM_RUNNING, val14)
+                    play_step_sound_custom(m, 9, 45)
+                    targetPitch = tilt_body_running(m)
+                    val0C = false
+                end
+            else
+                val0C = false
+            end
+        end
+    end
+
+    marioObj.oMarioWalkingPitch = approach_s32(marioObj.oMarioWalkingPitch, targetPitch, 0x800, 0x800)
+    marioObj.header.gfx.angle.x = marioObj.oMarioWalkingPitch
+end
+
 function act_rock_walking(m)
     local startYaw = m.faceAngle.y
     mario_drop_held_object(m)
@@ -43,7 +151,8 @@ function act_rock_walking(m)
 		set_mario_action(m, ACT_FREEFALL, 0)
 		set_mario_animation(m, MARIO_ANIM_GENERAL_FALL)
     elseif stepResult == GROUND_STEP_NONE then
-		anim_and_audio_for_walk(m)
+		rock_anim_and_audio_for_walk(m)
+        --m.marioObj.header.gfx.animInfo.animAccel = m.marioObj.header.gfx.animInfo.animAccel * 0.75
 		if (m.intendedMag - m.forwardVel) > 16 then
 			set_mario_particle_flags(m, PARTICLE_DUST, false)
 		end
