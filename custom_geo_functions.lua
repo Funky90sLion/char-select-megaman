@@ -6,7 +6,8 @@ function geo_custom_mouth_switch(n)
 
     if m.action == ACT_JUMP then
         switch.selectedCase = 2
-        m.actionTimer = 0
+    elseif m.action == ACT_WALKING then
+        switch.selectedCase = 1
     else
         switch.selectedCase = 0
     end

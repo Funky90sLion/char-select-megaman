@@ -95,7 +95,7 @@ local ANIMTABLE_MEGAMAN = {
     [CHAR_ANIM_IDLE_HEAD_CENTER] = 'megaman_idle',
     [CHAR_ANIM_IDLE_HEAD_LEFT] = 'megaman_idle',
     [CHAR_ANIM_IDLE_HEAD_RIGHT] = 'megaman_idle',
-    [CHAR_ANIM_RUNNING] = 'megaman_running',
+    [CHAR_ANIM_RUNNING] = 'megaman_running_test',
     [CHAR_ANIM_SINGLE_JUMP] = 'megaman_jumping',
     -- [CHAR_ANIM_LAND_FROM_SINGLE_JUMP] = 'megaman_jumping_land'
 }
