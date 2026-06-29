@@ -91,6 +91,15 @@ local VOICETABLE_MEGAMAN = {
     -- POWER SHOT!!    -- RUSH COIL!!!    -- RUSH JET!!! 
 }
 
+local ANIMTABLE_MEGAMAN = {
+    [CHAR_ANIM_IDLE_HEAD_CENTER] = 'megaman_idle',
+    [CHAR_ANIM_IDLE_HEAD_LEFT] = 'megaman_idle',
+    [CHAR_ANIM_IDLE_HEAD_RIGHT] = 'megaman_idle',
+    [CHAR_ANIM_RUNNING] = 'megaman_running',
+    [CHAR_ANIM_SINGLE_JUMP] = 'megaman_jumping',
+    -- [CHAR_ANIM_LAND_FROM_SINGLE_JUMP] = 'megaman_jumping_land'
+}
+
 -- All Located in "actors" folder
 -- (Models do not exist in template)
 --[[
@@ -147,7 +156,7 @@ local function on_character_select_load()
     CT_MEGAMAN = _G.charSelect.character_add(
         "MegaMan", -- Character Name
         "Also known as Rock, is a lab assistant robot created by Dr. Light who has stepped up as the world's protector to stop any of Dr. Wily's evil schemes! I wonder how he got here... ", -- Description
-        "FunkyLion", -- Credits
+        "VA: Shucaisan", -- Credits
         "0A5AC7",           -- Menu Color
         E_MODEL_MEGAMAN,       -- Character Model
         CT_MARIO,           -- Override Character
@@ -162,6 +171,9 @@ local function on_character_select_load()
     -- Adds a voice to your character
     -- (Sounds do not exist in template)
     _G.charSelect.character_add_voice(E_MODEL_MEGAMAN, VOICETABLE_MEGAMAN)
+
+    -- Adds Character Animations
+    _G.charSelect.character_add_animations(E_MODEL_MEGAMAN, ANIMTABLE_MEGAMAN)
 
     -- Adds a celebration star to your character
     -- (Models do not exist in template)
