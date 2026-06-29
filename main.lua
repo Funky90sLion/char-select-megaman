@@ -202,6 +202,6 @@ end
 -- You will likely not need to care about these
 -- Will soon be overhauled
 
-_G.charSelect.config_character_sounds()
+--_G.charSelect.config_character_sounds()
 
 hook_event(HOOK_ON_MODS_LOADED, on_character_select_load)

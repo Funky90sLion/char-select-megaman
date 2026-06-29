@@ -1,3 +1,13 @@
+local function mario_update(m)
+	if m.action == ACT_WALKING and character_get_current_number(m.playerIndex) == CT_MEGAMAN then
+        m.marioBodyState.torsoAngle.x = 0
+        m.marioBodyState.torsoAngle.z = 0
+        --results in double step sounds when going at the usual 32 speed (sigh)
+        m.marioObj.header.gfx.animInfo.animAccel = m.marioObj.header.gfx.animInfo.animAccel * 0.75
+    end
+end
+hook_event(HOOK_MARIO_UPDATE, mario_update)
+
 smlua_anim_util_register_animation('megaman_running', 0, 0, 0, 2, 71, { 
 	0, 143, 144, 148, 154, 161, 169, 176, 183, 
 	189, 194, 198, 201, 203, 204, 204, 204, 202, 
