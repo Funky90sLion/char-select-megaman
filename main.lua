@@ -189,6 +189,12 @@ local function on_character_select_load()
     -- Adds credits to the credits menu
     _G.charSelect.credit_add(TEXT_MOD_NAME, "FunkyLion", "Megaman")
 
+    -- Handle movesets.
+    _G.charSelect.character_hook_moveset(CT_MEGAMAN, HOOK_MARIO_UPDATE, rock_update)
+    _G.charSelect.character_hook_moveset(CT_MEGAMAN, HOOK_ON_SET_MARIO_ACTION, rock_on_set_action)
+    _G.charSelect.character_hook_moveset(CT_MEGAMAN, HOOK_ON_INTERACT, rock_on_interact)
+    _G.charSelect.character_hook_moveset(CT_MEGAMAN, HOOK_ALLOW_FORCE_WATER_ACTION, function (m) return false end)
+
     CSloaded = true
 end
 
