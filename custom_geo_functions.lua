@@ -19,6 +19,14 @@ end
 function geo_custom_megabuster(n)
     local switch = cast_graph_node(n)
     local m = geo_get_mario_state()
+    local r = gRockStates[m.playerIndex]
+
+    if r.shootAnimState > 0 and switch.parameter == 1 then
+        switch.selectedCase = 1
+    else
+        switch.selectedCase = 0
+    end
+    
 end
 
 function geo_custom_scale_megabuster(n)

@@ -1,5 +1,16 @@
+
+gRockStates = {}
+for i = 0, (MAX_PLAYERS - 1) do
+    gRockStates[i] = {}
+    local m = gMarioStates[i]
+    local r = gRockStates[i]
+    r.shootAnimState = 0
+end
+
 ACT_ROCK_WALKING = allocate_mario_action(ACT_GROUP_MOVING | ACT_FLAG_MOVING)
 ACT_ROCK_JUMP = allocate_mario_action(ACT_GROUP_AIRBORNE | ACT_FLAG_MOVING | ACT_FLAG_AIR | ACT_FLAG_CONTROL_JUMP_HEIGHT | ACT_FLAG_ALLOW_VERTICAL_WIND_ACTION)
+ACT_ROCK_FALL = allocate_mario_action(ACT_GROUP_AIRBORNE | ACT_FLAG_MOVING | ACT_FLAG_AIR | ACT_FLAG_ALLOW_VERTICAL_WIND_ACTION)
+ACT_ROCK_SLIDE = allocate_mario_action(ACT_GROUP_MOVING | ACT_FLAG_MOVING | ACT_FLAG_ATTACKING)
 
 function rock_update_movement_speed(m)
     local maxTargetSpeed = 32.0
@@ -14,7 +25,7 @@ function rock_update_movement_speed(m)
 	if m.intendedMag < maxTargetSpeed then
 		targetSpeed = m.intendedMag
 	else
-		targetSpeed = maxTargetSpeed
+		targetSpeed = maxTargetSpeed * m.intendedMag / 32
 	end
 
     if (m.quicksandDepth > 10.0) then
@@ -62,6 +73,7 @@ end
 
 function rock_anim_and_audio_for_walk(m)
     if not m then return end
+    local r = gRockStates[m.playerIndex]
     local val14
     local marioObj = m.marioObj
     local val0C = true
@@ -124,7 +136,12 @@ function rock_anim_and_audio_for_walk(m)
                     m.actionTimer = 2
                 else
                     val14 = math.floor(val04 / 4.0 * 0xC000)
-                    set_character_anim_with_accel(m, CHAR_ANIM_RUNNING, val14)
+                    if r.shootAnimState > 0 then
+                        set_character_anim_with_accel(m, CHAR_ANIM_RUNNING_UNUSED, val14)
+                    else
+                        set_character_anim_with_accel(m, CHAR_ANIM_RUNNING, val14)
+                    end
+
                     play_step_sound_custom(m, 9, 45)
                     targetPitch = tilt_body_running(m)
                     val0C = false
@@ -211,6 +228,27 @@ function act_rock_jump(m)
     m.actionTimer = m.actionTimer + 1
 end
 
+function act_rock_fall(m)
+
+	rock_update_movement_speed(m)
+	local stepResult = perform_air_step(m, AIR_STEP_CHECK_LEDGE_GRAB)
+	set_character_animation(m, CHAR_ANIM_SINGLE_JUMP)
+    if m.marioObj.header.gfx.animInfo.animFrame < 6 then
+        set_anim_to_frame(m, 6)
+    end
+
+    if stepResult == AIR_STEP_LANDED then
+		set_mario_action(m, ACT_FREEFALL_LAND, 0)
+    elseif stepResult == AIR_STEP_GRABBED_LEDGE then
+        set_mario_animation(m, MARIO_ANIM_IDLE_ON_LEDGE)
+        drop_and_set_mario_action(m, ACT_LEDGE_GRAB, 0)
+    elseif stepResult == AIR_STEP_GRABBED_CEILING then
+        set_mario_action(m, ACT_START_HANGING, 0)
+	end
+
+    m.actionTimer = m.actionTimer + 1
+end
+
 function act_rock_gravity(m)
     if (m.action & ACT_FLAG_CONTROL_JUMP_HEIGHT) ~= 0 then
         if m.vel.y > 0 and (m.controller.buttonDown & A_BUTTON) == 0 then
@@ -223,7 +261,39 @@ function act_rock_gravity(m)
     m.vel.y = math.max(m.vel.y - gravity, -64)
 end
 
+function act_rock_slide(m)
+
+    if m.actionTimer == 0 then
+        play_character_sound_if_no_flag(m, CHAR_SOUND_HOOHOO, MARIO_ACTION_SOUND_PLAYED)
+    elseif m.actionTimer > 15 then
+		set_mario_action(m, ACT_ROCK_WALKING, 0)
+    end
+
+	local stepResult = perform_ground_step(m)
+	set_character_animation(m, CHAR_ANIM_SLIDE_KICK)
+
+    if stepResult == GROUND_STEP_NONE then
+		mario_set_forward_vel(m, 72)
+        set_mario_particle_flags(m, PARTICLE_DUST, false)
+        play_sound(SOUND_MOVING_TERRAIN_SLIDE + m.terrainSoundAddend, m.marioObj.header.gfx.cameraToObject)
+    elseif stepResult == GROUND_STEP_HIT_WALL then
+        if obj_is_breakable_object(m.wall.object) == 0 then
+		    set_mario_action(m, ACT_ROCK_WALKING, 0)
+        end
+    elseif stepResult == GROUND_STEP_LEFT_GROUND then
+        set_mario_action(m, ACT_FREEFALL, 0)
+	end
+
+    if math.abs(m.faceAngle.y - m.intendedYaw) > 0x3000 then
+        m.faceAngle.y = m.intendedYaw
+		set_mario_action(m, ACT_ROCK_WALKING, 0)
+    end
+
+    m.actionTimer = m.actionTimer + 1
+end
+
 function rock_update(m)
+    local r = gRockStates[m.playerIndex]
     
     -- Splash.
     if m.pos.y <= m.waterLevel and m.pos.y >= m.waterLevel - math.abs(m.vel.y) then
@@ -235,11 +305,28 @@ function rock_update(m)
             play_sound(SOUND_ACTION_UNKNOWN431, m.marioObj.header.gfx.cameraToObject)
         end
     end
+
+    local rockShootActs = {
+        [ACT_ROCK_JUMP] = true,
+        [ACT_ROCK_WALKING] = true
+    }
+
+    if (m.controller.buttonPressed & B_BUTTON) ~= 0 then
+        r.shootAnimState = 15
+    end
+
+    r.shootAnimState = r.shootAnimState - 1
 end
 
 function rock_on_set_action(m)
+    local r = gRockStates[m.playerIndex]
+    r.shootAnimState = 0
 	if m.action == ACT_WALKING then
 		return set_mario_action(m, ACT_ROCK_WALKING, 0)
+	end
+
+	if ((m.action == ACT_PUNCHING or m.action == ACT_MOVE_PUNCHING) and m.actionArg == 9) or m.action == ACT_SLIDE_KICK then
+		return set_mario_action(m, ACT_ROCK_SLIDE, 0)
 	end
 
     local jumpActions = {
@@ -253,9 +340,8 @@ function rock_on_set_action(m)
 	    set_mario_action(m, ACT_ROCK_JUMP, 0)
 	end
 
-    -- Might use a separate action later.
 	if m.action == ACT_FREEFALL then
-	    m.action = ACT_ROCK_JUMP
+	    m.action = ACT_ROCK_FALL
 	end
 end
 
@@ -273,3 +359,5 @@ end
 
 hook_mario_action(ACT_ROCK_WALKING, act_rock_walking)
 hook_mario_action(ACT_ROCK_JUMP, {every_frame = act_rock_jump, gravity = act_rock_gravity})
+hook_mario_action(ACT_ROCK_FALL, {every_frame = act_rock_fall, gravity = act_rock_gravity})
+hook_mario_action(ACT_ROCK_SLIDE, act_rock_slide, INT_KICK)
