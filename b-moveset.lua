@@ -8,6 +8,7 @@ for i = 0, (MAX_PLAYERS - 1) do
 end
 
 ACT_ROCK_WALKING = allocate_mario_action(ACT_GROUP_MOVING | ACT_FLAG_MOVING)
+ACT_ROCK_SHOOTING_IDLE = allocate_mario_action(ACT_GROUP_STATIONARY | ACT_FLAG_STATIONARY)
 ACT_ROCK_JUMP = allocate_mario_action(ACT_GROUP_AIRBORNE | ACT_FLAG_MOVING | ACT_FLAG_AIR | ACT_FLAG_CONTROL_JUMP_HEIGHT | ACT_FLAG_ALLOW_VERTICAL_WIND_ACTION)
 ACT_ROCK_FALL = allocate_mario_action(ACT_GROUP_AIRBORNE | ACT_FLAG_MOVING | ACT_FLAG_AIR | ACT_FLAG_ALLOW_VERTICAL_WIND_ACTION)
 ACT_ROCK_SLIDE = allocate_mario_action(ACT_GROUP_MOVING | ACT_FLAG_MOVING | ACT_FLAG_ATTACKING)
@@ -191,6 +192,10 @@ function act_rock_walking(m)
         return set_mario_action(m, ACT_CROUCH_SLIDE, 0)
     end
 
+    if (m.controller.buttonPressed & Y_BUTTON) ~= 0 then
+        set_mario_action(m, ACT_MOVE_PUNCHING, 0)
+    end
+
     if (m.input & INPUT_FIRST_PERSON) ~= 0 then
         return begin_braking_action(m)
     end
@@ -204,6 +209,29 @@ function act_rock_walking(m)
     end
 
     return 0
+end
+
+function act_rock_shooting_idle(m)
+    local r = gRockStates[m.playerIndex]
+
+    stationary_ground_step(m)
+	set_character_animation(m, CHAR_ANIM_FIRST_PUNCH)
+    smlua_anim_util_set_animation(m.marioObj, "megaman_shoot")
+    set_anim_to_frame(m, m.actionTimer)
+
+    if m.actionTimer > 2 and (m.controller.buttonPressed & B_BUTTON) ~= 0 then
+        m.actionTimer = 0
+    end
+
+    if check_common_idle_cancels(m) ~= 0 then
+        return 1
+    end
+
+    if is_anim_past_end(m) ~= 0 then
+        set_mario_action(m, ACT_IDLE, 0)
+    end
+
+    m.actionTimer = m.actionTimer + 1
 end
 
 function act_rock_jump(m)
@@ -326,6 +354,10 @@ function rock_update(m)
         [ACT_ROCK_WALKING] = true
     }
 
+    if (m.controller.buttonPressed & Y_BUTTON) ~= 0 and m.action == ACT_IDLE then
+        set_mario_action(m, ACT_PUNCHING, 0)
+    end
+
     if (m.controller.buttonPressed & B_BUTTON) ~= 0 then
         r.shootAnimState = 15
     end
@@ -343,6 +375,10 @@ function rock_on_set_action(m)
 	if ((m.action == ACT_PUNCHING or m.action == ACT_MOVE_PUNCHING) and m.actionArg == 9) or m.action == ACT_SLIDE_KICK then
 		return set_mario_action(m, ACT_ROCK_SLIDE, 0)
 	end
+
+    if (m.controller.buttonPressed & B_BUTTON) ~= 0 and m.action == ACT_PUNCHING then
+        set_mario_action(m, ACT_ROCK_SHOOTING_IDLE, 0)
+    end
 
     local jumpActions = {
         [ACT_JUMP] = true,
@@ -373,6 +409,7 @@ function rock_on_interact(m, o, intType)
 end
 
 hook_mario_action(ACT_ROCK_WALKING, act_rock_walking)
+hook_mario_action(ACT_ROCK_SHOOTING_IDLE, act_rock_shooting_idle)
 hook_mario_action(ACT_ROCK_JUMP, {every_frame = act_rock_jump, gravity = act_rock_gravity})
 hook_mario_action(ACT_ROCK_FALL, {every_frame = act_rock_fall, gravity = act_rock_gravity})
 hook_mario_action(ACT_ROCK_SLIDE, act_rock_slide, INT_KICK)
