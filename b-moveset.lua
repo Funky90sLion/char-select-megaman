@@ -207,6 +207,7 @@ function act_rock_walking(m)
 end
 
 function act_rock_jump(m)
+    local r = gRockStates[m.playerIndex]
 
     if m.actionTimer == 0 then
         play_character_sound_if_no_flag(m, CHAR_SOUND_YAH_WAH_HOO, MARIO_ACTION_SOUND_PLAYED)
@@ -214,7 +215,13 @@ function act_rock_jump(m)
 
 	rock_update_movement_speed(m)
 	local stepResult = perform_air_step(m, AIR_STEP_CHECK_LEDGE_GRAB | AIR_STEP_CHECK_HANG)
-	set_character_animation(m, CHAR_ANIM_SINGLE_JUMP)
+	set_character_animation(m, CHAR_ANIM_DOUBLE_JUMP_RISE)
+
+    if r.shootAnimState > 0 then
+        smlua_anim_util_set_animation(m.marioObj, "megaman_jump_shoot")
+    else
+        smlua_anim_util_set_animation(m.marioObj, "megaman_jumping")
+    end
 
     if stepResult == AIR_STEP_LANDED then
 		set_mario_action(m, ACT_JUMP_LAND, 0)
@@ -229,10 +236,18 @@ function act_rock_jump(m)
 end
 
 function act_rock_fall(m)
+    local r = gRockStates[m.playerIndex]
 
 	rock_update_movement_speed(m)
 	local stepResult = perform_air_step(m, AIR_STEP_CHECK_LEDGE_GRAB)
-	set_character_animation(m, CHAR_ANIM_SINGLE_JUMP)
+	set_character_animation(m, CHAR_ANIM_DOUBLE_JUMP_RISE)
+
+    if r.shootAnimState > 0 then
+        smlua_anim_util_set_animation(m.marioObj, "megaman_jump_shoot")
+    else
+        smlua_anim_util_set_animation(m.marioObj, "megaman_jumping")
+    end
+
     if m.marioObj.header.gfx.animInfo.animFrame < 6 then
         set_anim_to_frame(m, 6)
     end
