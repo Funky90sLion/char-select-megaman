@@ -214,6 +214,8 @@ end
 function act_rock_shooting_idle(m)
     local r = gRockStates[m.playerIndex]
 
+    r.shootAnimState = 15
+
     stationary_ground_step(m)
 	set_character_animation(m, CHAR_ANIM_FIRST_PUNCH)
     smlua_anim_util_set_animation(m.marioObj, "megaman_shoot")
@@ -358,7 +360,7 @@ function rock_update(m)
         set_mario_action(m, ACT_PUNCHING, 0)
     end
 
-    if (m.controller.buttonPressed & B_BUTTON) ~= 0 then
+    if (m.controller.buttonPressed & B_BUTTON) ~= 0 and rockShootActs[m.action] then
         r.shootAnimState = 15
     end
 
@@ -367,7 +369,6 @@ end
 
 function rock_on_set_action(m)
     local r = gRockStates[m.playerIndex]
-    r.shootAnimState = 0
 	if m.action == ACT_WALKING then
 		return set_mario_action(m, ACT_ROCK_WALKING, 0)
 	end
@@ -394,6 +395,7 @@ function rock_on_set_action(m)
 	if m.action == ACT_FREEFALL then
 	    m.action = ACT_ROCK_FALL
 	end
+    r.shootAnimState = 0
 end
 
 function rock_on_interact(m, o, intType)

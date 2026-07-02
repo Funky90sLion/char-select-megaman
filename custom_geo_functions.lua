@@ -21,10 +21,12 @@ function geo_custom_megabuster(n)
     local m = geo_get_mario_state()
     local r = gRockStates[m.playerIndex]
 
-    if r.shootAnimState > 0 and switch.parameter == 1 then
-        switch.selectedCase = 1
-    else
-        switch.selectedCase = 0
+    if switch.parameter == 1 then
+        if r.shootAnimState > 0 or m.action == ACT_ROCK_SHOOTING_IDLE then
+            switch.selectedCase = 1
+        else
+            switch.selectedCase = 0
+        end
     end
     
 end
