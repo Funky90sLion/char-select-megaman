@@ -39,4 +39,7 @@ end
 function geo_custom_megabuster_lights(n)
     local switch = cast_graph_node(n)
     local m = geo_get_mario_state()
+    local r = gRockStates[m.playerIndex]
+
+    switch.selectedCase = 2
 end

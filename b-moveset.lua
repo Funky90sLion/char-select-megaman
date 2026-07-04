@@ -5,6 +5,7 @@ for i = 0, (MAX_PLAYERS - 1) do
     local m = gMarioStates[i]
     local r = gRockStates[i]
     r.shootAnimState = 0
+    r.chargeLevel = 0
 end
 
 ACT_ROCK_WALKING = allocate_mario_action(ACT_GROUP_MOVING | ACT_FLAG_MOVING)
@@ -351,17 +352,12 @@ function rock_update(m)
         end
     end
 
-    local rockShootActs = {
-        [ACT_ROCK_JUMP] = true,
-        [ACT_ROCK_WALKING] = true
-    }
-
     if (m.controller.buttonPressed & Y_BUTTON) ~= 0 and m.action == ACT_IDLE then
         set_mario_action(m, ACT_PUNCHING, 0)
     end
 
-    if (m.controller.buttonPressed & B_BUTTON) ~= 0 and rockShootActs[m.action] then
-        r.shootAnimState = 15
+    if r.chargeLevel > 30 and m.action == ACT_IDLE and (m.controller.buttonDown & B_BUTTON) == 0 then
+        set_mario_action(m, ACT_ROCK_SHOOTING_IDLE, 0)
     end
 
     r.shootAnimState = r.shootAnimState - 1
@@ -409,6 +405,64 @@ function rock_on_interact(m, o, intType)
         end
     end
 end
+
+-- This one needs to be a global Mario update.
+
+function rock_shoot_lemon(m, level)
+    local r = gRockStates[m.playerIndex]
+    r.shootAnimState = 15
+    
+    if (m.playerIndex == 0) then
+        spawn_non_sync_object(
+            id_bhvRockShot,
+            E_MODEL_NONE,
+            m.pos.x, m.pos.y + 80, m.pos.z,
+            function (o)
+                o.oMoveAngleYaw = m.faceAngle.y
+                o.oShotOwner = gNetworkPlayers[m.playerIndex].globalIndex
+                o.oChargeLevel = level
+            end
+        )
+
+        --TODO: Sync this later.
+        network_send(true, { type = 'shot',
+            m = gNetworkPlayers[m.playerIndex].globalIndex
+        })
+    end
+    r.chargeLevel = 0
+end
+
+function rock_pew_pew(m)
+    local r = gRockStates[m.playerIndex]
+
+    if _G.charSelect.character_get_current_number(m.playerIndex) == CT_MEGAMAN then
+        local rockShootActs = {
+            [ACT_ROCK_JUMP] = true,
+            [ACT_ROCK_WALKING] = true,
+            [ACT_ROCK_SHOOTING_IDLE] = true
+        }
+
+        if (m.controller.buttonPressed & B_BUTTON) ~= 0 and rockShootActs[m.action] then
+            rock_shoot_lemon(m, 0)
+        end
+
+        if (m.controller.buttonDown & B_BUTTON) ~= 0 then
+            r.chargeLevel = math.min(r.chargeLevel + 1, 65)
+            djui_chat_message_create(tostring(math.floor(r.chargeLevel / 30)))
+            
+        else
+            if r.chargeLevel > 30 and rockShootActs[m.action]  then
+                rock_shoot_lemon(m, math.floor(r.chargeLevel / 30))
+            end
+        end
+    else
+       r.shootAnimState = 0
+       r.chargeLevel = 0
+       return
+    end
+end
+
+hook_event(HOOK_MARIO_UPDATE, rock_pew_pew)
 
 hook_mario_action(ACT_ROCK_WALKING, act_rock_walking)
 hook_mario_action(ACT_ROCK_SHOOTING_IDLE, act_rock_shooting_idle)
