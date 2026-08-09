@@ -112,14 +112,25 @@ local CAPTABLE_CHAR = {
 ]]
 
 local PALETTE_MEGAMAN = {
-    [PANTS]  = "5a9fd2",
-    [SHIRT]  = "0a5ac7",
-    [GLOVES] = "0a5ac7",
+    [PANTS]  = "00e8d8",
+    [SHIRT]  = "0070ec",
+    [GLOVES] = "0070ec",
     [SHOES]  = "ff5746",
     [HAIR]   = "1c1e3e",
     [SKIN]   = "fec179",
-    [CAP]    = "0a5ac7",
+    [CAP]    = "0070ec",
 	[EMBLEM] = "5a9fd2"
+}
+
+local PALETTE_CUTMAN = {
+    [PANTS]  = "ffffff",
+    [SHIRT]  = "7f7f7f",
+    [GLOVES] = "7f7f7f",
+    [SHOES]  = "ff5746",
+    [HAIR]   = "1c1e3e",
+    [SKIN]   = "fec179",
+    [CAP]    = "7f7f7f",
+	[EMBLEM] = "ffffff"
 }
 
 -- All Located in "textures" folder
@@ -181,7 +192,8 @@ local function on_character_select_load()
     --_G.charSelect.character_add_celebration_star(E_MODEL_CHAR, E_MODEL_CHAR_STAR, TEX_CHAR_STAR_ICON)
 
     -- Adds a palette to your character
-    _G.charSelect.character_add_palette_preset(E_MODEL_MEGAMAN, PALETTE_MEGAMAN)
+    _G.charSelect.character_add_palette_preset(E_MODEL_MEGAMAN, PALETTE_MEGAMAN, "Mega Man")
+    _G.charSelect.character_add_palette_preset(E_MODEL_MEGAMAN, PALETTE_CUTMAN, "Cut Man")
 
     -- Adds a health meter to your character
     -- (Textures do not exist in template)

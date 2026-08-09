@@ -310,7 +310,7 @@ end
 function act_rock_slide(m)
 
     if m.actionTimer == 0 then
-        play_character_sound_if_no_flag(m, CHAR_SOUND_HOOHOO, MARIO_ACTION_SOUND_PLAYED)
+        play_character_sound_if_no_flag(m, CHAR_SOUND_YAH_WAH_HOO, MARIO_ACTION_SOUND_PLAYED)
     elseif m.actionTimer > 15 then
 		set_mario_action(m, ACT_ROCK_WALKING, 0)
     end
