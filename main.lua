@@ -133,6 +133,51 @@ local PALETTE_CUTMAN = {
 	[EMBLEM] = "ffffff"
 }
 
+local PALETTE_GUTSMAN = {
+    [PANTS]  = "ffffff",
+    [SHIRT]  = "e75f13",
+    [GLOVES] = "e75f13",
+    [SHOES]  = "ff5746",
+    [HAIR]   = "1c1e3e",
+    [SKIN]   = "fec179",
+    [CAP]    = "e75f13",
+	[EMBLEM] = "ffffff"
+}
+
+local PALETTE_ICEMAN = {
+    [PANTS]  = "ffffff",
+    [SHIRT]  = "0058f8",
+    [GLOVES] = "0058f8",
+    [SHOES]  = "ff5746",
+    [HAIR]   = "1c1e3e",
+    [SKIN]   = "fec179",
+    [CAP]    = "0058f8",
+	[EMBLEM] = "ffffff"
+}
+
+local PALETTE_BOMBMAN = {
+    [PANTS]  = "ffffff",
+    [SHIRT]  = "00b800",
+    [GLOVES] = "00b800",
+    [SHOES]  = "ff5746",
+    [HAIR]   = "1c1e3e",
+    [SKIN]   = "fec179",
+    [CAP]    = "00b800",
+	[EMBLEM] = "ffffff"
+}
+
+local PALETTE_FIREMAN = {
+    [PANTS]  = "f8b800",
+    [SHIRT]  = "f83800",
+    [GLOVES] = "f83800",
+    [SHOES]  = "ff5746",
+    [HAIR]   = "1c1e3e",
+    [SKIN]   = "fec179",
+    [CAP]    = "f83800",
+	[EMBLEM] = "f8b800"
+}
+
+
 -- All Located in "textures" folder
 -- (Textures do not exist in template)
 --[[
@@ -194,6 +239,10 @@ local function on_character_select_load()
     -- Adds a palette to your character
     _G.charSelect.character_add_palette_preset(E_MODEL_MEGAMAN, PALETTE_MEGAMAN, "Mega Man")
     _G.charSelect.character_add_palette_preset(E_MODEL_MEGAMAN, PALETTE_CUTMAN, "Cut Man")
+    _G.charSelect.character_add_palette_preset(E_MODEL_MEGAMAN, PALETTE_GUTSMAN, "Guts Man")
+    _G.charSelect.character_add_palette_preset(E_MODEL_MEGAMAN, PALETTE_ICEMAN, "Ice Man")
+    _G.charSelect.character_add_palette_preset(E_MODEL_MEGAMAN, PALETTE_BOMBMAN, "Bomb Man")
+    _G.charSelect.character_add_palette_preset(E_MODEL_MEGAMAN, PALETTE_FIREMAN, "Fire Man")
 
     -- Adds a health meter to your character
     -- (Textures do not exist in template)
