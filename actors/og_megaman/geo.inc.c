@@ -92,7 +92,7 @@ const GeoLayout og_megaman_MegaBuster_L[] = {
 				GEO_OPEN_NODE(),
 					GEO_NODE_START(),
 					GEO_OPEN_NODE(),
-						GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+						GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 					GEO_CLOSE_NODE(),
 					GEO_BRANCH(1, og_megaman_geo_opt_1_5),
 					GEO_BRANCH(1, og_megaman_geo_opt_2_5),
@@ -161,7 +161,7 @@ const GeoLayout og_megaman_MegaBuster_R[] = {
 				GEO_OPEN_NODE(),
 					GEO_NODE_START(),
 					GEO_OPEN_NODE(),
-						GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+						GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 					GEO_CLOSE_NODE(),
 					GEO_BRANCH(1, og_megaman_geo_opt_1_6),
 					GEO_BRANCH(1, og_megaman_geo_opt_2_6),
@@ -1961,126 +1961,126 @@ const GeoLayout og_megaman_geo_opt_7_2[] = {
 const GeoLayout og_megaman_geo_opt_1_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_2_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_3_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_4_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_5_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_6_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_7_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_8[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_9[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_1_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_2_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_3_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_4_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_5_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_6_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_7_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_8_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_9_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
@@ -4130,7 +4130,7 @@ const GeoLayout og_megaman_MegaBuster_L_opt_1[] = {
 				GEO_OPEN_NODE(),
 					GEO_NODE_START(),
 					GEO_OPEN_NODE(),
-						GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+						GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 					GEO_CLOSE_NODE(),
 					GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1),
 					GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_1),
@@ -4151,63 +4151,63 @@ const GeoLayout og_megaman_MegaBuster_L_opt_1[] = {
 const GeoLayout og_megaman_geo_opt_1_5_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_2_5_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_3_5_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_4_3_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_5_3_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_6_3_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_7_3_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_8_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_9_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
@@ -4262,7 +4262,7 @@ const GeoLayout og_megaman_MegaBuster_R_opt_1[] = {
 				GEO_OPEN_NODE(),
 					GEO_NODE_START(),
 					GEO_OPEN_NODE(),
-						GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+						GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 					GEO_CLOSE_NODE(),
 					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1),
 					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_1),
@@ -4283,63 +4283,63 @@ const GeoLayout og_megaman_MegaBuster_R_opt_1[] = {
 const GeoLayout og_megaman_geo_opt_1_6_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_2_6_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_3_6_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_4_4_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_5_4_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_6_4_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_7_4_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_8_1_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_9_1_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 200, 0, 0, NULL),
+		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
