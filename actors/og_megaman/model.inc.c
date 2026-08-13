@@ -6842,7 +6842,7 @@ Gfx mat_revert_og_megaman_Color_1__GLOVES__001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman__6_6_002[] = {
+Gfx mat_og_megaman__6_6[] = {
 	gsSPClearGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, TEXEL0, 0, 0, 0, TEXEL0, 0, 0, 0, TEXEL0, 0, 0, 0, TEXEL0),
@@ -6856,7 +6856,7 @@ Gfx mat_og_megaman__6_6_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman__6_6_002[] = {
+Gfx mat_revert_og_megaman__6_6[] = {
 	gsSPSetGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
@@ -8094,9 +8094,9 @@ Gfx og_megaman_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1[] = {
 };
 
 Gfx og_megaman_Switch_Option_Left_Forearm_mesh_layer_4[] = {
-	gsSPDisplayList(mat_og_megaman__6_6_002),
+	gsSPDisplayList(mat_og_megaman__6_6),
 	gsSPDisplayList(og_megaman_Switch_Option_Left_Forearm_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman__6_6_002),
+	gsSPDisplayList(mat_revert_og_megaman__6_6),
 	gsSPEndDisplayList(),
 };
 
@@ -8208,16 +8208,16 @@ Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4[] = {
 };
 
 Gfx og_megaman_Switch_Option_Right_Forearm_mesh_layer_4[] = {
-	gsSPDisplayList(mat_og_megaman__6_6_002),
+	gsSPDisplayList(mat_og_megaman__6_6),
 	gsSPDisplayList(og_megaman_Switch_Option_Right_Forearm_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman__6_6_002),
+	gsSPDisplayList(mat_revert_og_megaman__6_6),
 	gsSPEndDisplayList(),
 };
 
 Gfx og_megaman_Switch_Option_Right_Forearm_mesh_layer_4_with_layer_4_revert[] = {
-	gsSPDisplayList(mat_og_megaman__6_6_002),
+	gsSPDisplayList(mat_og_megaman__6_6),
 	gsSPDisplayList(og_megaman_Switch_Option_Right_Forearm_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman__6_6_002),
+	gsSPDisplayList(mat_revert_og_megaman__6_6),
 	gsDPPipeSync(),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPClearGeometryMode(G_TEXTURE_GEN),

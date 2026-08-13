@@ -3,9 +3,9 @@ function geo_custom_mouth_switch(n)
     local m = geo_get_mario_state()
 
     if m.action == ACT_ROCK_JUMP or m.action == ACT_ROCK_SLIDE then
-        switch.selectedCase = 2
-    elseif m.action == ACT_ROCK_WALKING or m.action == ACT_ROCK_SHOOTING_IDLE then
         switch.selectedCase = 1
+    elseif m.action == ACT_ROCK_WALKING or m.action == ACT_ROCK_SHOOTING_IDLE then
+        switch.selectedCase = 2
     else
         switch.selectedCase = 0
     end
@@ -40,6 +40,7 @@ function geo_custom_megabuster_lights(n)
     local switch = cast_graph_node(n)
     local m = geo_get_mario_state()
     local r = gRockStates[m.playerIndex]
+    djui_chat_message_create(tostring(switch.selectedCase))
 
     switch.selectedCase = 2
 end

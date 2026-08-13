@@ -448,7 +448,7 @@ function rock_pew_pew(m)
 
         if (m.controller.buttonDown & B_BUTTON) ~= 0 then
             r.chargeLevel = math.min(r.chargeLevel + 1, 65)
-            djui_chat_message_create(tostring(math.floor(r.chargeLevel / 30)))
+            -- djui_chat_message_create(tostring(math.floor(r.chargeLevel / 30)))
             
         else
             if r.chargeLevel > 30 and rockShootActs[m.action]  then
