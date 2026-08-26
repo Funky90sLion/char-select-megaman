@@ -1,0 +1,11 @@
+extern const GeoLayout og_megaman_metal_cap_geo_opt_1[];
+extern const GeoLayout og_megaman_metal_cap_geo[];
+extern Lights1 og_megaman_metal_cap_Metal__METAL__001_lights;
+extern u8 og_megaman_metal_cap_Metal_Shade_rgba16_rgba16[];
+extern u8 og_megaman_metal_cap_Metal_Light_rgba16_rgba16[];
+extern Vtx og_megaman_metal_cap_Metal_Cap_DL_mesh_layer_1_vtx_0[495];
+extern Gfx og_megaman_metal_cap_Metal_Cap_DL_mesh_layer_1_tri_0[];
+extern Gfx mat_og_megaman_metal_cap_Metal__METAL__001[];
+extern Gfx mat_revert_og_megaman_metal_cap_Metal__METAL__001[];
+extern Gfx og_megaman_metal_cap_Metal_Cap_DL_mesh_layer_1_with_layer_1_revert[];
+extern Gfx og_megaman_metal_cap_Metal_Cap_DL_mesh_layer_1_with_layer_5_revert[];

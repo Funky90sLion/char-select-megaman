@@ -92,9 +92,9 @@ local VOICETABLE_MEGAMAN = {
 }
 
 local ANIMTABLE_MEGAMAN = {
-    [CHAR_ANIM_IDLE_HEAD_CENTER] = 'megaman_idle',
-    [CHAR_ANIM_IDLE_HEAD_LEFT] = 'megaman_idle',
-    [CHAR_ANIM_IDLE_HEAD_RIGHT] = 'megaman_idle',
+    [CHAR_ANIM_IDLE_HEAD_CENTER] = 'megaman_idle_test',
+    [CHAR_ANIM_IDLE_HEAD_LEFT] = 'megaman_idle_test',
+    [CHAR_ANIM_IDLE_HEAD_RIGHT] = 'megaman_idle_test',
     [CHAR_ANIM_RUNNING] = 'megaman_running_test',
     [CHAR_ANIM_RUNNING_UNUSED] = 'megaman_running_shoot',
     [CHAR_ANIM_SINGLE_JUMP] = 'megaman_jumping',
@@ -103,13 +103,13 @@ local ANIMTABLE_MEGAMAN = {
 
 -- All Located in "actors" folder
 -- (Models do not exist in template)
---[[
-local CAPTABLE_CHAR = {
-    normal = smlua_model_util_get_id("FILENAME_geo"),
-    wing = smlua_model_util_get_id("FILENAME_geo"),
-    metal = smlua_model_util_get_id("FILENAME_geo"),
+
+local CAPTABLE_MEGAMAN = {
+    normal = smlua_model_util_get_id("og_megaman_cap_geo"),
+    wing = smlua_model_util_get_id("og_megaman_wing_cap_geo"),
+    metal = smlua_model_util_get_id("og_megaman_metal_cap_geo"),
+    metalWing = smlua_model_util_get_id("og_megaman_metal_wing_cap_geo"),
 }
-]]
 
 local PALETTE_MEGAMAN = {
     [PANTS]  = "00e8d8",
@@ -177,6 +177,16 @@ local PALETTE_FIREMAN = {
 	[EMBLEM] = "f8b800"
 }
 
+local PALETTE_ELECMAN = {
+    [PANTS]  = "fbdb7b",
+    [SHIRT]  = "7f7f7f",
+    [GLOVES] = "7f7f7f",
+    [SHOES]  = "ff5746",
+    [HAIR]   = "1c1e3e",
+    [SKIN]   = "fec179",
+    [CAP]    = "7f7f7f",
+	[EMBLEM] = "fbdb7b"
+}
 
 -- All Located in "textures" folder
 -- (Textures do not exist in template)
@@ -223,7 +233,7 @@ local function on_character_select_load()
 
     -- Adds cap models to your character
     -- (Models do not exist in template)
-    -- _G.charSelect.character_add_caps(E_MODEL_CHAR, CAPTABLE_CHAR)
+    _G.charSelect.character_add_caps(E_MODEL_MEGAMAN, CAPTABLE_MEGAMAN)
 
     -- Adds a voice to your character
     -- (Sounds do not exist in template)
@@ -243,6 +253,7 @@ local function on_character_select_load()
     _G.charSelect.character_add_palette_preset(E_MODEL_MEGAMAN, PALETTE_ICEMAN, "Ice Man")
     _G.charSelect.character_add_palette_preset(E_MODEL_MEGAMAN, PALETTE_BOMBMAN, "Bomb Man")
     _G.charSelect.character_add_palette_preset(E_MODEL_MEGAMAN, PALETTE_FIREMAN, "Fire Man")
+    _G.charSelect.character_add_palette_preset(E_MODEL_MEGAMAN, PALETTE_ELECMAN, "Elec Man")
 
     -- Adds a health meter to your character
     -- (Textures do not exist in template)

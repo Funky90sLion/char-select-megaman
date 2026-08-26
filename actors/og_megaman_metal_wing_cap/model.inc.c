@@ -1,308 +1,308 @@
-Lights1 og_megaman_Color_1__Different_Light__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Color_1__Different_Light__lights = gdSPDefLights1(
 	0x2, 0x29, 0x62,
 	0xA, 0x5A, 0xC7, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Color_1__SHIRT__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Color_1__SHIRT__lights = gdSPDefLights1(
 	0x2, 0x29, 0x62,
 	0xA, 0x5A, 0xC7, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Color_2_Non_Shine_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Color_2_Non_Shine_lights = gdSPDefLights1(
 	0x29, 0x4D, 0x68,
 	0x5A, 0x9F, 0xD2, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Grays_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Grays_lights = gdSPDefLights1(
 	0x2F, 0x2F, 0x2F,
 	0x66, 0x66, 0x66, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Skin__SKIN__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Skin__SKIN__lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Open_Eyes__SKIN__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Open_Eyes__SKIN__lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Mouth_Determined_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Mouth_Determined_lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Mouth_Determined_Alpha_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Mouth_Determined_Alpha_lights = gdSPDefLights1(
 	0x7F, 0x7F, 0x7F,
 	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_BackStripe_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_BackStripe_lights = gdSPDefLights1(
 	0x7F, 0x7F, 0x7F,
 	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Color_2_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Color_2_lights = gdSPDefLights1(
 	0x29, 0x4D, 0x68,
 	0x5A, 0x9F, 0xD2, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_MMLights_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_MMLights_lights = gdSPDefLights1(
 	0xFF, 0x57, 0x46,
 	0x0, 0x0, 0x0, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Color_1__CAP__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Color_1__CAP__lights = gdSPDefLights1(
 	0x2, 0x29, 0x62,
 	0xA, 0x5A, 0xC7, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Color_2__Emblem__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Color_2__Emblem__lights = gdSPDefLights1(
 	0x29, 0x4D, 0x68,
 	0x5A, 0x9F, 0xD2, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Open_Eyes__SKIN__Victory_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Open_Eyes__SKIN__Victory_lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Hair__HAIR__001_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Hair__HAIR__001_lights = gdSPDefLights1(
 	0x8, 0x9, 0x1A,
 	0x1C, 0x1E, 0x3E, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Color_1__GLOVES__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Color_1__GLOVES__lights = gdSPDefLights1(
 	0x2, 0x29, 0x62,
 	0xA, 0x5A, 0xC7, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Color_1__GLOVES__001_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Color_1__GLOVES__001_lights = gdSPDefLights1(
 	0x2, 0x29, 0x62,
 	0xA, 0x5A, 0xC7, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Color_1__SHIRT__001_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Color_1__SHIRT__001_lights = gdSPDefLights1(
 	0x2, 0x29, 0x62,
 	0xA, 0x5A, 0xC7, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_MMLights_001_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_MMLights_001_lights = gdSPDefLights1(
 	0xFF, 0x57, 0x46,
 	0x0, 0x0, 0x0, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Color_2_001_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Color_2_001_lights = gdSPDefLights1(
 	0x29, 0x4D, 0x68,
 	0x5A, 0x9F, 0xD2, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_MMLights_002_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_MMLights_002_lights = gdSPDefLights1(
 	0xFF, 0x57, 0x46,
 	0x0, 0x0, 0x0, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Color_1__CAP__001_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Color_1__CAP__001_lights = gdSPDefLights1(
 	0x2, 0x29, 0x62,
 	0xA, 0x5A, 0xC7, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Color_2__Emblem__001_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Color_2__Emblem__001_lights = gdSPDefLights1(
 	0x29, 0x4D, 0x68,
 	0x5A, 0x9F, 0xD2, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_BackStripe_001_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_BackStripe_001_lights = gdSPDefLights1(
 	0x7F, 0x7F, 0x7F,
 	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Soles_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Soles_lights = gdSPDefLights1(
 	0x2, 0x29, 0x62,
 	0xA, 0x5A, 0xC7, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Color_1__SHOES__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Color_1__SHOES__lights = gdSPDefLights1(
 	0x2, 0x29, 0x62,
 	0xA, 0x5A, 0xC7, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Half_Closed_Eyes__SKIN__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN__lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Closed_Eyes__SKIN__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Closed_Eyes__SKIN__lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Left_Eyes__SKIN__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Left_Eyes__SKIN__lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Right_Eyes__SKIN__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Right_Eyes__SKIN__lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Up_Eyes__SKIN__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Up_Eyes__SKIN__lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Down_Eyes__SKIN__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Down_Eyes__SKIN__lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Dead_Eyes__SKIN__lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Dead_Eyes__SKIN__lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Mouth_AAA_Alpha_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Mouth_AAA_Alpha_lights = gdSPDefLights1(
 	0x7F, 0x7F, 0x7F,
 	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Mouth_Angry_Alpha_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Mouth_Angry_Alpha_lights = gdSPDefLights1(
 	0x7F, 0x7F, 0x7F,
 	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Mouth_Smile_Alpha_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Mouth_Smile_Alpha_lights = gdSPDefLights1(
 	0x7F, 0x7F, 0x7F,
 	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Mouth_AAA_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Mouth_AAA_lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Mouth_Angry_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Mouth_Angry_lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Mouth_Smile_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Mouth_Smile_lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Left_Eyes__SKIN__Victory_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Left_Eyes__SKIN__Victory_lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Right_Eyes__SKIN__Victory_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Right_Eyes__SKIN__Victory_lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Up_Eyes__SKIN__Victory_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Up_Eyes__SKIN__Victory_lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Lights1 og_megaman_Down_Eyes__SKIN__Victory_lights = gdSPDefLights1(
+Lights1 og_megaman_metal_wing_cap_Down_Eyes__SKIN__Victory_lights = gdSPDefLights1(
 	0x7F, 0x5F, 0x39,
 	0xFE, 0xC1, 0x79, 0x28, 0x28, 0x28);
 
-Texture og_megaman_shine2_i8[] = {
-	#include "actors/og_megaman/shine2.i8.inc.c"
+Texture og_megaman_metal_wing_cap_shine2_i8[] = {
+	#include "actors/og_megaman_metal_wing_cap/shine2.i8.inc.c"
 };
 
-Texture og_megaman_Shin3_i8[] = {
-	#include "actors/og_megaman/Shin3.i8.inc.c"
+Texture og_megaman_metal_wing_cap_Shin3_i8[] = {
+	#include "actors/og_megaman_metal_wing_cap/Shin3.i8.inc.c"
 };
 
-Texture og_megaman_Neck_i8[] = {
-	#include "actors/og_megaman/Neck.i8.inc.c"
+Texture og_megaman_metal_wing_cap_Neck_i8[] = {
+	#include "actors/og_megaman_metal_wing_cap/Neck.i8.inc.c"
 };
 
-Texture og_megaman_openbeta_rgba16[] = {
-	#include "actors/og_megaman/openbeta.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_openbeta_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/openbeta.rgba16.inc.c"
 };
 
-Texture og_megaman_chin_rgba16[] = {
-	#include "actors/og_megaman/chin.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_chin_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/chin.rgba16.inc.c"
 };
 
-Texture og_megaman_mouthonly_rgba16[] = {
-	#include "actors/og_megaman/mouthonly.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_mouthonly_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/mouthonly.rgba16.inc.c"
 };
 
-Texture og_megaman_BackTransparent_ia8[] = {
-	#include "actors/og_megaman/BackTransparent.ia8.inc.c"
+Texture og_megaman_metal_wing_cap_BackTransparent_ia8[] = {
+	#include "actors/og_megaman_metal_wing_cap/BackTransparent.ia8.inc.c"
 };
 
-Texture og_megaman_h_open_rgba16[] = {
-	#include "actors/og_megaman/h.open.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_h_open_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/h.open.rgba16.inc.c"
 };
 
-Texture og_megaman_wing1_rgba16[] = {
-	#include "actors/og_megaman/wing1.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_wing1_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/wing1.rgba16.inc.c"
 };
 
-Texture og_megaman_wing_2_rgba16[] = {
-	#include "actors/og_megaman/wing_2.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_wing_2_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/wing_2.rgba16.inc.c"
 };
 
-Texture og_megaman_Shin3_rgba16[] = {
-	#include "actors/og_megaman/Shin3.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_Shin3_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/Shin3.rgba16.inc.c"
 };
 
-Texture og_megaman_Shin3_rgba16_copy[] = {
-	#include "actors/og_megaman/Shin3.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_Shin3_rgba16_copy[] = {
+	#include "actors/og_megaman_metal_wing_cap/Shin3.rgba16.inc.c"
 };
 
-Texture og_megaman_MegaBuster_0009_Full_rgba16[] = {
-	#include "actors/og_megaman/MegaBuster_0009_Full.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_MegaBuster_0009_Full_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/MegaBuster_0009_Full.rgba16.inc.c"
 };
 
-Texture og_megaman_Shin3_i8_copy[] = {
-	#include "actors/og_megaman/Shin3.i8.inc.c"
+Texture og_megaman_metal_wing_cap_Shin3_i8_copy[] = {
+	#include "actors/og_megaman_metal_wing_cap/Shin3.i8.inc.c"
 };
 
-Texture og_megaman_Shin3_i8_copy_copy[] = {
-	#include "actors/og_megaman/Shin3.i8.inc.c"
+Texture og_megaman_metal_wing_cap_Shin3_i8_copy_copy[] = {
+	#include "actors/og_megaman_metal_wing_cap/Shin3.i8.inc.c"
 };
 
-Texture og_megaman_BackTransparent_ia8_copy[] = {
-	#include "actors/og_megaman/BackTransparent.ia8.inc.c"
+Texture og_megaman_metal_wing_cap_BackTransparent_ia8_copy[] = {
+	#include "actors/og_megaman_metal_wing_cap/BackTransparent.ia8.inc.c"
 };
 
-Texture og_megaman_wing1_rgba16_copy[] = {
-	#include "actors/og_megaman/wing1.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_wing1_rgba16_copy[] = {
+	#include "actors/og_megaman_metal_wing_cap/wing1.rgba16.inc.c"
 };
 
-Texture og_megaman_wing_2_rgba16_copy[] = {
-	#include "actors/og_megaman/wing_2.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_wing_2_rgba16_copy[] = {
+	#include "actors/og_megaman_metal_wing_cap/wing_2.rgba16.inc.c"
 };
 
-Texture og_megaman_half_rgba16[] = {
-	#include "actors/og_megaman/half.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_half_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/half.rgba16.inc.c"
 };
 
-Texture og_megaman_closed_rgba16[] = {
-	#include "actors/og_megaman/closed.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_closed_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/closed.rgba16.inc.c"
 };
 
-Texture og_megaman_left_rgba16[] = {
-	#include "actors/og_megaman/left.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_left_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/left.rgba16.inc.c"
 };
 
-Texture og_megaman_right_rgba16[] = {
-	#include "actors/og_megaman/right.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_right_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/right.rgba16.inc.c"
 };
 
-Texture og_megaman_up_rgba16[] = {
-	#include "actors/og_megaman/up.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_up_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/up.rgba16.inc.c"
 };
 
-Texture og_megaman_down_rgba16[] = {
-	#include "actors/og_megaman/down.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_down_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/down.rgba16.inc.c"
 };
 
-Texture og_megaman_dead_rgba16[] = {
-	#include "actors/og_megaman/dead.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_dead_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/dead.rgba16.inc.c"
 };
 
-Texture og_megaman_AAAH_rgba16[] = {
-	#include "actors/og_megaman/AAAH.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_AAAH_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/AAAH.rgba16.inc.c"
 };
 
-Texture og_megaman_grrr_export_rgba16[] = {
-	#include "actors/og_megaman/grrr-export.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_grrr_export_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/grrr-export.rgba16.inc.c"
 };
 
-Texture og_megaman_Smirk_rgba16[] = {
-	#include "actors/og_megaman/Smirk.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_Smirk_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/Smirk.rgba16.inc.c"
 };
 
-Texture og_megaman_chin2_rgba16[] = {
-	#include "actors/og_megaman/chin2.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_chin2_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/chin2.rgba16.inc.c"
 };
 
-Texture og_megaman_h_left_rgba16[] = {
-	#include "actors/og_megaman/h.left.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_h_left_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/h.left.rgba16.inc.c"
 };
 
-Texture og_megaman_h_right_rgba16[] = {
-	#include "actors/og_megaman/h.right.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_h_right_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/h.right.rgba16.inc.c"
 };
 
-Texture og_megaman_h_up_rgba16[] = {
-	#include "actors/og_megaman/h.up.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_h_up_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/h.up.rgba16.inc.c"
 };
 
-Texture og_megaman_h_down_rgba16[] = {
-	#include "actors/og_megaman/h.down.rgba16.inc.c"
+Texture og_megaman_metal_wing_cap_h_down_rgba16[] = {
+	#include "actors/og_megaman_metal_wing_cap/h.down.rgba16.inc.c"
 };
 
-Vtx og_megaman_Butt_mesh_layer_1_vtx_0[42] = {
+Vtx og_megaman_metal_wing_cap_Butt_mesh_layer_1_vtx_0[42] = {
 	{{{35, 70, 0}, 0, {1020, -4}, {0xF5, 0x7F, 0x00, 0xFF}}},
 	{{{41, 57, -67}, 0, {1020, -260}, {0xDA, 0x55, 0xAA, 0xFF}}},
 	{{{15, 50, -59}, 0, {764, -260}, {0xF1, 0x5F, 0xAD, 0xFF}}},
@@ -347,8 +347,8 @@ Vtx og_megaman_Butt_mesh_layer_1_vtx_0[42] = {
 	{{{51, -2, 81}, 0, {1020, 508}, {0x7A, 0x0D, 0x20, 0xFF}}},
 };
 
-Gfx og_megaman_Butt_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Butt_mesh_layer_1_vtx_0 + 0, 42, 0),
+Gfx og_megaman_metal_wing_cap_Butt_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Butt_mesh_layer_1_vtx_0 + 0, 42, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(3, 2, 4, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 3, 5, 0, 6, 7, 3, 0),
@@ -376,7 +376,7 @@ Gfx og_megaman_Butt_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Torso_mesh_layer_1_vtx_0[20] = {
+Vtx og_megaman_metal_wing_cap_Torso_mesh_layer_1_vtx_0[20] = {
 	{{{89, -12, 53}, 0, {1020, 1532}, {0x75, 0x04, 0x31, 0xFF}}},
 	{{{87, 19, 42}, 0, {1020, 1788}, {0x67, 0x32, 0x37, 0xFF}}},
 	{{{78, 31, 47}, 0, {1020, 1788}, {0x6D, 0x3D, 0x19, 0xFF}}},
@@ -399,8 +399,8 @@ Vtx og_megaman_Torso_mesh_layer_1_vtx_0[20] = {
 	{{{87, 19, -43}, 0, {1020, -260}, {0x67, 0x32, 0xC9, 0xFF}}},
 };
 
-Gfx og_megaman_Torso_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Torso_mesh_layer_1_vtx_0 + 0, 20, 0),
+Gfx og_megaman_metal_wing_cap_Torso_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Torso_mesh_layer_1_vtx_0 + 0, 20, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 3, 0, 0, 4, 5, 3, 0),
 	gsSP2Triangles(6, 5, 4, 0, 6, 7, 5, 0),
@@ -412,7 +412,7 @@ Gfx og_megaman_Torso_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Torso_mesh_layer_1_vtx_1[49] = {
+Vtx og_megaman_metal_wing_cap_Torso_mesh_layer_1_vtx_1[49] = {
 	{{{-12, 69, 0}, 0, {124, -132}, {0xAF, 0x61, 0x00, 0xFF}}},
 	{{{21, 55, -52}, 0, {252, -260}, {0x11, 0x61, 0xB0, 0xFF}}},
 	{{{-4, 56, -65}, 0, {124, -260}, {0xD6, 0x53, 0xAA, 0xFF}}},
@@ -464,8 +464,8 @@ Vtx og_megaman_Torso_mesh_layer_1_vtx_1[49] = {
 	{{{-4, -61, -65}, 0, {-132, 252}, {0xDE, 0xA6, 0xAD, 0xFF}}},
 };
 
-Gfx og_megaman_Torso_mesh_layer_1_tri_1[] = {
-	gsSPVertex(og_megaman_Torso_mesh_layer_1_vtx_1 + 0, 49, 0),
+Gfx og_megaman_metal_wing_cap_Torso_mesh_layer_1_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Torso_mesh_layer_1_vtx_1 + 0, 49, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(0, 4, 3, 0, 0, 5, 4, 0),
 	gsSP2Triangles(4, 6, 3, 0, 4, 7, 6, 0),
@@ -497,7 +497,7 @@ Gfx og_megaman_Torso_mesh_layer_1_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Head_skinned_mesh_layer_1_vtx_0[10] = {
+Vtx og_megaman_metal_wing_cap_Head_skinned_mesh_layer_1_vtx_0[10] = {
 	{{{92, -15, 45}, 0, {-109, 851}, {0x0A, 0x00, 0x7F, 0xFF}}},
 	{{{92, -15, 45}, 0, {-128, 165}, {0x0A, 0x00, 0x7F, 0xFF}}},
 	{{{87, 19, 42}, 0, {139, 165}, {0x0F, 0x4D, 0x64, 0xFF}}},
@@ -510,12 +510,12 @@ Vtx og_megaman_Head_skinned_mesh_layer_1_vtx_0[10] = {
 	{{{87, -49, -43}, 0, {841, 851}, {0x14, 0xAD, 0xA2, 0xFF}}},
 };
 
-Gfx og_megaman_Head_skinned_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Head_skinned_mesh_layer_1_vtx_0 + 0, 10, 0),
+Gfx og_megaman_metal_wing_cap_Head_skinned_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Head_skinned_mesh_layer_1_vtx_0 + 0, 10, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Head_mesh_layer_1_vtx_0[10] = {
+Vtx og_megaman_metal_wing_cap_Head_mesh_layer_1_vtx_0[10] = {
 	{{{20, -48, 37}, 0, {192, 320}, {0x42, 0xB1, 0x4A, 0xFF}}},
 	{{{25, -14, 45}, 0, {-109, 320}, {0x4E, 0x00, 0x64, 0xFF}}},
 	{{{25, -56, 0}, 0, {496, 320}, {0x4E, 0x9C, 0x00, 0xFF}}},
@@ -528,8 +528,8 @@ Vtx og_megaman_Head_mesh_layer_1_vtx_0[10] = {
 	{{{25, -14, -46}, 0, {1092, 701}, {0x4E, 0x00, 0x9C, 0xFF}}},
 };
 
-Gfx og_megaman_Head_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Head_mesh_layer_1_vtx_0 + 0, 10, 10),
+Gfx og_megaman_metal_wing_cap_Head_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Head_mesh_layer_1_vtx_0 + 0, 10, 10),
 	gsSP2Triangles(10, 11, 0, 0, 10, 0, 3, 0),
 	gsSP2Triangles(4, 10, 3, 0, 4, 12, 10, 0),
 	gsSP2Triangles(4, 13, 12, 0, 4, 9, 13, 0),
@@ -541,7 +541,7 @@ Gfx og_megaman_Head_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Head_mesh_layer_1_vtx_1[9] = {
+Vtx og_megaman_metal_wing_cap_Head_mesh_layer_1_vtx_1[9] = {
 	{{{36, -14, 0}, 0, {799, 368}, {0x7F, 0x07, 0x00, 0xFF}}},
 	{{{25, -14, 45}, 0, {833, 368}, {0x4E, 0x00, 0x64, 0xFF}}},
 	{{{20, -48, 37}, 0, {833, 401}, {0x42, 0xB1, 0x4A, 0xFF}}},
@@ -553,8 +553,8 @@ Vtx og_megaman_Head_mesh_layer_1_vtx_1[9] = {
 	{{{25, -56, 0}, 0, {799, 401}, {0x4E, 0x9C, 0x00, 0xFF}}},
 };
 
-Gfx og_megaman_Head_mesh_layer_1_tri_1[] = {
-	gsSPVertex(og_megaman_Head_mesh_layer_1_vtx_1 + 0, 9, 0),
+Gfx og_megaman_metal_wing_cap_Head_mesh_layer_1_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Head_mesh_layer_1_vtx_1 + 0, 9, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(3, 0, 4, 0, 5, 4, 0, 0),
 	gsSP2Triangles(0, 6, 5, 0, 7, 6, 0, 0),
@@ -562,7 +562,7 @@ Gfx og_megaman_Head_mesh_layer_1_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Happy_Eyes_DL_mesh_layer_1_vtx_0[18] = {
+Vtx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_vtx_0[18] = {
 	{{{35, 126, 1}, 0, {-16, 1008}, {0xA1, 0x54, 0x00, 0xFF}}},
 	{{{46, 127, 9}, 0, {-16, 1008}, {0xB9, 0x3F, 0x54, 0xFF}}},
 	{{{46, 138, 1}, 0, {-16, 1008}, {0xA1, 0x54, 0x00, 0xFF}}},
@@ -583,8 +583,8 @@ Vtx og_megaman_Happy_Eyes_DL_mesh_layer_1_vtx_0[18] = {
 	{{{-15, 96, 1}, 0, {240, 304}, {0x81, 0x06, 0x00, 0xFF}}},
 };
 
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Happy_Eyes_DL_mesh_layer_1_vtx_0 + 0, 18, 0),
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_vtx_0 + 0, 18, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(4, 5, 6, 0, 4, 6, 7, 0),
 	gsSP2Triangles(8, 7, 6, 0, 8, 6, 9, 0),
@@ -595,7 +595,7 @@ Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Happy_Eyes_DL_mesh_layer_1_vtx_1[22] = {
+Vtx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_vtx_1[22] = {
 	{{{53, 94, 46}, 0, {1544, 1048}, {0x15, 0x6C, 0x40, 0xFF}}},
 	{{{51, 87, 68}, 0, {1891, 986}, {0x0F, 0x54, 0x5E, 0xFF}}},
 	{{{74, 70, 74}, 0, {1926, 728}, {0xF3, 0x36, 0x72, 0xFF}}},
@@ -620,8 +620,8 @@ Vtx og_megaman_Happy_Eyes_DL_mesh_layer_1_vtx_1[22] = {
 	{{{58, 113, 1}, 0, {1008, 965}, {0x2D, 0x77, 0x00, 0xFF}}},
 };
 
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1[] = {
-	gsSPVertex(og_megaman_Happy_Eyes_DL_mesh_layer_1_vtx_1 + 0, 22, 0),
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_vtx_1 + 0, 22, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 0, 2, 0),
 	gsSP2Triangles(2, 4, 3, 0, 5, 4, 2, 0),
 	gsSP2Triangles(6, 4, 5, 0, 7, 4, 6, 0),
@@ -638,7 +638,7 @@ Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Happy_Eyes_DL_mesh_layer_1_vtx_2[45] = {
+Vtx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_vtx_2[45] = {
 	{{{99, 9, 95}, 0, {-647, 1871}, {0xE9, 0x21, 0x79, 0xFF}}},
 	{{{74, 70, 74}, 0, {196, 2959}, {0xF3, 0x36, 0x72, 0xFF}}},
 	{{{63, 10, 84}, 0, {-538, 3860}, {0xE8, 0x17, 0x7B, 0xFF}}},
@@ -686,8 +686,8 @@ Vtx og_megaman_Happy_Eyes_DL_mesh_layer_1_vtx_2[45] = {
 	{{{99, 9, -93}, 0, {4711, 1871}, {0xE9, 0x21, 0x87, 0xFF}}},
 };
 
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2[] = {
-	gsSPVertex(og_megaman_Happy_Eyes_DL_mesh_layer_1_vtx_2 + 0, 45, 0),
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_vtx_2 + 0, 45, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
 	gsSP2Triangles(4, 5, 6, 0, 7, 4, 6, 0),
 	gsSP2Triangles(7, 8, 4, 0, 9, 10, 11, 0),
@@ -705,7 +705,7 @@ Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Happy_Eyes_DL_mesh_layer_4_vtx_0[45] = {
+Vtx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_4_vtx_0[45] = {
 	{{{99, 9, 95}, 0, {-647, 1871}, {0xDD, 0x1B, 0x77, 0xFF}}},
 	{{{74, 70, 74}, 0, {196, 2959}, {0xEE, 0x19, 0x7B, 0xFF}}},
 	{{{63, 10, 84}, 0, {-538, 3860}, {0xE8, 0x17, 0x7B, 0xFF}}},
@@ -753,8 +753,8 @@ Vtx og_megaman_Happy_Eyes_DL_mesh_layer_4_vtx_0[45] = {
 	{{{99, 9, -93}, 0, {4711, 1871}, {0xDD, 0x1B, 0x89, 0xFF}}},
 };
 
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_4_tri_0[] = {
-	gsSPVertex(og_megaman_Happy_Eyes_DL_mesh_layer_4_vtx_0 + 0, 45, 0),
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_4_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_4_vtx_0 + 0, 45, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
 	gsSP2Triangles(4, 5, 6, 0, 7, 4, 6, 0),
 	gsSP2Triangles(7, 8, 4, 0, 9, 10, 11, 0),
@@ -772,7 +772,7 @@ Gfx og_megaman_Happy_Eyes_DL_mesh_layer_4_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Head_DL_mesh_layer_4_vtx_0[6] = {
+Vtx og_megaman_metal_wing_cap_Head_DL_mesh_layer_4_vtx_0[6] = {
 	{{{31, -88, -40}, 0, {1985, 672}, {0xC3, 0x92, 0xEE, 0xFF}}},
 	{{{100, -120, -56}, 0, {1985, -11}, {0xC7, 0x91, 0xE8, 0xFF}}},
 	{{{95, -130, 1}, 0, {498, 128}, {0xC4, 0x90, 0x00, 0xFF}}},
@@ -781,14 +781,14 @@ Vtx og_megaman_Head_DL_mesh_layer_4_vtx_0[6] = {
 	{{{100, -120, 58}, 0, {1985, -11}, {0xC7, 0x91, 0x18, 0xFF}}},
 };
 
-Gfx og_megaman_Head_DL_mesh_layer_4_tri_0[] = {
-	gsSPVertex(og_megaman_Head_DL_mesh_layer_4_vtx_0 + 0, 6, 0),
+Gfx og_megaman_metal_wing_cap_Head_DL_mesh_layer_4_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Head_DL_mesh_layer_4_vtx_0 + 0, 6, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(4, 3, 2, 0, 4, 2, 5, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Head_DL_mesh_layer_1_vtx_0[174] = {
+Vtx og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_vtx_0[174] = {
 	{{{243, -94, -34}, 0, {1020, 1148}, {0x38, 0xD3, 0x98, 0xFF}}},
 	{{{252, -102, -26}, 0, {1020, 1148}, {0x36, 0xD2, 0x97, 0xFF}}},
 	{{{216, -131, -24}, 0, {892, 1148}, {0x25, 0xB5, 0xA1, 0xFF}}},
@@ -965,8 +965,8 @@ Vtx og_megaman_Head_DL_mesh_layer_1_vtx_0[174] = {
 	{{{252, -102, -26}, 0, {1404, 764}, {0x5F, 0xB8, 0xD6, 0xFF}}},
 };
 
-Gfx og_megaman_Head_DL_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Head_DL_mesh_layer_1_vtx_0 + 0, 64, 0),
+Gfx og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_vtx_0 + 0, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(3, 2, 4, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 5, 4, 0, 6, 4, 7, 0),
@@ -992,7 +992,7 @@ Gfx og_megaman_Head_DL_mesh_layer_1_tri_0[] = {
 	gsSP2Triangles(56, 55, 54, 0, 56, 54, 57, 0),
 	gsSP2Triangles(58, 59, 60, 0, 58, 61, 59, 0),
 	gsSP2Triangles(58, 62, 61, 0, 58, 63, 62, 0),
-	gsSPVertex(og_megaman_Head_DL_mesh_layer_1_vtx_0 + 64, 62, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_vtx_0 + 64, 62, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(0, 4, 3, 0, 0, 5, 4, 0),
 	gsSP2Triangles(6, 4, 5, 0, 6, 7, 4, 0),
@@ -1017,7 +1017,7 @@ Gfx og_megaman_Head_DL_mesh_layer_1_tri_0[] = {
 	gsSP2Triangles(54, 56, 55, 0, 54, 57, 56, 0),
 	gsSP2Triangles(58, 56, 57, 0, 58, 59, 56, 0),
 	gsSP2Triangles(58, 60, 59, 0, 58, 61, 60, 0),
-	gsSPVertex(og_megaman_Head_DL_mesh_layer_1_vtx_0 + 126, 48, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_vtx_0 + 126, 48, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(4, 3, 2, 0, 4, 2, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 6, 8, 9, 0),
@@ -1042,7 +1042,7 @@ Gfx og_megaman_Head_DL_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Head_DL_mesh_layer_1_vtx_1[22] = {
+Vtx og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_vtx_1[22] = {
 	{{{91, -62, 124}, 0, {432, 752}, {0xDC, 0xD0, 0x70, 0xFF}}},
 	{{{75, -41, 128}, 0, {368, 816}, {0xCA, 0xE0, 0x6E, 0xFF}}},
 	{{{64, -57, 118}, 0, {368, 752}, {0xBD, 0xEC, 0x6A, 0xFF}}},
@@ -1067,8 +1067,8 @@ Vtx og_megaman_Head_DL_mesh_layer_1_vtx_1[22] = {
 	{{{64, -57, -116}, 0, {112, 496}, {0xBD, 0xEC, 0x96, 0xFF}}},
 };
 
-Gfx og_megaman_Head_DL_mesh_layer_1_tri_1[] = {
-	gsSPVertex(og_megaman_Head_DL_mesh_layer_1_vtx_1 + 0, 22, 0),
+Gfx og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_vtx_1 + 0, 22, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
 	gsSP2Triangles(4, 1, 3, 0, 1, 4, 5, 0),
 	gsSP2Triangles(6, 1, 5, 0, 7, 8, 9, 0),
@@ -1079,7 +1079,7 @@ Gfx og_megaman_Head_DL_mesh_layer_1_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Head_DL_mesh_layer_1_vtx_2[203] = {
+Vtx og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_vtx_2[203] = {
 	{{{227, -77, -79}, 0, {1020, 1276}, {0x54, 0xC2, 0xB7, 0xFF}}},
 	{{{243, -94, -34}, 0, {1020, 1148}, {0x59, 0xBB, 0xC6, 0xFF}}},
 	{{{209, -119, -37}, 0, {892, 1148}, {0x2E, 0x9A, 0xC4, 0xFF}}},
@@ -1285,8 +1285,8 @@ Vtx og_megaman_Head_DL_mesh_layer_1_vtx_2[203] = {
 	{{{206, 126, -50}, 0, {892, -132}, {0x2F, 0x67, 0xC6, 0xFF}}},
 };
 
-Gfx og_megaman_Head_DL_mesh_layer_1_tri_2[] = {
-	gsSPVertex(og_megaman_Head_DL_mesh_layer_1_vtx_2 + 0, 64, 0),
+Gfx og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_tri_2[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_vtx_2 + 0, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(4, 3, 2, 0, 4, 2, 5, 0),
 	gsSP2Triangles(4, 5, 6, 0, 6, 5, 7, 0),
@@ -1317,7 +1317,7 @@ Gfx og_megaman_Head_DL_mesh_layer_1_tri_2[] = {
 	gsSP2Triangles(56, 21, 55, 0, 56, 57, 21, 0),
 	gsSP2Triangles(58, 59, 60, 0, 58, 60, 61, 0),
 	gsSP1Triangle(62, 60, 63, 0),
-	gsSPVertex(og_megaman_Head_DL_mesh_layer_1_vtx_2 + 64, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_vtx_2 + 64, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 1, 3, 0, 5, 6, 7, 0),
 	gsSP2Triangles(5, 7, 8, 0, 9, 8, 7, 0),
@@ -1345,7 +1345,7 @@ Gfx og_megaman_Head_DL_mesh_layer_1_tri_2[] = {
 	gsSP2Triangles(57, 47, 58, 0, 57, 58, 59, 0),
 	gsSP2Triangles(60, 59, 58, 0, 60, 58, 61, 0),
 	gsSP1Triangle(56, 62, 63, 0),
-	gsSPVertex(og_megaman_Head_DL_mesh_layer_1_vtx_2 + 128, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_vtx_2 + 128, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 3, 2, 0),
 	gsSP2Triangles(4, 5, 6, 0, 4, 7, 5, 0),
 	gsSP2Triangles(4, 8, 7, 0, 9, 8, 4, 0),
@@ -1374,7 +1374,7 @@ Gfx og_megaman_Head_DL_mesh_layer_1_tri_2[] = {
 	gsSP2Triangles(59, 57, 58, 0, 60, 57, 59, 0),
 	gsSP2Triangles(60, 59, 61, 0, 62, 61, 59, 0),
 	gsSP1Triangle(62, 63, 61, 0),
-	gsSPVertex(og_megaman_Head_DL_mesh_layer_1_vtx_2 + 192, 11, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_vtx_2 + 192, 11, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(2, 4, 3, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 0, 3, 0, 7, 8, 9, 0),
@@ -1382,7 +1382,7 @@ Gfx og_megaman_Head_DL_mesh_layer_1_tri_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Head_DL_mesh_layer_1_vtx_3[15] = {
+Vtx og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_vtx_3[15] = {
 	{{{206, 136, 29}, 0, {892, -78}, {0x58, 0x27, 0x53, 0xFF}}},
 	{{{202, 149, 26}, 0, {892, -78}, {0x49, 0x43, 0x50, 0xFF}}},
 	{{{162, 159, 28}, 0, {764, -78}, {0xD2, 0x40, 0x64, 0xFF}}},
@@ -1400,8 +1400,8 @@ Vtx og_megaman_Head_DL_mesh_layer_1_vtx_3[15] = {
 	{{{162, 159, 28}, 0, {764, -78}, {0x20, 0x6F, 0x36, 0xFF}}},
 };
 
-Gfx og_megaman_Head_DL_mesh_layer_1_tri_3[] = {
-	gsSPVertex(og_megaman_Head_DL_mesh_layer_1_vtx_3 + 0, 15, 0),
+Gfx og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_tri_3[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_vtx_3 + 0, 15, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
 	gsSP2Triangles(3, 4, 1, 0, 3, 5, 4, 0),
 	gsSP2Triangles(3, 6, 5, 0, 6, 7, 5, 0),
@@ -1413,7 +1413,7 @@ Gfx og_megaman_Head_DL_mesh_layer_1_tri_3[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_0[18] = {
+Vtx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_0[18] = {
 	{{{8, 32, -52}, 0, {176, 368}, {0x9F, 0xFE, 0xAE, 0xFF}}},
 	{{{3, 60, -44}, 0, {176, 304}, {0xA2, 0x26, 0xB3, 0xFF}}},
 	{{{25, 57, -72}, 0, {112, 304}, {0xC5, 0x1B, 0x93, 0xFF}}},
@@ -1434,8 +1434,8 @@ Vtx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_0[18] = {
 	{{{46, 127, -7}, 0, {-16, 1008}, {0xB9, 0x3F, 0xAC, 0xFF}}},
 };
 
-Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_0 + 0, 18, 0),
+Gfx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_0 + 0, 18, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(3, 6, 4, 0, 7, 8, 9, 0),
 	gsSP2Triangles(7, 10, 8, 0, 11, 10, 7, 0),
@@ -1445,7 +1445,7 @@ Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_1[43] = {
+Vtx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_1[43] = {
 	{{{25, 57, -72}, 0, {3568, 1264}, {0xC5, 0x1B, 0x93, 0xFF}}},
 	{{{3, 60, -44}, 0, {3312, 1264}, {0xA2, 0x26, 0xB3, 0xFF}}},
 	{{{31, 100, -49}, 0, {3568, 1264}, {0xDE, 0x5D, 0xB0, 0xFF}}},
@@ -1491,8 +1491,8 @@ Vtx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_1[43] = {
 	{{{99, 9, -93}, 0, {4711, 1871}, {0xE9, 0x21, 0x87, 0xFF}}},
 };
 
-Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1[] = {
-	gsSPVertex(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_1 + 0, 43, 0),
+Gfx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_1 + 0, 43, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 0, 7, 0, 8, 9, 10, 0),
 	gsSP2Triangles(9, 11, 10, 0, 9, 12, 11, 0),
@@ -1509,7 +1509,7 @@ Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_2[22] = {
+Vtx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_2[22] = {
 	{{{53, 94, 46}, 0, {1544, 1048}, {0x15, 0x6C, 0x40, 0xFF}}},
 	{{{51, 87, 68}, 0, {1891, 986}, {0x0F, 0x54, 0x5E, 0xFF}}},
 	{{{74, 70, 74}, 0, {1926, 728}, {0xF3, 0x36, 0x72, 0xFF}}},
@@ -1534,8 +1534,8 @@ Vtx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_2[22] = {
 	{{{58, 113, 1}, 0, {1008, 965}, {0x2D, 0x77, 0x00, 0xFF}}},
 };
 
-Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2[] = {
-	gsSPVertex(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_2 + 0, 22, 0),
+Gfx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_2 + 0, 22, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 0, 2, 0),
 	gsSP2Triangles(2, 4, 3, 0, 5, 4, 2, 0),
 	gsSP2Triangles(6, 4, 5, 0, 7, 4, 6, 0),
@@ -1552,7 +1552,7 @@ Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4_vtx_0[43] = {
+Vtx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4_vtx_0[43] = {
 	{{{25, 57, -72}, 0, {3568, 1264}, {0xCD, 0x1F, 0x90, 0xFF}}},
 	{{{3, 60, -44}, 0, {3312, 1264}, {0xA8, 0x34, 0xB5, 0xFF}}},
 	{{{31, 100, -49}, 0, {3568, 1264}, {0xDE, 0x5D, 0xB0, 0xFF}}},
@@ -1598,8 +1598,8 @@ Vtx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4_vtx_0[43] = {
 	{{{99, 9, -93}, 0, {4711, 1871}, {0xDD, 0x1B, 0x89, 0xFF}}},
 };
 
-Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0[] = {
-	gsSPVertex(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4_vtx_0 + 0, 43, 0),
+Gfx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4_vtx_0 + 0, 43, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 0, 7, 0, 8, 9, 10, 0),
 	gsSP2Triangles(9, 11, 10, 0, 9, 12, 11, 0),
@@ -1616,7 +1616,7 @@ Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0[385] = {
+Vtx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0[385] = {
 	{{{56, -36, -100}, 0, {368, 752}, {0xDE, 0x22, 0x8A, 0xFF}}},
 	{{{82, -62, -114}, 0, {368, 752}, {0xF6, 0xFF, 0x81, 0xFF}}},
 	{{{36, -61, -100}, 0, {432, 688}, {0xA6, 0xE1, 0xAC, 0xFF}}},
@@ -2004,8 +2004,8 @@ Vtx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0[385] =
 	{{{72, 140, 1}, 0, {-16, 1008}, {0xBA, 0x97, 0x0C, 0xFF}}},
 };
 
-Gfx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 0, 62, 0),
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 0, 62, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 9, 10, 6, 0),
 	gsSP2Triangles(11, 12, 13, 0, 14, 15, 8, 0),
@@ -2017,7 +2017,7 @@ Gfx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_0[] = {
 	gsSP2Triangles(46, 17, 47, 0, 48, 49, 50, 0),
 	gsSP2Triangles(51, 52, 53, 0, 52, 54, 55, 0),
 	gsSP2Triangles(56, 57, 58, 0, 59, 60, 61, 0),
-	gsSPVertex(og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 62, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 62, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(0, 4, 3, 0, 0, 5, 4, 0),
 	gsSP2Triangles(6, 3, 4, 0, 6, 7, 3, 0),
@@ -2051,7 +2051,7 @@ Gfx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_0[] = {
 	gsSP2Triangles(27, 59, 58, 0, 59, 60, 58, 0),
 	gsSP2Triangles(59, 61, 60, 0, 62, 61, 59, 0),
 	gsSP1Triangle(61, 62, 63, 0),
-	gsSPVertex(og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 126, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 126, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(0, 3, 4, 0, 4, 5, 0, 0),
 	gsSP2Triangles(4, 6, 5, 0, 5, 6, 7, 0),
@@ -2080,7 +2080,7 @@ Gfx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_0[] = {
 	gsSP2Triangles(57, 58, 59, 0, 58, 60, 59, 0),
 	gsSP2Triangles(61, 57, 10, 0, 62, 57, 61, 0),
 	gsSP1Triangle(63, 62, 61, 0),
-	gsSPVertex(og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 190, 63, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 190, 63, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(3, 2, 4, 0, 5, 4, 2, 0),
 	gsSP2Triangles(5, 2, 6, 0, 5, 7, 4, 0),
@@ -2110,7 +2110,7 @@ Gfx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_0[] = {
 	gsSP2Triangles(8, 9, 58, 0, 58, 56, 8, 0),
 	gsSP2Triangles(59, 56, 58, 0, 60, 10, 61, 0),
 	gsSP1Triangle(60, 62, 10, 0),
-	gsSPVertex(og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 253, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 253, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 1, 3, 0, 5, 6, 7, 0),
 	gsSP2Triangles(5, 7, 8, 0, 9, 10, 11, 0),
@@ -2132,7 +2132,7 @@ Gfx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_0[] = {
 	gsSP2Triangles(54, 57, 56, 0, 58, 57, 54, 0),
 	gsSP2Triangles(59, 60, 61, 0, 59, 62, 60, 0),
 	gsSP1Triangle(59, 63, 62, 0),
-	gsSPVertex(og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 317, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 317, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(3, 0, 4, 0, 5, 3, 4, 0),
 	gsSP2Triangles(5, 4, 6, 0, 7, 6, 4, 0),
@@ -2160,12 +2160,12 @@ Gfx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_0[] = {
 	gsSP2Triangles(55, 54, 53, 0, 55, 53, 56, 0),
 	gsSP2Triangles(57, 58, 59, 0, 60, 59, 58, 0),
 	gsSP1Triangle(61, 62, 63, 0),
-	gsSPVertex(og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 381, 4, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_0 + 381, 4, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 3, 0, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_1[46] = {
+Vtx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_1[46] = {
 	{{{119, -24, -120}, 0, {432, 816}, {0x72, 0x05, 0xC9, 0xFF}}},
 	{{{106, -48, -108}, 0, {432, 752}, {0xFB, 0x9B, 0xB3, 0xFF}}},
 	{{{109, -24, -141}, 0, {432, 816}, {0x24, 0x03, 0x86, 0xFF}}},
@@ -2214,8 +2214,8 @@ Vtx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_1[46] = 
 	{{{109, -24, 141}, 0, {-16, 1008}, {0x24, 0x03, 0x7A, 0xFF}}},
 };
 
-Gfx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_1[] = {
-	gsSPVertex(og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_1 + 0, 46, 0),
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_vtx_1 + 0, 46, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(4, 6, 7, 0, 8, 9, 10, 0),
 	gsSP2Triangles(11, 12, 13, 0, 14, 15, 11, 0),
@@ -2235,7 +2235,7 @@ Gfx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_0[18] = {
+Vtx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_0[18] = {
 	{{{8, 32, -52}, 0, {176, 368}, {0x9F, 0xFE, 0xAE, 0xFF}}},
 	{{{3, 60, -44}, 0, {176, 304}, {0xA2, 0x26, 0xB3, 0xFF}}},
 	{{{25, 57, -72}, 0, {112, 304}, {0xC5, 0x1B, 0x93, 0xFF}}},
@@ -2256,8 +2256,8 @@ Vtx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_0[18] =
 	{{{46, 127, -7}, 0, {-16, 1008}, {0xB9, 0x3F, 0xAC, 0xFF}}},
 };
 
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_0 + 0, 18, 0),
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_0 + 0, 18, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(3, 6, 4, 0, 7, 8, 9, 0),
 	gsSP2Triangles(7, 10, 8, 0, 11, 10, 7, 0),
@@ -2267,7 +2267,7 @@ Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_1[43] = {
+Vtx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_1[43] = {
 	{{{25, 57, -72}, 0, {3568, 1264}, {0xC5, 0x1B, 0x93, 0xFF}}},
 	{{{3, 60, -44}, 0, {3312, 1264}, {0xA2, 0x26, 0xB3, 0xFF}}},
 	{{{31, 100, -49}, 0, {3568, 1264}, {0xDE, 0x5D, 0xB0, 0xFF}}},
@@ -2313,8 +2313,8 @@ Vtx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_1[43] =
 	{{{99, 9, -93}, 0, {4711, 1871}, {0xE9, 0x21, 0x87, 0xFF}}},
 };
 
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1[] = {
-	gsSPVertex(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_1 + 0, 43, 0),
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_1 + 0, 43, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 0, 7, 0, 8, 9, 10, 0),
 	gsSP2Triangles(9, 11, 10, 0, 9, 12, 11, 0),
@@ -2331,7 +2331,7 @@ Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_2[22] = {
+Vtx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_2[22] = {
 	{{{53, 94, 46}, 0, {1544, 1048}, {0x15, 0x6C, 0x40, 0xFF}}},
 	{{{51, 87, 68}, 0, {1891, 986}, {0x0F, 0x54, 0x5E, 0xFF}}},
 	{{{74, 70, 74}, 0, {1926, 728}, {0xF3, 0x36, 0x72, 0xFF}}},
@@ -2356,8 +2356,8 @@ Vtx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_2[22] =
 	{{{58, 113, 1}, 0, {1008, 965}, {0x2D, 0x77, 0x00, 0xFF}}},
 };
 
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2[] = {
-	gsSPVertex(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_2 + 0, 22, 0),
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_vtx_2 + 0, 22, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 0, 2, 0),
 	gsSP2Triangles(2, 4, 3, 0, 5, 4, 2, 0),
 	gsSP2Triangles(6, 4, 5, 0, 7, 4, 6, 0),
@@ -2374,7 +2374,7 @@ Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_vtx_0[43] = {
+Vtx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_vtx_0[43] = {
 	{{{25, 57, -72}, 0, {3568, 1264}, {0xCD, 0x1F, 0x90, 0xFF}}},
 	{{{3, 60, -44}, 0, {3312, 1264}, {0xA8, 0x34, 0xB5, 0xFF}}},
 	{{{31, 100, -49}, 0, {3568, 1264}, {0xDE, 0x5D, 0xB0, 0xFF}}},
@@ -2420,8 +2420,8 @@ Vtx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_vtx_0[43] =
 	{{{99, 9, -93}, 0, {4711, 1871}, {0xDD, 0x1B, 0x89, 0xFF}}},
 };
 
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0[] = {
-	gsSPVertex(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_vtx_0 + 0, 43, 0),
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_vtx_0 + 0, 43, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 0, 7, 0, 8, 9, 10, 0),
 	gsSP2Triangles(9, 11, 10, 0, 9, 12, 11, 0),
@@ -2438,59 +2438,59 @@ Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Left_Wing_DL_mesh_layer_4_vtx_0[4] = {
+Vtx og_megaman_metal_wing_cap_Left_Wing_DL_mesh_layer_4_vtx_0[4] = {
 	{{{-103, 212, -18}, 0, {-16, -34}, {0xE9, 0x00, 0x7D, 0xFF}}},
 	{{{0, 0, 0}, 0, {974, 1978}, {0xE9, 0x00, 0x7D, 0xFF}}},
 	{{{0, 212, 0}, 0, {974, -34}, {0xE9, 0x00, 0x7D, 0xFF}}},
 	{{{-103, 0, -19}, 0, {-16, 1978}, {0xE9, 0x00, 0x7D, 0xFF}}},
 };
 
-Gfx og_megaman_Left_Wing_DL_mesh_layer_4_tri_0[] = {
-	gsSPVertex(og_megaman_Left_Wing_DL_mesh_layer_4_vtx_0 + 0, 4, 0),
+Gfx og_megaman_metal_wing_cap_Left_Wing_DL_mesh_layer_4_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Left_Wing_DL_mesh_layer_4_vtx_0 + 0, 4, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Left_Wing_DL_mesh_layer_4_vtx_1[4] = {
+Vtx og_megaman_metal_wing_cap_Left_Wing_DL_mesh_layer_4_vtx_1[4] = {
 	{{{0, 0, 0}, 0, {-16, 1978}, {0xE9, 0x00, 0x7D, 0xFF}}},
 	{{{104, 0, 19}, 0, {974, 1978}, {0xE9, 0x00, 0x7D, 0xFF}}},
 	{{{104, 212, 19}, 0, {974, -34}, {0xE9, 0x00, 0x7D, 0xFF}}},
 	{{{0, 212, 0}, 0, {-16, -34}, {0xE9, 0x00, 0x7D, 0xFF}}},
 };
 
-Gfx og_megaman_Left_Wing_DL_mesh_layer_4_tri_1[] = {
-	gsSPVertex(og_megaman_Left_Wing_DL_mesh_layer_4_vtx_1 + 0, 4, 0),
+Gfx og_megaman_metal_wing_cap_Left_Wing_DL_mesh_layer_4_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Left_Wing_DL_mesh_layer_4_vtx_1 + 0, 4, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Wing_DL_mesh_layer_4_vtx_0[4] = {
+Vtx og_megaman_metal_wing_cap_Right_Wing_DL_mesh_layer_4_vtx_0[4] = {
 	{{{-103, 212, 18}, 0, {-16, -34}, {0x17, 0x00, 0x7D, 0xFF}}},
 	{{{0, 0, 0}, 0, {974, 1978}, {0x17, 0x00, 0x7D, 0xFF}}},
 	{{{0, 212, 0}, 0, {974, -34}, {0x17, 0x00, 0x7D, 0xFF}}},
 	{{{-103, 0, 19}, 0, {-16, 1978}, {0x17, 0x00, 0x7D, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Wing_DL_mesh_layer_4_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Wing_DL_mesh_layer_4_vtx_0 + 0, 4, 0),
+Gfx og_megaman_metal_wing_cap_Right_Wing_DL_mesh_layer_4_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Wing_DL_mesh_layer_4_vtx_0 + 0, 4, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Wing_DL_mesh_layer_4_vtx_1[4] = {
+Vtx og_megaman_metal_wing_cap_Right_Wing_DL_mesh_layer_4_vtx_1[4] = {
 	{{{0, 0, 0}, 0, {-16, 1978}, {0x17, 0x00, 0x7D, 0xFF}}},
 	{{{104, 0, -19}, 0, {974, 1978}, {0x17, 0x00, 0x7D, 0xFF}}},
 	{{{104, 212, -19}, 0, {974, -34}, {0x17, 0x00, 0x7D, 0xFF}}},
 	{{{0, 212, 0}, 0, {-16, -34}, {0x17, 0x00, 0x7D, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Wing_DL_mesh_layer_4_tri_1[] = {
-	gsSPVertex(og_megaman_Right_Wing_DL_mesh_layer_4_vtx_1 + 0, 4, 0),
+Gfx og_megaman_metal_wing_cap_Right_Wing_DL_mesh_layer_4_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Wing_DL_mesh_layer_4_vtx_1 + 0, 4, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Left_Arm_Color_mesh_layer_1_vtx_0[39] = {
+Vtx og_megaman_metal_wing_cap_Left_Arm_Color_mesh_layer_1_vtx_0[39] = {
 	{{{13, 3, 31}, 0, {-4, 124}, {0x00, 0x00, 0x7F, 0xFF}}},
 	{{{41, 3, 34}, 0, {-132, 124}, {0x48, 0x00, 0x69, 0xFF}}},
 	{{{36, 29, 28}, 0, {-132, -4}, {0x2C, 0x54, 0x54, 0xFF}}},
@@ -2532,8 +2532,8 @@ Vtx og_megaman_Left_Arm_Color_mesh_layer_1_vtx_0[39] = {
 	{{{41, 35, 2}, 0, {252, 764}, {0x48, 0x69, 0x00, 0xFF}}},
 };
 
-Gfx og_megaman_Left_Arm_Color_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Left_Arm_Color_mesh_layer_1_vtx_0 + 0, 39, 0),
+Gfx og_megaman_metal_wing_cap_Left_Arm_Color_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Left_Arm_Color_mesh_layer_1_vtx_0 + 0, 39, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
 	gsSP2Triangles(3, 0, 4, 0, 5, 4, 0, 0),
 	gsSP2Triangles(5, 0, 6, 0, 0, 7, 6, 0),
@@ -2561,7 +2561,7 @@ Gfx og_megaman_Left_Arm_Color_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Left_Forearm_mesh_layer_1_vtx_0[51] = {
+Vtx og_megaman_metal_wing_cap_Left_Forearm_mesh_layer_1_vtx_0[51] = {
 	{{{84, 3, 49}, 0, {-4, 508}, {0x2A, 0x00, 0x78, 0xFF}}},
 	{{{91, 33, 32}, 0, {-4, 252}, {0x60, 0x3A, 0x3A, 0xFF}}},
 	{{{76, 41, 40}, 0, {-4, 252}, {0x18, 0x58, 0x58, 0xFF}}},
@@ -2615,8 +2615,8 @@ Vtx og_megaman_Left_Forearm_mesh_layer_1_vtx_0[51] = {
 	{{{42, -29, 34}, 0, {252, 764}, {0xE1, 0xA9, 0x57, 0xFF}}},
 };
 
-Gfx og_megaman_Left_Forearm_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Left_Forearm_mesh_layer_1_vtx_0 + 0, 51, 0),
+Gfx og_megaman_metal_wing_cap_Left_Forearm_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Left_Forearm_mesh_layer_1_vtx_0 + 0, 51, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(0, 4, 3, 0, 0, 5, 4, 0),
 	gsSP2Triangles(5, 0, 6, 0, 6, 0, 2, 0),
@@ -2652,7 +2652,7 @@ Gfx og_megaman_Left_Forearm_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Left_Hand_DL_mesh_layer_1_vtx_0[72] = {
+Vtx og_megaman_metal_wing_cap_Left_Hand_DL_mesh_layer_1_vtx_0[72] = {
 	{{{72, 16, -40}, 0, {-228, -228}, {0x28, 0x76, 0x1A, 0xFF}}},
 	{{{89, -20, -56}, 0, {-228, -228}, {0x76, 0x12, 0xD5, 0xFF}}},
 	{{{66, -32, -74}, 0, {-228, -228}, {0x19, 0xEE, 0x85, 0xFF}}},
@@ -2727,8 +2727,8 @@ Vtx og_megaman_Left_Hand_DL_mesh_layer_1_vtx_0[72] = {
 	{{{85, -10, -9}, 0, {-228, -228}, {0x03, 0x79, 0xDA, 0xFF}}},
 };
 
-Gfx og_megaman_Left_Hand_DL_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Left_Hand_DL_mesh_layer_1_vtx_0 + 0, 64, 0),
+Gfx og_megaman_metal_wing_cap_Left_Hand_DL_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Left_Hand_DL_mesh_layer_1_vtx_0 + 0, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
 	gsSP2Triangles(3, 0, 4, 0, 4, 0, 5, 0),
 	gsSP2Triangles(0, 2, 5, 0, 6, 5, 2, 0),
@@ -2790,7 +2790,7 @@ Gfx og_megaman_Left_Hand_DL_mesh_layer_1_tri_0[] = {
 	gsSP2Triangles(63, 59, 60, 0, 63, 60, 61, 0),
 	gsSP2Triangles(62, 63, 61, 0, 31, 36, 30, 0),
 	gsSP1Triangle(36, 31, 32, 0),
-	gsSPVertex(og_megaman_Left_Hand_DL_mesh_layer_1_vtx_0 + 64, 8, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Left_Hand_DL_mesh_layer_1_vtx_0 + 64, 8, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 2, 1, 0),
 	gsSP2Triangles(3, 4, 2, 0, 3, 5, 4, 0),
 	gsSP2Triangles(3, 6, 5, 0, 6, 7, 5, 0),
@@ -2799,7 +2799,7 @@ Gfx og_megaman_Left_Hand_DL_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1_vtx_0[81] = {
+Vtx og_megaman_metal_wing_cap_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1_vtx_0[81] = {
 	{{{75, -68, -49}, 0, {1020, 252}, {0x00, 0xAC, 0xA1, 0xFF}}},
 	{{{108, -68, -48}, 0, {1020, 252}, {0x42, 0xB8, 0xAF, 0xFF}}},
 	{{{114, -71, -5}, 0, {1020, 252}, {0x4D, 0xAE, 0x3B, 0xFF}}},
@@ -2883,8 +2883,8 @@ Vtx og_megaman_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1_vtx_0[81
 	{{{163, -11, -3}, 0, {1020, 252}, {0x56, 0xCB, 0xB3, 0xFF}}},
 };
 
-Gfx og_megaman_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1_vtx_0 + 0, 64, 0),
+Gfx og_megaman_metal_wing_cap_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1_vtx_0 + 0, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 3, 0, 0, 5, 4, 0, 0),
 	gsSP2Triangles(5, 0, 2, 0, 2, 6, 5, 0),
@@ -2943,7 +2943,7 @@ Gfx og_megaman_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1_tri_0[] 
 	gsSP2Triangles(46, 47, 50, 0, 47, 60, 50, 0),
 	gsSP2Triangles(47, 61, 60, 0, 48, 61, 47, 0),
 	gsSP2Triangles(48, 62, 61, 0, 48, 63, 62, 0),
-	gsSPVertex(og_megaman_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1_vtx_0 + 64, 17, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1_vtx_0 + 64, 17, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(3, 4, 1, 0, 3, 5, 4, 0),
 	gsSP2Triangles(5, 3, 6, 0, 4, 5, 7, 0),
@@ -2956,7 +2956,7 @@ Gfx og_megaman_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1_tri_0[] 
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Switch_Option_Left_Forearm_mesh_layer_4_vtx_0[12] = {
+Vtx og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_4_vtx_0[12] = {
 	{{{189, 58, 56}, 0, {203, 1094}, {0x19, 0x2C, 0x74, 0xFF}}},
 	{{{242, 3, 49}, 0, {-711, 496}, {0x3C, 0x00, 0x70, 0xFF}}},
 	{{{242, 37, 36}, 0, {-839, 896}, {0x39, 0x28, 0x6A, 0xFF}}},
@@ -2971,8 +2971,8 @@ Vtx og_megaman_Switch_Option_Left_Forearm_mesh_layer_4_vtx_0[12] = {
 	{{{242, -32, 36}, 0, {-839, 96}, {0x39, 0xD8, 0x6A, 0xFF}}},
 };
 
-Gfx og_megaman_Switch_Option_Left_Forearm_mesh_layer_4_tri_0[] = {
-	gsSPVertex(og_megaman_Switch_Option_Left_Forearm_mesh_layer_4_vtx_0 + 0, 12, 0),
+Gfx og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_4_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_4_vtx_0 + 0, 12, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 3, 0, 0, 4, 5, 3, 0),
 	gsSP2Triangles(5, 4, 6, 0, 5, 6, 7, 0),
@@ -2982,7 +2982,7 @@ Gfx og_megaman_Switch_Option_Left_Forearm_mesh_layer_4_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Switch_Option_Left_Forearm_mesh_layer_1_vtx_0[117] = {
+Vtx og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_1_vtx_0[117] = {
 	{{{189, 58, 56}, 0, {252, 252}, {0x1C, 0x58, 0x58, 0xFF}}},
 	{{{242, 3, 48}, 0, {252, 508}, {0x3C, 0x00, 0x70, 0xFF}}},
 	{{{242, 37, 35}, 0, {252, 252}, {0x3D, 0x4F, 0x4F, 0xFF}}},
@@ -3102,8 +3102,8 @@ Vtx og_megaman_Switch_Option_Left_Forearm_mesh_layer_1_vtx_0[117] = {
 	{{{291, 23, -20}, 0, {1276, 252}, {0x00, 0xA6, 0x5A, 0xFF}}},
 };
 
-Gfx og_megaman_Switch_Option_Left_Forearm_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Switch_Option_Left_Forearm_mesh_layer_1_vtx_0 + 0, 63, 0),
+Gfx og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_1_vtx_0 + 0, 63, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 3, 0, 0, 4, 5, 3, 0),
 	gsSP2Triangles(5, 4, 6, 0, 5, 6, 7, 0),
@@ -3138,7 +3138,7 @@ Gfx og_megaman_Switch_Option_Left_Forearm_mesh_layer_1_tri_0[] = {
 	gsSP2Triangles(54, 55, 52, 0, 54, 56, 55, 0),
 	gsSP2Triangles(57, 58, 59, 0, 57, 59, 60, 0),
 	gsSP2Triangles(61, 57, 60, 0, 61, 60, 62, 0),
-	gsSPVertex(og_megaman_Switch_Option_Left_Forearm_mesh_layer_1_vtx_0 + 63, 54, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_1_vtx_0 + 63, 54, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(3, 4, 1, 0, 3, 5, 4, 0),
 	gsSP2Triangles(6, 7, 8, 0, 6, 8, 9, 0),
@@ -3160,7 +3160,7 @@ Gfx og_megaman_Switch_Option_Left_Forearm_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Switch_Option_Left_Forearm_mesh_layer_1_vtx_1[8] = {
+Vtx og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_1_vtx_1[8] = {
 	{{{281, 30, 0}, 0, {496, 112}, {0x7F, 0x00, 0x00, 0xFF}}},
 	{{{281, 23, 20}, 0, {240, 240}, {0x7F, 0x00, 0x00, 0xFF}}},
 	{{{281, 3, 28}, 0, {240, 368}, {0x7F, 0x00, 0x00, 0xFF}}},
@@ -3171,15 +3171,15 @@ Vtx og_megaman_Switch_Option_Left_Forearm_mesh_layer_1_vtx_1[8] = {
 	{{{281, 23, -20}, 0, {752, 240}, {0x7F, 0x00, 0x00, 0xFF}}},
 };
 
-Gfx og_megaman_Switch_Option_Left_Forearm_mesh_layer_1_tri_1[] = {
-	gsSPVertex(og_megaman_Switch_Option_Left_Forearm_mesh_layer_1_vtx_1 + 0, 8, 0),
+Gfx og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_1_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_1_vtx_1 + 0, 8, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 0, 2, 0),
 	gsSP2Triangles(2, 4, 3, 0, 2, 5, 4, 0),
 	gsSP2Triangles(4, 6, 3, 0, 3, 7, 0, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Arm_Color_mesh_layer_1_vtx_0[39] = {
+Vtx og_megaman_metal_wing_cap_Right_Arm_Color_mesh_layer_1_vtx_0[39] = {
 	{{{35, 29, -28}, 0, {124, 764}, {0x2C, 0x54, 0xAC, 0xFF}}},
 	{{{50, 3, -2}, 0, {252, 636}, {0x7F, 0x00, 0x00, 0xFF}}},
 	{{{40, 3, -34}, 0, {124, 636}, {0x48, 0x00, 0x97, 0xFF}}},
@@ -3221,8 +3221,8 @@ Vtx og_megaman_Right_Arm_Color_mesh_layer_1_vtx_0[39] = {
 	{{{35, -24, -28}, 0, {124, 508}, {0x2C, 0xAC, 0xAC, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Arm_Color_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Arm_Color_mesh_layer_1_vtx_0 + 0, 39, 0),
+Gfx og_megaman_metal_wing_cap_Right_Arm_Color_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Arm_Color_mesh_layer_1_vtx_0 + 0, 39, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 1, 3, 0, 4, 5, 1, 0),
 	gsSP2Triangles(1, 5, 6, 0, 1, 6, 7, 0),
@@ -3250,7 +3250,7 @@ Gfx og_megaman_Right_Arm_Color_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Forearm_mesh_layer_1_vtx_0[51] = {
+Vtx og_megaman_metal_wing_cap_Right_Forearm_mesh_layer_1_vtx_0[51] = {
 	{{{83, 3, -49}, 0, {-4, 508}, {0x2A, 0x00, 0x88, 0xFF}}},
 	{{{75, 41, -40}, 0, {-4, 252}, {0x18, 0x58, 0xA8, 0xFF}}},
 	{{{90, 33, -32}, 0, {-4, 252}, {0x60, 0x3A, 0xC6, 0xFF}}},
@@ -3304,8 +3304,8 @@ Vtx og_megaman_Right_Forearm_mesh_layer_1_vtx_0[51] = {
 	{{{41, 35, -34}, 0, {252, 252}, {0xE1, 0x57, 0xA9, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Forearm_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Forearm_mesh_layer_1_vtx_0 + 0, 51, 0),
+Gfx og_megaman_metal_wing_cap_Right_Forearm_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Forearm_mesh_layer_1_vtx_0 + 0, 51, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
 	gsSP2Triangles(4, 3, 0, 0, 0, 5, 4, 0),
 	gsSP2Triangles(0, 6, 5, 0, 0, 2, 6, 0),
@@ -3341,7 +3341,7 @@ Gfx og_megaman_Right_Forearm_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_DL_mesh_layer_1_vtx_0[72] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_DL_mesh_layer_1_vtx_0[72] = {
 	{{{71, 16, 40}, 0, {-228, -228}, {0x28, 0x76, 0xE6, 0xFF}}},
 	{{{65, -32, 74}, 0, {-228, -228}, {0x19, 0xEE, 0x7B, 0xFF}}},
 	{{{88, -20, 56}, 0, {-228, -228}, {0x76, 0x12, 0x2B, 0xFF}}},
@@ -3416,8 +3416,8 @@ Vtx og_megaman_Right_Hand_DL_mesh_layer_1_vtx_0[72] = {
 	{{{60, -45, 35}, 0, {-228, -228}, {0xAB, 0xBA, 0x40, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_DL_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Hand_DL_mesh_layer_1_vtx_0 + 0, 64, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_DL_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_DL_mesh_layer_1_vtx_0 + 0, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 3, 0, 0, 5, 4, 0, 0),
 	gsSP2Triangles(2, 5, 0, 0, 2, 6, 5, 0),
@@ -3479,7 +3479,7 @@ Gfx og_megaman_Right_Hand_DL_mesh_layer_1_tri_0[] = {
 	gsSP2Triangles(59, 62, 63, 0, 62, 59, 60, 0),
 	gsSP2Triangles(60, 61, 62, 0, 45, 39, 40, 0),
 	gsSP1Triangle(40, 44, 45, 0),
-	gsSPVertex(og_megaman_Right_Hand_DL_mesh_layer_1_vtx_0 + 64, 8, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_DL_mesh_layer_1_vtx_0 + 64, 8, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
 	gsSP2Triangles(3, 4, 1, 0, 3, 5, 4, 0),
 	gsSP2Triangles(6, 5, 3, 0, 7, 5, 6, 0),
@@ -3488,7 +3488,7 @@ Gfx og_megaman_Right_Hand_DL_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1_vtx_0[79] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1_vtx_0[79] = {
 	{{{77, -69, 6}, 0, {1020, 252}, {0xFC, 0x88, 0xD6, 0xFF}}},
 	{{{114, -69, 5}, 0, {1020, 252}, {0x4D, 0xAE, 0xC5, 0xFF}}},
 	{{{75, -66, 49}, 0, {1020, 252}, {0x00, 0xAC, 0x5F, 0xFF}}},
@@ -3570,8 +3570,8 @@ Vtx og_megaman_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1_vtx_0[
 	{{{117, 18, 1}, 0, {1020, 252}, {0xEB, 0x56, 0x5B, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1_vtx_0 + 0, 64, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1_vtx_0 + 0, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
 	gsSP2Triangles(4, 3, 0, 0, 4, 0, 5, 0),
 	gsSP2Triangles(0, 6, 5, 0, 0, 2, 6, 0),
@@ -3631,7 +3631,7 @@ Gfx og_megaman_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1_tri_0[
 	gsSP2Triangles(49, 58, 63, 0, 59, 63, 58, 0),
 	gsSP2Triangles(59, 62, 63, 0, 59, 61, 62, 0),
 	gsSP2Triangles(60, 61, 59, 0, 56, 51, 52, 0),
-	gsSPVertex(og_megaman_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1_vtx_0 + 64, 15, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1_vtx_0 + 64, 15, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(0, 4, 3, 0, 3, 4, 5, 0),
 	gsSP2Triangles(5, 1, 3, 0, 1, 5, 6, 0),
@@ -3643,7 +3643,7 @@ Gfx og_megaman_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1_tri_0[
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1_vtx_0[86] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1_vtx_0[86] = {
 	{{{104, 50, -44}, 0, {-228, -228}, {0x19, 0x84, 0x01, 0xFF}}},
 	{{{96, 49, 7}, 0, {-228, -228}, {0x19, 0x84, 0x01, 0xFF}}},
 	{{{70, 44, 7}, 0, {-228, -228}, {0x19, 0x84, 0x01, 0xFF}}},
@@ -3732,8 +3732,8 @@ Vtx og_megaman_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1_vtx_
 	{{{172, 20, -15}, 0, {1020, 252}, {0x64, 0xC9, 0xC8, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1_vtx_0 + 0, 64, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1_vtx_0 + 0, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 9, 6, 10, 0),
 	gsSP2Triangles(9, 10, 11, 0, 11, 10, 12, 0),
@@ -3781,7 +3781,7 @@ Gfx og_megaman_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1_tri_
 	gsSP2Triangles(53, 54, 55, 0, 56, 57, 58, 0),
 	gsSP2Triangles(56, 59, 57, 0, 60, 61, 62, 0),
 	gsSP1Triangle(60, 63, 61, 0),
-	gsSPVertex(og_megaman_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1_vtx_0 + 64, 22, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1_vtx_0 + 64, 22, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(3, 4, 1, 0, 3, 5, 4, 0),
 	gsSP2Triangles(3, 6, 5, 0, 3, 7, 6, 0),
@@ -3802,7 +3802,7 @@ Gfx og_megaman_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1_tri_
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_0[79] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_0[79] = {
 	{{{86, -50, 32}, 0, {1020, 252}, {0x4A, 0x99, 0xF8, 0xFF}}},
 	{{{117, -33, 38}, 0, {1020, 252}, {0x74, 0xDA, 0xDD, 0xFF}}},
 	{{{73, -48, 74}, 0, {1020, 252}, {0x04, 0xB4, 0x66, 0xFF}}},
@@ -3884,8 +3884,8 @@ Vtx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_0[79
 	{{{117, 16, -8}, 0, {1020, 252}, {0x01, 0x54, 0x5F, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_0 + 0, 64, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_0 + 0, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
 	gsSP2Triangles(4, 3, 0, 0, 4, 0, 5, 0),
 	gsSP2Triangles(0, 6, 5, 0, 0, 2, 6, 0),
@@ -3945,7 +3945,7 @@ Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_0[] 
 	gsSP2Triangles(49, 58, 63, 0, 59, 63, 58, 0),
 	gsSP2Triangles(59, 62, 63, 0, 59, 61, 62, 0),
 	gsSP2Triangles(60, 61, 59, 0, 56, 51, 52, 0),
-	gsSPVertex(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_0 + 64, 15, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_0 + 64, 15, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(0, 4, 3, 0, 3, 4, 5, 0),
 	gsSP2Triangles(5, 1, 3, 0, 1, 5, 6, 0),
@@ -3957,7 +3957,7 @@ Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_0[] 
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_1[174] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_1[174] = {
 	{{{281, -22, 149}, 0, {1020, 1148}, {0x4D, 0x9C, 0x0E, 0xFF}}},
 	{{{294, -13, 149}, 0, {1020, 1148}, {0x4C, 0x9B, 0x0C, 0xFF}}},
 	{{{275, -10, 196}, 0, {892, 1148}, {0x4E, 0xA9, 0x31, 0xFF}}},
@@ -4134,8 +4134,8 @@ Vtx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_1[17
 	{{{294, -13, 149}, 0, {1404, 764}, {0x78, 0xDA, 0x10, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_1[] = {
-	gsSPVertex(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_1 + 0, 64, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_1 + 0, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(3, 2, 4, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 5, 4, 0, 6, 4, 7, 0),
@@ -4162,7 +4162,7 @@ Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_1[] 
 	gsSP2Triangles(58, 57, 56, 0, 58, 56, 59, 0),
 	gsSP2Triangles(58, 59, 60, 0, 58, 60, 61, 0),
 	gsSP2Triangles(62, 61, 60, 0, 62, 60, 63, 0),
-	gsSPVertex(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_1 + 64, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_1 + 64, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(4, 3, 2, 0, 4, 2, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 6, 8, 9, 0),
@@ -4188,7 +4188,7 @@ Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_1[] 
 	gsSP2Triangles(57, 58, 59, 0, 57, 60, 58, 0),
 	gsSP2Triangles(57, 61, 60, 0, 57, 62, 61, 0),
 	gsSP1Triangle(63, 61, 62, 0),
-	gsSPVertex(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_1 + 128, 46, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_1 + 128, 46, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(0, 4, 3, 0, 5, 3, 4, 0),
 	gsSP2Triangles(5, 6, 3, 0, 7, 8, 9, 0),
@@ -4212,7 +4212,7 @@ Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_1[] 
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_2[22] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_2[22] = {
 	{{{140, 144, 205}, 0, {432, 752}, {0xFD, 0x70, 0x3B, 0xFF}}},
 	{{{116, 148, 196}, 0, {368, 816}, {0xE5, 0x6E, 0x39, 0xFF}}},
 	{{{115, 138, 216}, 0, {368, 752}, {0xD4, 0x6A, 0x36, 0xFF}}},
@@ -4237,8 +4237,8 @@ Vtx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_2[22
 	{{{115, -95, 216}, 0, {368, 752}, {0xD4, 0x96, 0x36, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_2[] = {
-	gsSPVertex(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_2 + 0, 22, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_2[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_2 + 0, 22, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
 	gsSP2Triangles(4, 1, 3, 0, 1, 4, 5, 0),
 	gsSP2Triangles(6, 1, 5, 0, 7, 8, 9, 0),
@@ -4249,7 +4249,7 @@ Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_2[] 
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_3[276] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_3[276] = {
 	{{{262, -59, 140}, 0, {1020, 1276}, {0x67, 0xB6, 0x07, 0xFF}}},
 	{{{281, -22, 149}, 0, {1020, 1148}, {0x6E, 0xC3, 0x0F, 0xFF}}},
 	{{{262, -26, 192}, 0, {892, 1148}, {0x5B, 0xC2, 0x40, 0xFF}}},
@@ -4528,8 +4528,8 @@ Vtx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_3[27
 	{{{126, 50, -24}, 0, {892, -78}, {0xFD, 0x2C, 0x89, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_3[] = {
-	gsSPVertex(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_3 + 0, 64, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_3[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_3 + 0, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(4, 3, 2, 0, 4, 2, 5, 0),
 	gsSP2Triangles(4, 5, 6, 0, 6, 5, 7, 0),
@@ -4560,7 +4560,7 @@ Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_3[] 
 	gsSP2Triangles(56, 21, 55, 0, 56, 57, 21, 0),
 	gsSP2Triangles(58, 59, 60, 0, 58, 60, 61, 0),
 	gsSP1Triangle(62, 60, 63, 0),
-	gsSPVertex(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_3 + 64, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_3 + 64, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 1, 3, 0, 5, 6, 7, 0),
 	gsSP2Triangles(5, 7, 8, 0, 9, 8, 7, 0),
@@ -4587,7 +4587,7 @@ Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_3[] 
 	gsSP2Triangles(59, 57, 58, 0, 60, 57, 59, 0),
 	gsSP2Triangles(60, 59, 61, 0, 60, 61, 62, 0),
 	gsSP1Triangle(63, 60, 62, 0),
-	gsSPVertex(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_3 + 128, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_3 + 128, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(3, 6, 4, 0, 7, 6, 3, 0),
 	gsSP2Triangles(8, 7, 3, 0, 5, 8, 3, 0),
@@ -4615,7 +4615,7 @@ Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_3[] 
 	gsSP2Triangles(59, 58, 57, 0, 60, 59, 57, 0),
 	gsSP2Triangles(61, 59, 60, 0, 62, 61, 60, 0),
 	gsSP1Triangle(62, 60, 63, 0),
-	gsSPVertex(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_3 + 192, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_3 + 192, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 0, 4, 0),
 	gsSP2Triangles(4, 0, 5, 0, 3, 4, 6, 0),
 	gsSP2Triangles(6, 4, 7, 0, 7, 4, 8, 0),
@@ -4656,7 +4656,7 @@ Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_3[] 
 	gsSP2Triangles(59, 55, 60, 0, 61, 60, 55, 0),
 	gsSP2Triangles(57, 61, 55, 0, 62, 61, 57, 0),
 	gsSP1Triangle(61, 62, 63, 0),
-	gsSPVertex(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_3 + 256, 20, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_3 + 256, 20, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 3, 0, 0),
 	gsSP2Triangles(3, 4, 0, 0, 4, 3, 5, 0),
 	gsSP2Triangles(4, 5, 6, 0, 7, 4, 6, 0),
@@ -4670,7 +4670,7 @@ Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_3[] 
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_4[15] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_4[15] = {
 	{{{126, 50, -24}, 0, {892, -78}, {0x2A, 0x5E, 0xB5, 0xFF}}},
 	{{{116, 48, -33}, 0, {892, -78}, {0x14, 0x52, 0xA1, 0xFF}}},
 	{{{75, 49, -18}, 0, {764, -78}, {0xB7, 0x64, 0xE5, 0xFF}}},
@@ -4688,8 +4688,8 @@ Vtx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_4[15
 	{{{75, 49, -18}, 0, {764, -78}, {0xDC, 0x36, 0x92, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_4[] = {
-	gsSPVertex(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_4 + 0, 15, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_4[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_vtx_4 + 0, 15, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
 	gsSP2Triangles(3, 4, 1, 0, 3, 5, 4, 0),
 	gsSP2Triangles(3, 6, 5, 0, 6, 7, 5, 0),
@@ -4701,7 +4701,7 @@ Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_4[] 
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_4_vtx_0[6] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_4_vtx_0[6] = {
 	{{{105, -20, 260}, 0, {1985, 672}, {0x0B, 0xEE, 0x7D, 0xFF}}},
 	{{{180, -36, 248}, 0, {1985, -11}, {0x0F, 0xE8, 0x7C, 0xFF}}},
 	{{{181, 21, 259}, 0, {498, 128}, {0x0D, 0x00, 0x7E, 0xFF}}},
@@ -4710,14 +4710,14 @@ Vtx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_4_vtx_0[6]
 	{{{180, 78, 248}, 0, {1985, -11}, {0x0F, 0x18, 0x7C, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_4_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_4_vtx_0 + 0, 6, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_4_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_4_vtx_0 + 0, 6, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(4, 3, 2, 0, 4, 2, 5, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_0[79] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_0[79] = {
 	{{{86, -50, 32}, 0, {1020, 252}, {0x4A, 0x99, 0xF8, 0xFF}}},
 	{{{117, -33, 38}, 0, {1020, 252}, {0x74, 0xDA, 0xDD, 0xFF}}},
 	{{{73, -48, 74}, 0, {1020, 252}, {0x04, 0xB4, 0x66, 0xFF}}},
@@ -4799,8 +4799,8 @@ Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	{{{117, 16, -8}, 0, {1020, 252}, {0x01, 0x54, 0x5F, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_0 + 0, 64, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_0 + 0, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
 	gsSP2Triangles(4, 3, 0, 0, 4, 0, 5, 0),
 	gsSP2Triangles(0, 6, 5, 0, 0, 2, 6, 0),
@@ -4860,7 +4860,7 @@ Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	gsSP2Triangles(49, 58, 63, 0, 59, 63, 58, 0),
 	gsSP2Triangles(59, 62, 63, 0, 59, 61, 62, 0),
 	gsSP2Triangles(60, 61, 59, 0, 56, 51, 52, 0),
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_0 + 64, 15, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_0 + 64, 15, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(0, 4, 3, 0, 3, 4, 5, 0),
 	gsSP2Triangles(5, 1, 3, 0, 1, 5, 6, 0),
@@ -4872,7 +4872,7 @@ Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_1[174] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_1[174] = {
 	{{{281, -22, 149}, 0, {1020, 1148}, {0x4D, 0x9C, 0x0E, 0xFF}}},
 	{{{294, -13, 149}, 0, {1020, 1148}, {0x4C, 0x9B, 0x0C, 0xFF}}},
 	{{{275, -10, 196}, 0, {892, 1148}, {0x4E, 0xA9, 0x31, 0xFF}}},
@@ -5049,8 +5049,8 @@ Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	{{{294, -13, 149}, 0, {1404, 764}, {0x78, 0xDA, 0x10, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_1[] = {
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_1 + 0, 64, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_1 + 0, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(3, 2, 4, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 5, 4, 0, 6, 4, 7, 0),
@@ -5077,7 +5077,7 @@ Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	gsSP2Triangles(58, 57, 56, 0, 58, 56, 59, 0),
 	gsSP2Triangles(58, 59, 60, 0, 58, 60, 61, 0),
 	gsSP2Triangles(62, 61, 60, 0, 62, 60, 63, 0),
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_1 + 64, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_1 + 64, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(4, 3, 2, 0, 4, 2, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 6, 8, 9, 0),
@@ -5103,7 +5103,7 @@ Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	gsSP2Triangles(57, 58, 59, 0, 57, 60, 58, 0),
 	gsSP2Triangles(57, 61, 60, 0, 57, 62, 61, 0),
 	gsSP1Triangle(63, 61, 62, 0),
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_1 + 128, 46, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_1 + 128, 46, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(0, 4, 3, 0, 5, 3, 4, 0),
 	gsSP2Triangles(5, 6, 3, 0, 7, 8, 9, 0),
@@ -5127,7 +5127,7 @@ Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_2[22] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_2[22] = {
 	{{{140, 144, 205}, 0, {432, 752}, {0xFD, 0x70, 0x3B, 0xFF}}},
 	{{{116, 148, 196}, 0, {368, 816}, {0xE5, 0x6E, 0x39, 0xFF}}},
 	{{{115, 138, 216}, 0, {368, 752}, {0xD4, 0x6A, 0x36, 0xFF}}},
@@ -5152,8 +5152,8 @@ Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	{{{115, -95, 216}, 0, {368, 752}, {0xD4, 0x96, 0x36, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_2[] = {
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_2 + 0, 22, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_2[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_2 + 0, 22, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
 	gsSP2Triangles(4, 1, 3, 0, 1, 4, 5, 0),
 	gsSP2Triangles(6, 1, 5, 0, 7, 8, 9, 0),
@@ -5164,7 +5164,7 @@ Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_3[276] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_3[276] = {
 	{{{262, -59, 140}, 0, {1020, 1276}, {0x67, 0xB6, 0x07, 0xFF}}},
 	{{{281, -22, 149}, 0, {1020, 1148}, {0x6E, 0xC3, 0x0F, 0xFF}}},
 	{{{262, -26, 192}, 0, {892, 1148}, {0x5B, 0xC2, 0x40, 0xFF}}},
@@ -5443,8 +5443,8 @@ Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	{{{126, 50, -24}, 0, {892, -78}, {0xFD, 0x2C, 0x89, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_3[] = {
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_3 + 0, 64, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_3[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_3 + 0, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(4, 3, 2, 0, 4, 2, 5, 0),
 	gsSP2Triangles(4, 5, 6, 0, 6, 5, 7, 0),
@@ -5475,7 +5475,7 @@ Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	gsSP2Triangles(56, 21, 55, 0, 56, 57, 21, 0),
 	gsSP2Triangles(58, 59, 60, 0, 58, 60, 61, 0),
 	gsSP1Triangle(62, 60, 63, 0),
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_3 + 64, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_3 + 64, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 1, 3, 0, 5, 6, 7, 0),
 	gsSP2Triangles(5, 7, 8, 0, 9, 8, 7, 0),
@@ -5502,7 +5502,7 @@ Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	gsSP2Triangles(59, 57, 58, 0, 60, 57, 59, 0),
 	gsSP2Triangles(60, 59, 61, 0, 60, 61, 62, 0),
 	gsSP1Triangle(63, 60, 62, 0),
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_3 + 128, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_3 + 128, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(3, 6, 4, 0, 7, 6, 3, 0),
 	gsSP2Triangles(8, 7, 3, 0, 5, 8, 3, 0),
@@ -5530,7 +5530,7 @@ Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	gsSP2Triangles(59, 58, 57, 0, 60, 59, 57, 0),
 	gsSP2Triangles(61, 59, 60, 0, 62, 61, 60, 0),
 	gsSP1Triangle(62, 60, 63, 0),
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_3 + 192, 64, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_3 + 192, 64, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 0, 4, 0),
 	gsSP2Triangles(4, 0, 5, 0, 3, 4, 6, 0),
 	gsSP2Triangles(6, 4, 7, 0, 7, 4, 8, 0),
@@ -5571,7 +5571,7 @@ Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	gsSP2Triangles(59, 55, 60, 0, 61, 60, 55, 0),
 	gsSP2Triangles(57, 61, 55, 0, 62, 61, 57, 0),
 	gsSP1Triangle(61, 62, 63, 0),
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_3 + 256, 20, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_3 + 256, 20, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 3, 0, 0),
 	gsSP2Triangles(3, 4, 0, 0, 4, 3, 5, 0),
 	gsSP2Triangles(4, 5, 6, 0, 7, 4, 6, 0),
@@ -5585,7 +5585,7 @@ Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_4[15] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_4[15] = {
 	{{{126, 50, -24}, 0, {892, -78}, {0x2A, 0x5E, 0xB5, 0xFF}}},
 	{{{116, 48, -33}, 0, {892, -78}, {0x14, 0x52, 0xA1, 0xFF}}},
 	{{{75, 49, -18}, 0, {764, -78}, {0xB7, 0x64, 0xE5, 0xFF}}},
@@ -5603,8 +5603,8 @@ Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	{{{75, 49, -18}, 0, {764, -78}, {0xDC, 0x36, 0x92, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_4[] = {
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_4 + 0, 15, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_4[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_vtx_4 + 0, 15, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
 	gsSP2Triangles(3, 4, 1, 0, 3, 5, 4, 0),
 	gsSP2Triangles(3, 6, 5, 0, 6, 7, 5, 0),
@@ -5616,7 +5616,7 @@ Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_4_vtx_0[6] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_4_vtx_0[6] = {
 	{{{105, -20, 260}, 0, {1985, 672}, {0x0B, 0xEE, 0x7D, 0xFF}}},
 	{{{180, -36, 248}, 0, {1985, -11}, {0x0F, 0xE8, 0x7C, 0xFF}}},
 	{{{181, 21, 259}, 0, {498, 128}, {0x0D, 0x00, 0x7E, 0xFF}}},
@@ -5625,14 +5625,14 @@ Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_
 	{{{180, 78, 248}, 0, {1985, -11}, {0x0F, 0x18, 0x7C, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_4_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_4_vtx_0 + 0, 6, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_4_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_4_vtx_0 + 0, 6, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(4, 3, 2, 0, 4, 2, 5, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_vtx_0[8] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_vtx_0[8] = {
 	{{{393, 207, 82}, 0, {974, -16}, {0xBD, 0x65, 0xD9, 0xFF}}},
 	{{{191, 98, 143}, 0, {-16, 2032}, {0xBE, 0x65, 0xD9, 0xFF}}},
 	{{{237, 157, 218}, 0, {974, 2032}, {0xBD, 0x65, 0xD9, 0xFF}}},
@@ -5643,14 +5643,14 @@ Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_vtx_0[8] = {
 	{{{315, -110, -6}, 0, {-16, -16}, {0xA8, 0xB3, 0xCE, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_vtx_0 + 0, 8, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_vtx_0 + 0, 8, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 5, 6, 0, 5, 7, 6, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_vtx_1[8] = {
+Vtx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_vtx_1[8] = {
 	{{{203, -116, 203}, 0, {-16, 2032}, {0xA8, 0xB3, 0xCF, 0xFF}}},
 	{{{344, -187, 61}, 0, {-16, -16}, {0xA8, 0xB3, 0xCF, 0xFF}}},
 	{{{374, -264, 128}, 0, {974, -16}, {0xA8, 0xB3, 0xCF, 0xFF}}},
@@ -5661,14 +5661,14 @@ Vtx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_vtx_1[8] = {
 	{{{283, 217, 293}, 0, {974, 2032}, {0xBD, 0x65, 0xD8, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_tri_1[] = {
-	gsSPVertex(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_vtx_1 + 0, 8, 0),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_vtx_1 + 0, 8, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 0, 2, 0),
 	gsSP2Triangles(4, 5, 6, 0, 4, 6, 7, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Switch_Option_Right_Forearm_mesh_layer_4_vtx_0[12] = {
+Vtx og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_4_vtx_0[12] = {
 	{{{188, 58, -56}, 0, {203, 1094}, {0x19, 0x2C, 0x8C, 0xFF}}},
 	{{{241, 37, -36}, 0, {-839, 896}, {0x39, 0x28, 0x96, 0xFF}}},
 	{{{241, 3, -49}, 0, {-711, 496}, {0x3C, 0x00, 0x90, 0xFF}}},
@@ -5683,8 +5683,8 @@ Vtx og_megaman_Switch_Option_Right_Forearm_mesh_layer_4_vtx_0[12] = {
 	{{{101, 56, -54}, 0, {1685, 1097}, {0xE5, 0x2C, 0x8C, 0xFF}}},
 };
 
-Gfx og_megaman_Switch_Option_Right_Forearm_mesh_layer_4_tri_0[] = {
-	gsSPVertex(og_megaman_Switch_Option_Right_Forearm_mesh_layer_4_vtx_0 + 0, 12, 0),
+Gfx og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_4_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_4_vtx_0 + 0, 12, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(3, 2, 4, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 3, 5, 0, 6, 5, 7, 0),
@@ -5694,7 +5694,7 @@ Gfx og_megaman_Switch_Option_Right_Forearm_mesh_layer_4_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Switch_Option_Right_Forearm_mesh_layer_1_vtx_0[117] = {
+Vtx og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_1_vtx_0[117] = {
 	{{{188, 58, -56}, 0, {252, 252}, {0x1C, 0x58, 0xA8, 0xFF}}},
 	{{{241, 37, -35}, 0, {252, 252}, {0x3D, 0x4F, 0xB1, 0xFF}}},
 	{{{241, 3, -48}, 0, {252, 508}, {0x3C, 0x00, 0x90, 0xFF}}},
@@ -5814,8 +5814,8 @@ Vtx og_megaman_Switch_Option_Right_Forearm_mesh_layer_1_vtx_0[117] = {
 	{{{290, 23, 20}, 0, {1276, 252}, {0x00, 0xA6, 0xA6, 0xFF}}},
 };
 
-Gfx og_megaman_Switch_Option_Right_Forearm_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Switch_Option_Right_Forearm_mesh_layer_1_vtx_0 + 0, 63, 0),
+Gfx og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_1_vtx_0 + 0, 63, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(3, 2, 4, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 3, 5, 0, 6, 5, 7, 0),
@@ -5850,7 +5850,7 @@ Gfx og_megaman_Switch_Option_Right_Forearm_mesh_layer_1_tri_0[] = {
 	gsSP2Triangles(54, 53, 55, 0, 54, 55, 56, 0),
 	gsSP2Triangles(57, 58, 59, 0, 57, 60, 58, 0),
 	gsSP2Triangles(61, 60, 57, 0, 61, 62, 60, 0),
-	gsSPVertex(og_megaman_Switch_Option_Right_Forearm_mesh_layer_1_vtx_0 + 63, 54, 0),
+	gsSPVertex(og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_1_vtx_0 + 63, 54, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(3, 2, 4, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 6, 9, 7, 0),
@@ -5872,7 +5872,7 @@ Gfx og_megaman_Switch_Option_Right_Forearm_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Switch_Option_Right_Forearm_mesh_layer_1_vtx_1[8] = {
+Vtx og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_1_vtx_1[8] = {
 	{{{280, 3, -28}, 0, {240, 368}, {0x7F, 0x00, 0x00, 0xFF}}},
 	{{{280, 23, -20}, 0, {240, 240}, {0x7F, 0x00, 0x00, 0xFF}}},
 	{{{280, 30, 0}, 0, {496, 112}, {0x7F, 0x00, 0x00, 0xFF}}},
@@ -5883,15 +5883,15 @@ Vtx og_megaman_Switch_Option_Right_Forearm_mesh_layer_1_vtx_1[8] = {
 	{{{280, -17, -20}, 0, {368, 624}, {0x7F, 0x00, 0x00, 0xFF}}},
 };
 
-Gfx og_megaman_Switch_Option_Right_Forearm_mesh_layer_1_tri_1[] = {
-	gsSPVertex(og_megaman_Switch_Option_Right_Forearm_mesh_layer_1_vtx_1 + 0, 8, 0),
+Gfx og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_1_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_1_vtx_1 + 0, 8, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 0, 2, 0),
 	gsSP2Triangles(2, 4, 3, 0, 2, 5, 4, 0),
 	gsSP2Triangles(4, 6, 3, 0, 3, 7, 0, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Left_Thigh_Color_mesh_layer_1_vtx_0[39] = {
+Vtx og_megaman_metal_wing_cap_Left_Thigh_Color_mesh_layer_1_vtx_0[39] = {
 	{{{58, -32, -33}, 0, {124, 764}, {0x38, 0xAF, 0xB1, 0xFF}}},
 	{{{64, 0, -40}, 0, {124, 636}, {0x50, 0x00, 0x9D, 0xFF}}},
 	{{{78, 0, 1}, 0, {252, 636}, {0x7F, 0x00, 0x00, 0xFF}}},
@@ -5933,8 +5933,8 @@ Vtx og_megaman_Left_Thigh_Color_mesh_layer_1_vtx_0[39] = {
 	{{{64, -39, 1}, 0, {252, 764}, {0x4F, 0x9D, 0x00, 0xFF}}},
 };
 
-Gfx og_megaman_Left_Thigh_Color_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Left_Thigh_Color_mesh_layer_1_vtx_0 + 0, 39, 0),
+Gfx og_megaman_metal_wing_cap_Left_Thigh_Color_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Left_Thigh_Color_mesh_layer_1_vtx_0 + 0, 39, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
 	gsSP2Triangles(2, 3, 4, 0, 3, 5, 4, 0),
 	gsSP2Triangles(3, 6, 5, 0, 5, 6, 7, 0),
@@ -5962,7 +5962,7 @@ Gfx og_megaman_Left_Thigh_Color_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Left_Leg_mesh_layer_1_vtx_0[39] = {
+Vtx og_megaman_metal_wing_cap_Left_Leg_mesh_layer_1_vtx_0[39] = {
 	{{{90, 0, -76}, 0, {-4, 508}, {0x3C, 0x00, 0x90, 0xFF}}},
 	{{{80, -60, -62}, 0, {-4, 252}, {0x1C, 0xA8, 0xA9, 0xFF}}},
 	{{{41, -44, -46}, 0, {252, 252}, {0xCD, 0xAC, 0xAF, 0xFF}}},
@@ -6004,8 +6004,8 @@ Vtx og_megaman_Left_Leg_mesh_layer_1_vtx_0[39] = {
 	{{{80, -60, 64}, 0, {1020, -260}, {0x1C, 0xA8, 0x57, 0xFF}}},
 };
 
-Gfx og_megaman_Left_Leg_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Left_Leg_mesh_layer_1_vtx_0 + 0, 39, 0),
+Gfx og_megaman_metal_wing_cap_Left_Leg_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Left_Leg_mesh_layer_1_vtx_0 + 0, 39, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(3, 2, 4, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 5, 4, 0, 6, 4, 7, 0),
@@ -6033,7 +6033,7 @@ Gfx og_megaman_Left_Leg_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Left_Shoe_mesh_layer_1_vtx_0[8] = {
+Vtx og_megaman_metal_wing_cap_Left_Shoe_mesh_layer_1_vtx_0[8] = {
 	{{{45, 43, -33}, 0, {496, 470}, {0x2B, 0x77, 0x00, 0xFF}}},
 	{{{89, 27, -21}, 0, {496, 416}, {0x2B, 0x77, 0x00, 0xFF}}},
 	{{{82, 30, -31}, 0, {496, 399}, {0x2B, 0x77, 0x00, 0xFF}}},
@@ -6044,15 +6044,15 @@ Vtx og_megaman_Left_Shoe_mesh_layer_1_vtx_0[8] = {
 	{{{104, 22, 0}, 0, {496, 224}, {0x2B, 0x77, 0x00, 0xFF}}},
 };
 
-Gfx og_megaman_Left_Shoe_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Left_Shoe_mesh_layer_1_vtx_0 + 0, 8, 0),
+Gfx og_megaman_metal_wing_cap_Left_Shoe_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Left_Shoe_mesh_layer_1_vtx_0 + 0, 8, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
 	gsSP2Triangles(3, 0, 4, 0, 4, 0, 5, 0),
 	gsSP2Triangles(6, 1, 3, 0, 1, 6, 7, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Left_Shoe_mesh_layer_1_vtx_1[23] = {
+Vtx og_megaman_metal_wing_cap_Left_Shoe_mesh_layer_1_vtx_1[23] = {
 	{{{178, 4, -1}, 0, {252, -132}, {0x2B, 0x77, 0x00, 0xFF}}},
 	{{{119, 26, -60}, 0, {252, -4}, {0x2B, 0x77, 0x00, 0xFF}}},
 	{{{119, 26, 59}, 0, {252, -260}, {0x2B, 0x77, 0x00, 0xFF}}},
@@ -6078,8 +6078,8 @@ Vtx og_megaman_Left_Shoe_mesh_layer_1_vtx_1[23] = {
 	{{{19, 53, 0}, 0, {252, 382}, {0x77, 0xD5, 0xFE, 0xFF}}},
 };
 
-Gfx og_megaman_Left_Shoe_mesh_layer_1_tri_1[] = {
-	gsSPVertex(og_megaman_Left_Shoe_mesh_layer_1_vtx_1 + 0, 23, 0),
+Gfx og_megaman_metal_wing_cap_Left_Shoe_mesh_layer_1_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Left_Shoe_mesh_layer_1_vtx_1 + 0, 23, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
 	gsSP2Triangles(3, 1, 4, 0, 1, 5, 4, 0),
 	gsSP2Triangles(1, 6, 5, 0, 5, 6, 7, 0),
@@ -6093,7 +6093,7 @@ Gfx og_megaman_Left_Shoe_mesh_layer_1_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Left_Shoe_mesh_layer_1_vtx_2[54] = {
+Vtx og_megaman_metal_wing_cap_Left_Shoe_mesh_layer_1_vtx_2[54] = {
 	{{{22, 61, 0}, 0, {764, 1025}, {0x77, 0xD5, 0xFE, 0xFF}}},
 	{{{19, 53, 0}, 0, {764, 1025}, {0x77, 0xD5, 0xFE, 0xFF}}},
 	{{{45, 43, -33}, 0, {764, 712}, {0x31, 0xEE, 0x74, 0xFF}}},
@@ -6150,8 +6150,8 @@ Vtx og_megaman_Left_Shoe_mesh_layer_1_vtx_2[54] = {
 	{{{92, 35, -21}, 0, {764, 603}, {0x1F, 0x54, 0x5A, 0xFF}}},
 };
 
-Gfx og_megaman_Left_Shoe_mesh_layer_1_tri_2[] = {
-	gsSPVertex(og_megaman_Left_Shoe_mesh_layer_1_vtx_2 + 0, 54, 0),
+Gfx og_megaman_metal_wing_cap_Left_Shoe_mesh_layer_1_tri_2[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Left_Shoe_mesh_layer_1_vtx_2 + 0, 54, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(3, 6, 4, 0, 7, 6, 3, 0),
 	gsSP2Triangles(7, 3, 8, 0, 9, 7, 8, 0),
@@ -6181,7 +6181,7 @@ Gfx og_megaman_Left_Shoe_mesh_layer_1_tri_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Thigh_Color_mesh_layer_1_vtx_0[39] = {
+Vtx og_megaman_metal_wing_cap_Right_Thigh_Color_mesh_layer_1_vtx_0[39] = {
 	{{{58, -32, 31}, 0, {124, 764}, {0x38, 0xAF, 0x4F, 0xFF}}},
 	{{{78, 0, -3}, 0, {252, 636}, {0x7F, 0x00, 0x00, 0xFF}}},
 	{{{64, 0, 38}, 0, {124, 636}, {0x50, 0x00, 0x63, 0xFF}}},
@@ -6223,8 +6223,8 @@ Vtx og_megaman_Right_Thigh_Color_mesh_layer_1_vtx_0[39] = {
 	{{{58, 32, 31}, 0, {124, 508}, {0x38, 0x51, 0x4F, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Thigh_Color_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Thigh_Color_mesh_layer_1_vtx_0 + 0, 39, 0),
+Gfx og_megaman_metal_wing_cap_Right_Thigh_Color_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Thigh_Color_mesh_layer_1_vtx_0 + 0, 39, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 1, 3, 0, 4, 5, 1, 0),
 	gsSP2Triangles(1, 5, 6, 0, 1, 6, 7, 0),
@@ -6252,7 +6252,7 @@ Gfx og_megaman_Right_Thigh_Color_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Leg_mesh_layer_1_vtx_0[39] = {
+Vtx og_megaman_metal_wing_cap_Right_Leg_mesh_layer_1_vtx_0[39] = {
 	{{{90, 0, 74}, 0, {-4, 508}, {0x3C, 0x00, 0x70, 0xFF}}},
 	{{{41, -44, 44}, 0, {252, 252}, {0xCD, 0xAC, 0x51, 0xFF}}},
 	{{{80, -60, 61}, 0, {-4, 252}, {0x1C, 0xA8, 0x57, 0xFF}}},
@@ -6294,8 +6294,8 @@ Vtx og_megaman_Right_Leg_mesh_layer_1_vtx_0[39] = {
 	{{{80, -60, 61}, 0, {508, -260}, {0x1C, 0xA8, 0x57, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Leg_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Leg_mesh_layer_1_vtx_0 + 0, 39, 0),
+Gfx og_megaman_metal_wing_cap_Right_Leg_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Leg_mesh_layer_1_vtx_0 + 0, 39, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 3, 0, 0, 4, 0, 5, 0),
 	gsSP2Triangles(6, 3, 4, 0, 6, 7, 3, 0),
@@ -6323,7 +6323,7 @@ Gfx og_megaman_Right_Leg_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Shoe_DL_mesh_layer_1_vtx_0[8] = {
+Vtx og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_vtx_0[8] = {
 	{{{45, 43, 31}, 0, {496, 470}, {0x2B, 0x77, 0x00, 0xFF}}},
 	{{{82, 30, 30}, 0, {496, 399}, {0x2B, 0x77, 0x00, 0xFF}}},
 	{{{89, 27, 19}, 0, {496, 416}, {0x2B, 0x77, 0x00, 0xFF}}},
@@ -6334,15 +6334,15 @@ Vtx og_megaman_Right_Shoe_DL_mesh_layer_1_vtx_0[8] = {
 	{{{19, 53, -2}, 0, {496, 626}, {0x2B, 0x77, 0x00, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Shoe_DL_mesh_layer_1_tri_0[] = {
-	gsSPVertex(og_megaman_Right_Shoe_DL_mesh_layer_1_vtx_0 + 0, 8, 0),
+Gfx og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_tri_0[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_vtx_0 + 0, 8, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 3, 0, 0),
 	gsSP2Triangles(4, 3, 2, 0, 2, 5, 4, 0),
 	gsSP2Triangles(3, 6, 0, 0, 6, 7, 0, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Shoe_DL_mesh_layer_1_vtx_1[38] = {
+Vtx og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_vtx_1[38] = {
 	{{{178, 4, -1}, 0, {252, -132}, {0x2B, 0x77, 0x00, 0xFF}}},
 	{{{119, 26, -61}, 0, {252, -260}, {0x2B, 0x77, 0x00, 0xFF}}},
 	{{{119, 26, 58}, 0, {252, -4}, {0x2B, 0x77, 0x00, 0xFF}}},
@@ -6383,8 +6383,8 @@ Vtx og_megaman_Right_Shoe_DL_mesh_layer_1_vtx_1[38] = {
 	{{{48, 52, 31}, 0, {252, 226}, {0x31, 0xEE, 0x8C, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Shoe_DL_mesh_layer_1_tri_1[] = {
-	gsSPVertex(og_megaman_Right_Shoe_DL_mesh_layer_1_vtx_1 + 0, 38, 0),
+Gfx og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_tri_1[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_vtx_1 + 0, 38, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 3, 2, 0),
 	gsSP2Triangles(1, 4, 3, 0, 1, 5, 4, 0),
 	gsSP2Triangles(5, 6, 4, 0, 7, 6, 5, 0),
@@ -6412,7 +6412,7 @@ Gfx og_megaman_Right_Shoe_DL_mesh_layer_1_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx og_megaman_Right_Shoe_DL_mesh_layer_1_vtx_2[24] = {
+Vtx og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_vtx_2[24] = {
 	{{{101, -23, -1}, 0, {1020, -4}, {0x12, 0x82, 0x00, 0xFF}}},
 	{{{51, 5, -50}, 0, {1020, -260}, {0x00, 0x9F, 0xAE, 0xFF}}},
 	{{{119, 26, -61}, 0, {764, -260}, {0x14, 0xA4, 0xAB, 0xFF}}},
@@ -6439,8 +6439,8 @@ Vtx og_megaman_Right_Shoe_DL_mesh_layer_1_vtx_2[24] = {
 	{{{101, -23, -1}, 0, {1276, 252}, {0x12, 0x82, 0x00, 0xFF}}},
 };
 
-Gfx og_megaman_Right_Shoe_DL_mesh_layer_1_tri_2[] = {
-	gsSPVertex(og_megaman_Right_Shoe_DL_mesh_layer_1_vtx_2 + 0, 24, 0),
+Gfx og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_tri_2[] = {
+	gsSPVertex(og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_vtx_2 + 0, 24, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(4, 0, 3, 0, 4, 5, 0, 0),
 	gsSP2Triangles(6, 5, 4, 0, 6, 7, 5, 0),
@@ -6457,7 +6457,7 @@ Gfx og_megaman_Right_Shoe_DL_mesh_layer_1_tri_2[] = {
 };
 
 
-Gfx mat_og_megaman_Color_1__Different_Light_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Color_1__Different_Light_[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
 	gsSPCopyLightsPlayerPart(SHIRT),
 	gsDPPipeSync(),
@@ -6465,7 +6465,7 @@ Gfx mat_og_megaman_Color_1__Different_Light_[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(4032, 4032, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 122, 122, 122, 255),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_shine2_i8),
+	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_shine2_i8),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -6473,14 +6473,14 @@ Gfx mat_og_megaman_Color_1__Different_Light_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Color_1__Different_Light_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Color_1__Different_Light_[] = {
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Color_1__SHIRT_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Color_1__SHIRT_[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
 	gsSPCopyLightsPlayerPart(SHIRT),
 	gsDPPipeSync(),
@@ -6488,7 +6488,7 @@ Gfx mat_og_megaman_Color_1__SHIRT_[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(4032, 4032, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 122, 122, 122, 255),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_Shin3_i8),
+	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_Shin3_i8),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -6496,14 +6496,14 @@ Gfx mat_og_megaman_Color_1__SHIRT_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Color_1__SHIRT_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Color_1__SHIRT_[] = {
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Color_2_Non_Shine[] = {
+Gfx mat_og_megaman_metal_wing_cap_Color_2_Non_Shine[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
 	gsSPCopyLightsPlayerPart(PANTS),
 	gsDPPipeSync(),
@@ -6513,20 +6513,20 @@ Gfx mat_og_megaman_Color_2_Non_Shine[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Color_2_Non_Shine[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Color_2_Non_Shine[] = {
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Grays[] = {
-	gsSPSetLights1(og_megaman_Grays_lights),
+Gfx mat_og_megaman_metal_wing_cap_Grays[] = {
+	gsSPSetLights1(og_megaman_metal_wing_cap_Grays_lights),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_Neck_i8),
+	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_Neck_i8),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -6534,13 +6534,13 @@ Gfx mat_og_megaman_Grays[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Grays[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Grays[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Skin__SKIN_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Skin__SKIN_[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
@@ -6549,19 +6549,19 @@ Gfx mat_og_megaman_Skin__SKIN_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Skin__SKIN_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Open_Eyes__SKIN_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Open_Eyes__SKIN_[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_openbeta_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_openbeta_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -6569,19 +6569,19 @@ Gfx mat_og_megaman_Open_Eyes__SKIN_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Open_Eyes__SKIN_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Open_Eyes__SKIN_[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Mouth_Determined[] = {
+Gfx mat_og_megaman_metal_wing_cap_Mouth_Determined[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_chin_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_chin_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0),
@@ -6589,20 +6589,20 @@ Gfx mat_og_megaman_Mouth_Determined[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Mouth_Determined[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Mouth_Determined[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Mouth_Determined_Alpha[] = {
+Gfx mat_og_megaman_metal_wing_cap_Mouth_Determined_Alpha[] = {
 	gsSPClearGeometryMode(G_CULL_BACK),
-	gsSPSetLights1(og_megaman_Mouth_Determined_Alpha_lights),
+	gsSPSetLights1(og_megaman_metal_wing_cap_Mouth_Determined_Alpha_lights),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, TEXEL0, 0, ENVIRONMENT, 0, TEXEL0, 0, SHADE, 0, TEXEL0, 0, ENVIRONMENT, 0),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_mouthonly_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_mouthonly_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0),
@@ -6610,20 +6610,20 @@ Gfx mat_og_megaman_Mouth_Determined_Alpha[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Mouth_Determined_Alpha[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Mouth_Determined_Alpha[] = {
 	gsSPSetGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_BackStripe[] = {
-	gsSPSetLights1(og_megaman_BackStripe_lights),
+Gfx mat_og_megaman_metal_wing_cap_BackStripe[] = {
+	gsSPSetLights1(og_megaman_metal_wing_cap_BackStripe_lights),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, TEXEL0, 0, ENVIRONMENT, 0, TEXEL0, 0, SHADE, 0, TEXEL0, 0, ENVIRONMENT, 0),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_IA, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_BackTransparent_ia8),
+	gsDPSetTextureImage(G_IM_FMT_IA, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_BackTransparent_ia8),
 	gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -6631,13 +6631,13 @@ Gfx mat_og_megaman_BackStripe[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_BackStripe[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_BackStripe[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Color_2[] = {
+Gfx mat_og_megaman_metal_wing_cap_Color_2[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
 	gsSPCopyLightsPlayerPart(PANTS),
 	gsDPPipeSync(),
@@ -6645,7 +6645,7 @@ Gfx mat_og_megaman_Color_2[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(4032, 4032, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 123, 123, 123, 255),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_Shin3_i8),
+	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_Shin3_i8),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -6653,16 +6653,16 @@ Gfx mat_og_megaman_Color_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Color_2[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Color_2[] = {
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_MMLights[] = {
-	gsSPLight(&og_megaman_MMLights_lights.l, 1),
-    gsSPLight(&og_megaman_MMLights_lights.a, 2),
+Gfx mat_og_megaman_metal_wing_cap_MMLights[] = {
+	gsSPLight(&og_megaman_metal_wing_cap_MMLights_lights.l, 1),
+    gsSPLight(&og_megaman_metal_wing_cap_MMLights_lights.a, 2),
     gsSPCopyLightEXT(2, 9),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
@@ -6671,13 +6671,13 @@ Gfx mat_og_megaman_MMLights[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_MMLights[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_MMLights[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Color_1__CAP_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Color_1__CAP_[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
 	gsSPCopyLightsPlayerPart(CAP),
 	gsDPPipeSync(),
@@ -6685,7 +6685,7 @@ Gfx mat_og_megaman_Color_1__CAP_[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(4032, 4032, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 122, 122, 122, 255),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_Shin3_i8),
+	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_Shin3_i8),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -6693,14 +6693,14 @@ Gfx mat_og_megaman_Color_1__CAP_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Color_1__CAP_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Color_1__CAP_[] = {
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Color_2__Emblem_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Color_2__Emblem_[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
 	gsSPCopyLightsPlayerPart(EMBLEM),
 	gsDPPipeSync(),
@@ -6708,7 +6708,7 @@ Gfx mat_og_megaman_Color_2__Emblem_[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(4032, 4032, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 123, 123, 123, 255),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_Shin3_i8),
+	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_Shin3_i8),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -6716,20 +6716,20 @@ Gfx mat_og_megaman_Color_2__Emblem_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Color_2__Emblem_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Color_2__Emblem_[] = {
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Open_Eyes__SKIN__Victory[] = {
+Gfx mat_og_megaman_metal_wing_cap_Open_Eyes__SKIN__Victory[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_h_open_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_h_open_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -6737,13 +6737,13 @@ Gfx mat_og_megaman_Open_Eyes__SKIN__Victory[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Open_Eyes__SKIN__Victory[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Open_Eyes__SKIN__Victory[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Hair__HAIR__001[] = {
+Gfx mat_og_megaman_metal_wing_cap_Hair__HAIR__001[] = {
 	gsSPCopyLightsPlayerPart(HAIR),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
@@ -6752,19 +6752,19 @@ Gfx mat_og_megaman_Hair__HAIR__001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Hair__HAIR__001[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Hair__HAIR__001[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Wing_Base_001[] = {
+Gfx mat_og_megaman_metal_wing_cap_Wing_Base_001[] = {
 	gsSPClearGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0, 0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_wing1_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_wing1_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -6772,20 +6772,20 @@ Gfx mat_og_megaman_Wing_Base_001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Wing_Base_001[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Wing_Base_001[] = {
 	gsSPSetGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Wing_Tip_001[] = {
+Gfx mat_og_megaman_metal_wing_cap_Wing_Tip_001[] = {
 	gsSPClearGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0, 0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_wing_2_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_wing_2_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -6793,14 +6793,14 @@ Gfx mat_og_megaman_Wing_Tip_001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Wing_Tip_001[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Wing_Tip_001[] = {
 	gsSPSetGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Color_1__GLOVES_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Color_1__GLOVES_[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
 	gsSPCopyLightsPlayerPart(GLOVES),
 	gsDPPipeSync(),
@@ -6808,7 +6808,7 @@ Gfx mat_og_megaman_Color_1__GLOVES_[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(4032, 4032, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 122, 122, 122, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_Shin3_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_Shin3_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -6816,14 +6816,14 @@ Gfx mat_og_megaman_Color_1__GLOVES_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Color_1__GLOVES_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Color_1__GLOVES_[] = {
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Color_1__GLOVES__001[] = {
+Gfx mat_og_megaman_metal_wing_cap_Color_1__GLOVES__001[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
 	gsSPCopyLightsPlayerPart(GLOVES),
 	gsDPPipeSync(),
@@ -6831,7 +6831,7 @@ Gfx mat_og_megaman_Color_1__GLOVES__001[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(4032, 4032, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 122, 122, 122, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_Shin3_rgba16_copy),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_Shin3_rgba16_copy),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -6839,20 +6839,20 @@ Gfx mat_og_megaman_Color_1__GLOVES__001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Color_1__GLOVES__001[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Color_1__GLOVES__001[] = {
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman__6_6[] = {
+Gfx mat_og_megaman_metal_wing_cap__6_6[] = {
 	gsSPClearGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, TEXEL0, 0, 0, 0, TEXEL0, 0, 0, 0, TEXEL0, 0, 0, 0, TEXEL0),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_MegaBuster_0009_Full_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_MegaBuster_0009_Full_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -6860,14 +6860,14 @@ Gfx mat_og_megaman__6_6[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman__6_6[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap__6_6[] = {
 	gsSPSetGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Color_1__SHIRT__001[] = {
+Gfx mat_og_megaman_metal_wing_cap_Color_1__SHIRT__001[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
 	gsSPCopyLightsPlayerPart(SHIRT),
 	gsDPPipeSync(),
@@ -6875,7 +6875,7 @@ Gfx mat_og_megaman_Color_1__SHIRT__001[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(4032, 4032, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 122, 122, 122, 255),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_Shin3_i8_copy),
+	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_Shin3_i8_copy),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -6883,16 +6883,16 @@ Gfx mat_og_megaman_Color_1__SHIRT__001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Color_1__SHIRT__001[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Color_1__SHIRT__001[] = {
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_MMLights_001[] = {
-	gsSPLight(&og_megaman_MMLights_001_lights.l, 1),
-    gsSPLight(&og_megaman_MMLights_001_lights.a, 2),
+Gfx mat_og_megaman_metal_wing_cap_MMLights_001[] = {
+	gsSPLight(&og_megaman_metal_wing_cap_MMLights_001_lights.l, 1),
+    gsSPLight(&og_megaman_metal_wing_cap_MMLights_001_lights.a, 2),
     gsSPCopyLightEXT(2, 9),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
@@ -6901,13 +6901,13 @@ Gfx mat_og_megaman_MMLights_001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_MMLights_001[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_MMLights_001[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Color_2_001[] = {
+Gfx mat_og_megaman_metal_wing_cap_Color_2_001[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
 	gsSPCopyLightsPlayerPart(PANTS),
 	gsDPPipeSync(),
@@ -6915,7 +6915,7 @@ Gfx mat_og_megaman_Color_2_001[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(4032, 4032, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 123, 123, 123, 255),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_Shin3_i8_copy_copy),
+	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_Shin3_i8_copy_copy),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -6923,16 +6923,16 @@ Gfx mat_og_megaman_Color_2_001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Color_2_001[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Color_2_001[] = {
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_MMLights_002[] = {
-	gsSPLight(&og_megaman_MMLights_002_lights.l, 1),
-    gsSPLight(&og_megaman_MMLights_002_lights.a, 2),
+Gfx mat_og_megaman_metal_wing_cap_MMLights_002[] = {
+	gsSPLight(&og_megaman_metal_wing_cap_MMLights_002_lights.l, 1),
+    gsSPLight(&og_megaman_metal_wing_cap_MMLights_002_lights.a, 2),
     gsSPCopyLightEXT(2, 9),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
@@ -6941,13 +6941,13 @@ Gfx mat_og_megaman_MMLights_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_MMLights_002[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_MMLights_002[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Color_1__CAP__001[] = {
+Gfx mat_og_megaman_metal_wing_cap_Color_1__CAP__001[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
 	gsSPCopyLightsPlayerPart(CAP),
 	gsDPPipeSync(),
@@ -6955,7 +6955,7 @@ Gfx mat_og_megaman_Color_1__CAP__001[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(4032, 4032, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 122, 122, 122, 255),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_Shin3_i8_copy_copy),
+	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_Shin3_i8_copy_copy),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -6963,14 +6963,14 @@ Gfx mat_og_megaman_Color_1__CAP__001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Color_1__CAP__001[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Color_1__CAP__001[] = {
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Color_2__Emblem__001[] = {
+Gfx mat_og_megaman_metal_wing_cap_Color_2__Emblem__001[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
 	gsSPCopyLightsPlayerPart(EMBLEM),
 	gsDPPipeSync(),
@@ -6978,7 +6978,7 @@ Gfx mat_og_megaman_Color_2__Emblem__001[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(4032, 4032, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 123, 123, 123, 255),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_Shin3_i8_copy_copy),
+	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_Shin3_i8_copy_copy),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -6986,20 +6986,20 @@ Gfx mat_og_megaman_Color_2__Emblem__001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Color_2__Emblem__001[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Color_2__Emblem__001[] = {
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_BackStripe_001[] = {
-	gsSPSetLights1(og_megaman_BackStripe_001_lights),
+Gfx mat_og_megaman_metal_wing_cap_BackStripe_001[] = {
+	gsSPSetLights1(og_megaman_metal_wing_cap_BackStripe_001_lights),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, TEXEL0, 0, ENVIRONMENT, 0, TEXEL0, 0, SHADE, 0, TEXEL0, 0, ENVIRONMENT, 0),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_IA, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_BackTransparent_ia8_copy),
+	gsDPSetTextureImage(G_IM_FMT_IA, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_BackTransparent_ia8_copy),
 	gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -7007,19 +7007,19 @@ Gfx mat_og_megaman_BackStripe_001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_BackStripe_001[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_BackStripe_001[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Wing_Base_002[] = {
+Gfx mat_og_megaman_metal_wing_cap_Wing_Base_002[] = {
 	gsSPClearGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0, 0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_wing1_rgba16_copy),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_wing1_rgba16_copy),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -7027,20 +7027,20 @@ Gfx mat_og_megaman_Wing_Base_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Wing_Base_002[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Wing_Base_002[] = {
 	gsSPSetGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Wing_Tip_002[] = {
+Gfx mat_og_megaman_metal_wing_cap_Wing_Tip_002[] = {
 	gsSPClearGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0, 0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_wing_2_rgba16_copy),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_wing_2_rgba16_copy),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -7048,14 +7048,14 @@ Gfx mat_og_megaman_Wing_Tip_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Wing_Tip_002[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Wing_Tip_002[] = {
 	gsSPSetGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Soles[] = {
+Gfx mat_og_megaman_metal_wing_cap_Soles[] = {
 	gsSPCopyLightsPlayerPart(SHIRT),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, PRIMITIVE, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
@@ -7065,13 +7065,13 @@ Gfx mat_og_megaman_Soles[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Soles[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Soles[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Color_1__SHOES_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Color_1__SHOES_[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
 	gsSPCopyLightsPlayerPart(SHIRT),
 	gsDPPipeSync(),
@@ -7079,7 +7079,7 @@ Gfx mat_og_megaman_Color_1__SHOES_[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(4032, 4032, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 122, 122, 122, 255),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_Shin3_i8),
+	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_Shin3_i8),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 256),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -7087,20 +7087,20 @@ Gfx mat_og_megaman_Color_1__SHOES_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Color_1__SHOES_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Color_1__SHOES_[] = {
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Half_Closed_Eyes__SKIN_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_half_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_half_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -7108,19 +7108,19 @@ Gfx mat_og_megaman_Half_Closed_Eyes__SKIN_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Half_Closed_Eyes__SKIN_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Closed_Eyes__SKIN_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_closed_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_closed_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -7128,19 +7128,19 @@ Gfx mat_og_megaman_Closed_Eyes__SKIN_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Closed_Eyes__SKIN_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Left_Eyes__SKIN_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Left_Eyes__SKIN_[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_left_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_left_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -7148,19 +7148,19 @@ Gfx mat_og_megaman_Left_Eyes__SKIN_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Left_Eyes__SKIN_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Left_Eyes__SKIN_[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Right_Eyes__SKIN_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Right_Eyes__SKIN_[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_right_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_right_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -7168,19 +7168,19 @@ Gfx mat_og_megaman_Right_Eyes__SKIN_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Right_Eyes__SKIN_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Right_Eyes__SKIN_[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Up_Eyes__SKIN_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Up_Eyes__SKIN_[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_up_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_up_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -7188,19 +7188,19 @@ Gfx mat_og_megaman_Up_Eyes__SKIN_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Up_Eyes__SKIN_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Up_Eyes__SKIN_[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Down_Eyes__SKIN_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Down_Eyes__SKIN_[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_down_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_down_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -7208,19 +7208,19 @@ Gfx mat_og_megaman_Down_Eyes__SKIN_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Down_Eyes__SKIN_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Down_Eyes__SKIN_[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Dead_Eyes__SKIN_[] = {
+Gfx mat_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_dead_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_dead_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -7228,20 +7228,20 @@ Gfx mat_og_megaman_Dead_Eyes__SKIN_[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Dead_Eyes__SKIN_[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Mouth_AAA_Alpha[] = {
+Gfx mat_og_megaman_metal_wing_cap_Mouth_AAA_Alpha[] = {
 	gsSPClearGeometryMode(G_CULL_BACK),
-	gsSPSetLights1(og_megaman_Mouth_AAA_Alpha_lights),
+	gsSPSetLights1(og_megaman_metal_wing_cap_Mouth_AAA_Alpha_lights),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, TEXEL0, 0, ENVIRONMENT, 0, TEXEL0, 0, SHADE, 0, TEXEL0, 0, ENVIRONMENT, 0),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_AAAH_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_AAAH_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0),
@@ -7249,21 +7249,21 @@ Gfx mat_og_megaman_Mouth_AAA_Alpha[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Mouth_AAA_Alpha[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Mouth_AAA_Alpha[] = {
 	gsSPSetGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Mouth_Angry_Alpha[] = {
+Gfx mat_og_megaman_metal_wing_cap_Mouth_Angry_Alpha[] = {
 	gsSPClearGeometryMode(G_CULL_BACK),
-	gsSPSetLights1(og_megaman_Mouth_Angry_Alpha_lights),
+	gsSPSetLights1(og_megaman_metal_wing_cap_Mouth_Angry_Alpha_lights),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, TEXEL0, 0, ENVIRONMENT, 0, TEXEL0, 0, SHADE, 0, TEXEL0, 0, ENVIRONMENT, 0),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_grrr_export_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_grrr_export_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0),
@@ -7271,21 +7271,21 @@ Gfx mat_og_megaman_Mouth_Angry_Alpha[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Mouth_Angry_Alpha[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Mouth_Angry_Alpha[] = {
 	gsSPSetGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Mouth_Smile_Alpha[] = {
+Gfx mat_og_megaman_metal_wing_cap_Mouth_Smile_Alpha[] = {
 	gsSPClearGeometryMode(G_CULL_BACK),
-	gsSPSetLights1(og_megaman_Mouth_Smile_Alpha_lights),
+	gsSPSetLights1(og_megaman_metal_wing_cap_Mouth_Smile_Alpha_lights),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, TEXEL0, 0, ENVIRONMENT, 0, TEXEL0, 0, SHADE, 0, TEXEL0, 0, ENVIRONMENT, 0),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_Smirk_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_Smirk_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0),
@@ -7293,20 +7293,20 @@ Gfx mat_og_megaman_Mouth_Smile_Alpha[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Mouth_Smile_Alpha[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Mouth_Smile_Alpha[] = {
 	gsSPSetGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Mouth_AAA[] = {
+Gfx mat_og_megaman_metal_wing_cap_Mouth_AAA[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_chin_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_chin_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0),
@@ -7314,19 +7314,19 @@ Gfx mat_og_megaman_Mouth_AAA[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Mouth_AAA[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Mouth_AAA[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Mouth_Angry[] = {
+Gfx mat_og_megaman_metal_wing_cap_Mouth_Angry[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_chin_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_chin_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0),
@@ -7334,19 +7334,19 @@ Gfx mat_og_megaman_Mouth_Angry[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Mouth_Angry[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Mouth_Angry[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Mouth_Smile[] = {
+Gfx mat_og_megaman_metal_wing_cap_Mouth_Smile[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_chin2_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_chin2_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0),
@@ -7354,19 +7354,19 @@ Gfx mat_og_megaman_Mouth_Smile[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Mouth_Smile[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Mouth_Smile[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Left_Eyes__SKIN__Victory[] = {
+Gfx mat_og_megaman_metal_wing_cap_Left_Eyes__SKIN__Victory[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_h_left_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_h_left_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -7374,19 +7374,19 @@ Gfx mat_og_megaman_Left_Eyes__SKIN__Victory[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Left_Eyes__SKIN__Victory[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Left_Eyes__SKIN__Victory[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Right_Eyes__SKIN__Victory[] = {
+Gfx mat_og_megaman_metal_wing_cap_Right_Eyes__SKIN__Victory[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_h_right_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_h_right_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -7394,19 +7394,19 @@ Gfx mat_og_megaman_Right_Eyes__SKIN__Victory[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Right_Eyes__SKIN__Victory[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Right_Eyes__SKIN__Victory[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Up_Eyes__SKIN__Victory[] = {
+Gfx mat_og_megaman_metal_wing_cap_Up_Eyes__SKIN__Victory[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_h_up_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_h_up_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -7414,19 +7414,19 @@ Gfx mat_og_megaman_Up_Eyes__SKIN__Victory[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Up_Eyes__SKIN__Victory[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Up_Eyes__SKIN__Victory[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_og_megaman_Down_Eyes__SKIN__Victory[] = {
+Gfx mat_og_megaman_metal_wing_cap_Down_Eyes__SKIN__Victory[] = {
 	gsSPCopyLightsPlayerPart(SKIN),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_h_down_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, og_megaman_metal_wing_cap_h_down_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -7434,1249 +7434,1249 @@ Gfx mat_og_megaman_Down_Eyes__SKIN__Victory[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_og_megaman_Down_Eyes__SKIN__Victory[] = {
+Gfx mat_revert_og_megaman_metal_wing_cap_Down_Eyes__SKIN__Victory[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Butt_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__Different_Light_),
-	gsSPDisplayList(og_megaman_Butt_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__Different_Light_),
+Gfx og_megaman_metal_wing_cap_Butt_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__Different_Light_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Butt_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__Different_Light_),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Torso_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__SHIRT_),
-	gsSPDisplayList(og_megaman_Torso_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__SHIRT_),
-	gsSPDisplayList(mat_og_megaman_Color_2_Non_Shine),
-	gsSPDisplayList(og_megaman_Torso_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Color_2_Non_Shine),
+Gfx og_megaman_metal_wing_cap_Torso_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__SHIRT_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Torso_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__SHIRT_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_2_Non_Shine),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Torso_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_2_Non_Shine),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Head_skinned_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Grays),
-	gsSPDisplayList(og_megaman_Head_skinned_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Grays),
+Gfx og_megaman_metal_wing_cap_Head_skinned_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Grays),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Head_skinned_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Grays),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Head_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Grays),
-	gsSPDisplayList(og_megaman_Head_mesh_layer_1_tri_0),
-	gsSPDisplayList(og_megaman_Head_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Grays),
+Gfx og_megaman_metal_wing_cap_Head_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Grays),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Head_mesh_layer_1_tri_0),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Head_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Grays),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Open_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Open_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
 	gsSPEndDisplayList(),
 };
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Closed_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_2[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
 	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Left_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Left_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_4[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Right_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Right_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_5[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Up_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Up_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_6[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Down_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Down_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_7[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Dead_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Dead_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_0[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Open_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Open_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Closed_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Left_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Left_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Right_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Right_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Up_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Up_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Down_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Down_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Dead_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Dead_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_0[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Open_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Open_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Closed_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Left_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Left_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Right_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Right_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Up_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Up_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Down_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Down_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Dead_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Dead_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_0[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Open_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Open_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Closed_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Left_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Left_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Right_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Right_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Up_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Up_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Down_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Down_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Dead_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Dead_Eyes__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_4[] = {
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined_Alpha),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined_Alpha),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_4_opt_1[] = {
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA_Alpha),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA_Alpha),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_4_opt_2[] = {
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry_Alpha),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry_Alpha),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Eyes_DL_mesh_layer_4_opt_3[] = {
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile_Alpha),
-	gsSPDisplayList(og_megaman_Happy_Eyes_DL_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile_Alpha),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Head_DL_mesh_layer_4[] = {
-	gsSPDisplayList(mat_og_megaman_BackStripe),
-	gsSPDisplayList(og_megaman_Head_DL_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_BackStripe),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Head_DL_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_2),
-	gsSPDisplayList(og_megaman_Head_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_2),
-	gsSPDisplayList(mat_og_megaman_MMLights),
-	gsSPDisplayList(og_megaman_Head_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_MMLights),
-	gsSPDisplayList(mat_og_megaman_Color_1__CAP_),
-	gsSPDisplayList(og_megaman_Head_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__CAP_),
-	gsSPDisplayList(mat_og_megaman_Color_2__Emblem_),
-	gsSPDisplayList(og_megaman_Head_DL_mesh_layer_1_tri_3),
-	gsSPDisplayList(mat_revert_og_megaman_Color_2__Emblem_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Open_Eyes__SKIN__Victory),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Open_Eyes__SKIN__Victory),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Closed_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Left_Eyes__SKIN__Victory),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Left_Eyes__SKIN__Victory),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Right_Eyes__SKIN__Victory),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Right_Eyes__SKIN__Victory),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Up_Eyes__SKIN__Victory),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Up_Eyes__SKIN__Victory),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Down_Eyes__SKIN__Victory),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Down_Eyes__SKIN__Victory),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Dead_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Dead_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4[] = {
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined_Alpha),
-	gsSPDisplayList(og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined_Alpha),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Hair__HAIR__001),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Hair__HAIR__001),
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Open_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Open_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Closed_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Left_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Left_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Right_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Right_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Up_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Up_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Down_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Down_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined),
-	gsSPDisplayList(mat_og_megaman_Dead_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Dead_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_0[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPDisplayList(mat_og_megaman_Open_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Open_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPDisplayList(mat_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPDisplayList(mat_og_megaman_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Closed_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPDisplayList(mat_og_megaman_Left_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Left_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPDisplayList(mat_og_megaman_Right_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Right_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPDisplayList(mat_og_megaman_Up_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Up_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPDisplayList(mat_og_megaman_Down_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Down_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA),
-	gsSPDisplayList(mat_og_megaman_Dead_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Dead_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_0[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPDisplayList(mat_og_megaman_Open_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Open_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPDisplayList(mat_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPDisplayList(mat_og_megaman_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Closed_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPDisplayList(mat_og_megaman_Left_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Left_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPDisplayList(mat_og_megaman_Right_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Right_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPDisplayList(mat_og_megaman_Up_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Up_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPDisplayList(mat_og_megaman_Down_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Down_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry),
-	gsSPDisplayList(mat_og_megaman_Dead_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Dead_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_0[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPDisplayList(mat_og_megaman_Open_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Open_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPDisplayList(mat_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Half_Closed_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPDisplayList(mat_og_megaman_Closed_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Closed_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPDisplayList(mat_og_megaman_Left_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Left_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPDisplayList(mat_og_megaman_Right_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Right_Eyes__SKIN_),
-	gsSPEndDisplayList(),
-};
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPDisplayList(mat_og_megaman_Up_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Up_Eyes__SKIN_),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_3[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_5[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_6[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_7[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_1_0[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_2_0[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_3_0[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined_Alpha),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined_Alpha),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_4_opt_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA_Alpha),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA_Alpha),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_4_opt_2[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry_Alpha),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry_Alpha),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_4_opt_3[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile_Alpha),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Eyes_DL_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile_Alpha),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Head_DL_mesh_layer_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_BackStripe),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Head_DL_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_BackStripe),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Head_DL_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_2),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_2),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_MMLights),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_MMLights),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__CAP_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__CAP_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_2__Emblem_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Head_DL_mesh_layer_1_tri_3),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_2__Emblem_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Open_Eyes__SKIN__Victory),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Open_Eyes__SKIN__Victory),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Left_Eyes__SKIN__Victory),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Left_Eyes__SKIN__Victory),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Right_Eyes__SKIN__Victory),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Right_Eyes__SKIN__Victory),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Up_Eyes__SKIN__Victory),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Up_Eyes__SKIN__Victory),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Down_Eyes__SKIN__Victory),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Down_Eyes__SKIN__Victory),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined_Alpha),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined_Alpha),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Hair__HAIR__001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Hair__HAIR__001),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_0[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_0[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_0[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Open_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Half_Closed_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Closed_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Left_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Right_Eyes__SKIN_),
+	gsSPEndDisplayList(),
+};
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Up_Eyes__SKIN_),
 	gsSPEndDisplayList(),
 };
-
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPDisplayList(mat_og_megaman_Down_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Down_Eyes__SKIN_),
+
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Down_Eyes__SKIN_),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7[] = {
-	gsSPDisplayList(mat_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Skin__SKIN_),
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile),
-	gsSPDisplayList(mat_og_megaman_Dead_Eyes__SKIN_),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Dead_Eyes__SKIN_),
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Skin__SKIN_),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Dead_Eyes__SKIN_),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4[] = {
-	gsSPDisplayList(mat_og_megaman_Mouth_Determined_Alpha),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Determined_Alpha),
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Determined_Alpha),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Determined_Alpha),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1[] = {
-	gsSPDisplayList(mat_og_megaman_Mouth_AAA_Alpha),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_AAA_Alpha),
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_AAA_Alpha),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_AAA_Alpha),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2[] = {
-	gsSPDisplayList(mat_og_megaman_Mouth_Angry_Alpha),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Angry_Alpha),
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Angry_Alpha),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Angry_Alpha),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3[] = {
-	gsSPDisplayList(mat_og_megaman_Mouth_Smile_Alpha),
-	gsSPDisplayList(og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Mouth_Smile_Alpha),
+Gfx og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Mouth_Smile_Alpha),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Mouth_Smile_Alpha),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Left_Wing_DL_mesh_layer_4[] = {
-	gsSPDisplayList(mat_og_megaman_Wing_Base_001),
-	gsSPDisplayList(og_megaman_Left_Wing_DL_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Wing_Base_001),
-	gsSPDisplayList(mat_og_megaman_Wing_Tip_001),
-	gsSPDisplayList(og_megaman_Left_Wing_DL_mesh_layer_4_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Wing_Tip_001),
+Gfx og_megaman_metal_wing_cap_Left_Wing_DL_mesh_layer_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Wing_Base_001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Left_Wing_DL_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Wing_Base_001),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Wing_Tip_001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Left_Wing_DL_mesh_layer_4_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Wing_Tip_001),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Wing_DL_mesh_layer_4[] = {
-	gsSPDisplayList(mat_og_megaman_Wing_Base_001),
-	gsSPDisplayList(og_megaman_Right_Wing_DL_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Wing_Base_001),
-	gsSPDisplayList(mat_og_megaman_Wing_Tip_001),
-	gsSPDisplayList(og_megaman_Right_Wing_DL_mesh_layer_4_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Wing_Tip_001),
+Gfx og_megaman_metal_wing_cap_Right_Wing_DL_mesh_layer_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Wing_Base_001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Wing_DL_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Wing_Base_001),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Wing_Tip_001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Wing_DL_mesh_layer_4_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Wing_Tip_001),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Left_Arm_Color_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_2_Non_Shine),
-	gsSPDisplayList(og_megaman_Left_Arm_Color_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_2_Non_Shine),
+Gfx og_megaman_metal_wing_cap_Left_Arm_Color_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_2_Non_Shine),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Left_Arm_Color_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_2_Non_Shine),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Left_Forearm_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__SHIRT_),
-	gsSPDisplayList(og_megaman_Left_Forearm_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__SHIRT_),
+Gfx og_megaman_metal_wing_cap_Left_Forearm_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__SHIRT_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Left_Forearm_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__SHIRT_),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Left_Hand_DL_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__GLOVES_),
-	gsSPDisplayList(og_megaman_Left_Hand_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__GLOVES_),
+Gfx og_megaman_metal_wing_cap_Left_Hand_DL_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__GLOVES_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Left_Hand_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__GLOVES_),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__GLOVES__001),
-	gsSPDisplayList(og_megaman_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__GLOVES__001),
+Gfx og_megaman_metal_wing_cap_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__GLOVES__001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Left_Hand_Open_Switch_Option_Left_Hand_Open_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__GLOVES__001),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Switch_Option_Left_Forearm_mesh_layer_4[] = {
-	gsSPDisplayList(mat_og_megaman__6_6),
-	gsSPDisplayList(og_megaman_Switch_Option_Left_Forearm_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman__6_6),
+Gfx og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap__6_6),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap__6_6),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Switch_Option_Left_Forearm_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__SHIRT__001),
-	gsSPDisplayList(og_megaman_Switch_Option_Left_Forearm_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__SHIRT__001),
-	gsSPDisplayList(mat_og_megaman_MMLights_001),
-	gsSPDisplayList(og_megaman_Switch_Option_Left_Forearm_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_MMLights_001),
+Gfx og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__SHIRT__001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__SHIRT__001),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_MMLights_001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Switch_Option_Left_Forearm_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_MMLights_001),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Arm_Color_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_2_Non_Shine),
-	gsSPDisplayList(og_megaman_Right_Arm_Color_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_2_Non_Shine),
+Gfx og_megaman_metal_wing_cap_Right_Arm_Color_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_2_Non_Shine),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Arm_Color_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_2_Non_Shine),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Forearm_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__SHIRT_),
-	gsSPDisplayList(og_megaman_Right_Forearm_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__SHIRT_),
+Gfx og_megaman_metal_wing_cap_Right_Forearm_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__SHIRT_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Forearm_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__SHIRT_),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Hand_DL_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__GLOVES_),
-	gsSPDisplayList(og_megaman_Right_Hand_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__GLOVES_),
+Gfx og_megaman_metal_wing_cap_Right_Hand_DL_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__GLOVES_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__GLOVES_),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__GLOVES__001),
-	gsSPDisplayList(og_megaman_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__GLOVES__001),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__GLOVES__001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Open_Switch_Option_Right_Hand_Open_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__GLOVES__001),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__GLOVES__001),
-	gsSPDisplayList(og_megaman_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__GLOVES__001),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__GLOVES__001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Peace_Switch_Option_Right_Hand_Peace_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__GLOVES__001),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__GLOVES__001),
-	gsSPDisplayList(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__GLOVES__001),
-	gsSPDisplayList(mat_og_megaman_Color_2_001),
-	gsSPDisplayList(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Color_2_001),
-	gsSPDisplayList(mat_og_megaman_MMLights_002),
-	gsSPDisplayList(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_MMLights_002),
-	gsSPDisplayList(mat_og_megaman_Color_1__CAP__001),
-	gsSPDisplayList(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_3),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__CAP__001),
-	gsSPDisplayList(mat_og_megaman_Color_2__Emblem__001),
-	gsSPDisplayList(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_4),
-	gsSPDisplayList(mat_revert_og_megaman_Color_2__Emblem__001),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__GLOVES__001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__GLOVES__001),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_2_001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_2_001),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_MMLights_002),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_MMLights_002),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__CAP__001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_3),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__CAP__001),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_2__Emblem__001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_1_tri_4),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_2__Emblem__001),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_4[] = {
-	gsSPDisplayList(mat_og_megaman_BackStripe_001),
-	gsSPDisplayList(og_megaman_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_BackStripe_001),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_BackStripe_001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Cap_Switch_Option_Right_Hand_Cap_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_BackStripe_001),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__GLOVES__001),
-	gsSPDisplayList(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__GLOVES__001),
-	gsSPDisplayList(mat_og_megaman_Color_2_001),
-	gsSPDisplayList(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Color_2_001),
-	gsSPDisplayList(mat_og_megaman_MMLights_002),
-	gsSPDisplayList(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_MMLights_002),
-	gsSPDisplayList(mat_og_megaman_Color_1__CAP__001),
-	gsSPDisplayList(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_3),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__CAP__001),
-	gsSPDisplayList(mat_og_megaman_Color_2__Emblem__001),
-	gsSPDisplayList(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_4),
-	gsSPDisplayList(mat_revert_og_megaman_Color_2__Emblem__001),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__GLOVES__001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__GLOVES__001),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_2_001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_2_001),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_MMLights_002),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_MMLights_002),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__CAP__001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_3),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__CAP__001),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_2__Emblem__001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_1_tri_4),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_2__Emblem__001),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_4[] = {
-	gsSPDisplayList(mat_og_megaman_BackStripe_001),
-	gsSPDisplayList(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_BackStripe_001),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_BackStripe_001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Right_Hand_Wing_Cap_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_BackStripe_001),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4[] = {
-	gsSPDisplayList(mat_og_megaman_Wing_Base_002),
-	gsSPDisplayList(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Wing_Base_002),
-	gsSPDisplayList(mat_og_megaman_Wing_Tip_002),
-	gsSPDisplayList(og_megaman_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Wing_Tip_002),
+Gfx og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Wing_Base_002),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Wing_Base_002),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Wing_Tip_002),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Hand_Wing_Cap_Swtich_Option_Wings_mesh_layer_4_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Wing_Tip_002),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Switch_Option_Right_Forearm_mesh_layer_4[] = {
-	gsSPDisplayList(mat_og_megaman__6_6),
-	gsSPDisplayList(og_megaman_Switch_Option_Right_Forearm_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman__6_6),
+Gfx og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_4[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap__6_6),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap__6_6),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Switch_Option_Right_Forearm_mesh_layer_4_with_layer_4_revert[] = {
-	gsSPDisplayList(mat_og_megaman__6_6),
-	gsSPDisplayList(og_megaman_Switch_Option_Right_Forearm_mesh_layer_4_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman__6_6),
+Gfx og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_4_with_layer_4_revert[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap__6_6),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap__6_6),
 	gsDPPipeSync(),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
@@ -8697,67 +8697,67 @@ Gfx og_megaman_Switch_Option_Right_Forearm_mesh_layer_4_with_layer_4_revert[] = 
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Switch_Option_Right_Forearm_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__SHIRT__001),
-	gsSPDisplayList(og_megaman_Switch_Option_Right_Forearm_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__SHIRT__001),
-	gsSPDisplayList(mat_og_megaman_MMLights_001),
-	gsSPDisplayList(og_megaman_Switch_Option_Right_Forearm_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_MMLights_001),
+Gfx og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__SHIRT__001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__SHIRT__001),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_MMLights_001),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Switch_Option_Right_Forearm_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_MMLights_001),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Left_Thigh_Color_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_2_Non_Shine),
-	gsSPDisplayList(og_megaman_Left_Thigh_Color_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_2_Non_Shine),
+Gfx og_megaman_metal_wing_cap_Left_Thigh_Color_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_2_Non_Shine),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Left_Thigh_Color_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_2_Non_Shine),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Left_Leg_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__SHIRT_),
-	gsSPDisplayList(og_megaman_Left_Leg_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__SHIRT_),
+Gfx og_megaman_metal_wing_cap_Left_Leg_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__SHIRT_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Left_Leg_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__SHIRT_),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Left_Shoe_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_MMLights),
-	gsSPDisplayList(og_megaman_Left_Shoe_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_MMLights),
-	gsSPDisplayList(mat_og_megaman_Soles),
-	gsSPDisplayList(og_megaman_Left_Shoe_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Soles),
-	gsSPDisplayList(mat_og_megaman_Color_1__SHOES_),
-	gsSPDisplayList(og_megaman_Left_Shoe_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__SHOES_),
+Gfx og_megaman_metal_wing_cap_Left_Shoe_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_MMLights),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Left_Shoe_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_MMLights),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Soles),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Left_Shoe_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Soles),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__SHOES_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Left_Shoe_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__SHOES_),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Thigh_Color_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_2_Non_Shine),
-	gsSPDisplayList(og_megaman_Right_Thigh_Color_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_2_Non_Shine),
+Gfx og_megaman_metal_wing_cap_Right_Thigh_Color_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_2_Non_Shine),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Thigh_Color_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_2_Non_Shine),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Leg_mesh_layer_1[] = {
-	gsSPDisplayList(mat_og_megaman_Color_1__SHIRT_),
-	gsSPDisplayList(og_megaman_Right_Leg_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__SHIRT_),
+Gfx og_megaman_metal_wing_cap_Right_Leg_mesh_layer_1[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__SHIRT_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Leg_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__SHIRT_),
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Shoe_DL_mesh_layer_1_with_layer_1_revert[] = {
-	gsSPDisplayList(mat_og_megaman_MMLights),
-	gsSPDisplayList(og_megaman_Right_Shoe_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_MMLights),
-	gsSPDisplayList(mat_og_megaman_Soles),
-	gsSPDisplayList(og_megaman_Right_Shoe_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Soles),
-	gsSPDisplayList(mat_og_megaman_Color_1__SHOES_),
-	gsSPDisplayList(og_megaman_Right_Shoe_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__SHOES_),
+Gfx og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_with_layer_1_revert[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_MMLights),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_MMLights),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Soles),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Soles),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__SHOES_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__SHOES_),
 	gsDPPipeSync(),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPClearGeometryMode(G_TEXTURE_GEN),
@@ -8778,16 +8778,16 @@ Gfx og_megaman_Right_Shoe_DL_mesh_layer_1_with_layer_1_revert[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx og_megaman_Right_Shoe_DL_mesh_layer_1_with_layer_5_revert[] = {
-	gsSPDisplayList(mat_og_megaman_MMLights),
-	gsSPDisplayList(og_megaman_Right_Shoe_DL_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_og_megaman_MMLights),
-	gsSPDisplayList(mat_og_megaman_Soles),
-	gsSPDisplayList(og_megaman_Right_Shoe_DL_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_og_megaman_Soles),
-	gsSPDisplayList(mat_og_megaman_Color_1__SHOES_),
-	gsSPDisplayList(og_megaman_Right_Shoe_DL_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_og_megaman_Color_1__SHOES_),
+Gfx og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_with_layer_5_revert[] = {
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_MMLights),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_MMLights),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Soles),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Soles),
+	gsSPDisplayList(mat_og_megaman_metal_wing_cap_Color_1__SHOES_),
+	gsSPDisplayList(og_megaman_metal_wing_cap_Right_Shoe_DL_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_og_megaman_metal_wing_cap_Color_1__SHOES_),
 	gsDPPipeSync(),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPClearGeometryMode(G_TEXTURE_GEN),

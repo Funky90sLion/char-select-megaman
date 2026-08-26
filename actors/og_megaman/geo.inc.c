@@ -1,7 +1,7 @@
 const GeoLayout og_megaman_Happy_Face[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
 		GEO_OPEN_NODE(),
 			GEO_NODE_START(),
 			GEO_OPEN_NODE(),
@@ -9,24 +9,24 @@ const GeoLayout og_megaman_Happy_Face[] = {
 				GEO_OPEN_NODE(),
 					GEO_NODE_START(),
 					GEO_OPEN_NODE(),
-						GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
+						GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
 						GEO_OPEN_NODE(),
 							GEO_NODE_START(),
 							GEO_OPEN_NODE(),
 								GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
 								GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 							GEO_CLOSE_NODE(),
+							GEO_BRANCH(1, og_megaman_geo_opt_1_3),
+							GEO_BRANCH(1, og_megaman_geo_opt_2_3),
+							GEO_BRANCH(1, og_megaman_geo_opt_3_3),
+							GEO_BRANCH(1, og_megaman_geo_opt_4_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_5_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_6_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_7_1),
 						GEO_CLOSE_NODE(),
 					GEO_CLOSE_NODE(),
 				GEO_CLOSE_NODE(),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_2_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_3_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_4_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_5_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_6_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_7_1),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
@@ -38,7 +38,7 @@ const GeoLayout og_megaman_Capless_Head[] = {
 		GEO_OPEN_NODE(),
 			GEO_NODE_START(),
 			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
 				GEO_OPEN_NODE(),
 					GEO_NODE_START(),
 					GEO_OPEN_NODE(),
@@ -46,7 +46,7 @@ const GeoLayout og_megaman_Capless_Head[] = {
 						GEO_OPEN_NODE(),
 							GEO_NODE_START(),
 							GEO_OPEN_NODE(),
-								GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
+								GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
 								GEO_OPEN_NODE(),
 									GEO_NODE_START(),
 									GEO_OPEN_NODE(),
@@ -54,17 +54,23 @@ const GeoLayout og_megaman_Capless_Head[] = {
 										GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
 										GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 									GEO_CLOSE_NODE(),
+									GEO_BRANCH(1, og_megaman_geo_opt_1_4),
+									GEO_BRANCH(1, og_megaman_geo_opt_2_4),
+									GEO_BRANCH(1, og_megaman_geo_opt_3_4),
+									GEO_BRANCH(1, og_megaman_geo_opt_4_2),
+									GEO_BRANCH(1, og_megaman_geo_opt_5_2),
+									GEO_BRANCH(1, og_megaman_geo_opt_6_2),
+									GEO_BRANCH(1, og_megaman_geo_opt_7_2),
 								GEO_CLOSE_NODE(),
 							GEO_CLOSE_NODE(),
+							GEO_BRANCH(1, og_megaman_geo_opt_1_5),
+							GEO_BRANCH(1, og_megaman_geo_opt_2_5),
+							GEO_BRANCH(1, og_megaman_geo_opt_3_5),
 						GEO_CLOSE_NODE(),
 					GEO_CLOSE_NODE(),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_4),
-					GEO_BRANCH(1, og_megaman_geo_opt_2_4),
-					GEO_BRANCH(1, og_megaman_geo_opt_3_4),
-					GEO_BRANCH(1, og_megaman_geo_opt_4_2),
-					GEO_BRANCH(1, og_megaman_geo_opt_5_2),
-					GEO_BRANCH(1, og_megaman_geo_opt_6_2),
-					GEO_BRANCH(1, og_megaman_geo_opt_7_2),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6),
 				GEO_CLOSE_NODE(),
 			GEO_CLOSE_NODE(),
 			GEO_BRANCH(1, og_megaman_Happy_Face),
@@ -94,9 +100,9 @@ const GeoLayout og_megaman_MegaBuster_L[] = {
 					GEO_OPEN_NODE(),
 						GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 					GEO_CLOSE_NODE(),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_5),
-					GEO_BRANCH(1, og_megaman_geo_opt_2_5),
-					GEO_BRANCH(1, og_megaman_geo_opt_3_5),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_7),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_7),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_7),
 					GEO_BRANCH(1, og_megaman_geo_opt_4_3),
 					GEO_BRANCH(1, og_megaman_geo_opt_5_3),
 					GEO_BRANCH(1, og_megaman_geo_opt_6_3),
@@ -163,9 +169,9 @@ const GeoLayout og_megaman_MegaBuster_R[] = {
 					GEO_OPEN_NODE(),
 						GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 					GEO_CLOSE_NODE(),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_6),
-					GEO_BRANCH(1, og_megaman_geo_opt_2_6),
-					GEO_BRANCH(1, og_megaman_geo_opt_3_6),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_8),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_8),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_8),
 					GEO_BRANCH(1, og_megaman_geo_opt_4_4),
 					GEO_BRANCH(1, og_megaman_geo_opt_5_4),
 					GEO_BRANCH(1, og_megaman_geo_opt_6_4),
@@ -1674,305 +1680,1439 @@ const GeoLayout og_megaman_geo_opt_3_2[] = {
 const GeoLayout og_megaman_geo_opt_1_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_2_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_3_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_4_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_5_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_6_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_7_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_1_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_2_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_3_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_4_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_5_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_6_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_7_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_1_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_7),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_2_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_7),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_3_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_7),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_0),
+				GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_7),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_0),
+				GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_7),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_0),
+				GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_7),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+				GEO_OPEN_NODE(),
+					GEO_NODE_START(),
+					GEO_OPEN_NODE(),
+						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_0),
+						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+					GEO_CLOSE_NODE(),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_4),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_5),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_6),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_7),
+				GEO_CLOSE_NODE(),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_0),
+				GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_7),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_0),
+				GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_7),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_0),
+				GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_7),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+				GEO_OPEN_NODE(),
+					GEO_NODE_START(),
+					GEO_OPEN_NODE(),
+						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_0),
+						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+					GEO_CLOSE_NODE(),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_4),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_5),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_6),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_7),
+				GEO_CLOSE_NODE(),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_0),
+				GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_7),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_0),
+				GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_7),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_2[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_3[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_4[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_5[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7),
+		GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_0),
+				GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_7),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+				GEO_OPEN_NODE(),
+					GEO_NODE_START(),
+					GEO_OPEN_NODE(),
+						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+						GEO_DISPLAY_LIST(LAYER_OPAQUE, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_0),
+						GEO_DISPLAY_LIST(LAYER_ALPHA, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+					GEO_CLOSE_NODE(),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_4),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_5),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_6),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_7),
+				GEO_CLOSE_NODE(),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_7[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
@@ -2021,21 +3161,21 @@ const GeoLayout og_megaman_geo_opt_9[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_6[] = {
+const GeoLayout og_megaman_geo_opt_1_8[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_2_6[] = {
+const GeoLayout og_megaman_geo_opt_2_8[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_3_6[] = {
+const GeoLayout og_megaman_geo_opt_3_8[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_OPAQUE, 261, 0, 0, NULL),
@@ -2084,7 +3224,7 @@ const GeoLayout og_megaman_geo_opt_9_1[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1),
@@ -2094,7 +3234,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2),
@@ -2104,7 +3244,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3),
@@ -2114,7 +3254,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_4),
@@ -2124,7 +3264,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_4[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_5),
@@ -2134,7 +3274,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_5[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_6),
@@ -2144,7 +3284,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_6[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_7),
@@ -2154,7 +3294,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_7[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1),
@@ -2164,7 +3304,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_1[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2),
@@ -2174,7 +3314,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_2[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3),
@@ -2184,7 +3324,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_3[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_4),
@@ -2194,7 +3334,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_4[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_5),
@@ -2204,7 +3344,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_5[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_6),
@@ -2214,7 +3354,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_6[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_7),
@@ -2224,7 +3364,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_7[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -2236,18 +3376,18 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_1[] = {
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_2),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_4),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_5),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_6),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_1_opt_1_opt_1_opt_7),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_1_opt_1_opt_1_opt_7),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1),
@@ -2257,7 +3397,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_1[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2),
@@ -2267,7 +3407,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_2[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3),
@@ -2277,7 +3417,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_3[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_4),
@@ -2287,7 +3427,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_4[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_5),
@@ -2297,7 +3437,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_5[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_6),
@@ -2307,7 +3447,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_6[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_7),
@@ -2317,7 +3457,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_7[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -2329,18 +3469,18 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_1[] = {
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_2),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_4),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_5),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_6),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_1_opt_1_opt_2_opt_7),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_1_opt_1_opt_2_opt_7),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1),
@@ -2350,7 +3490,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_1[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2),
@@ -2360,7 +3500,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_2[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3),
@@ -2370,7 +3510,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_3[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_4),
@@ -2380,7 +3520,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_4[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_5),
@@ -2390,7 +3530,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_5[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_6),
@@ -2400,7 +3540,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_6[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_7),
@@ -2410,7 +3550,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_7[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -2422,18 +3562,18 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_1[] = {
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_2),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_4),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_5),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_6),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_1_opt_1_opt_3_opt_7),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_1_opt_1_opt_3_opt_7),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1),
@@ -2443,7 +3583,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2),
@@ -2453,7 +3593,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3),
@@ -2463,7 +3603,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4),
@@ -2473,7 +3613,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_4[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5),
@@ -2483,7 +3623,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_5[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6),
@@ -2493,7 +3633,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_6[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7),
@@ -2503,7 +3643,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_7[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1),
@@ -2513,7 +3653,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2),
@@ -2523,7 +3663,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3),
@@ -2533,7 +3673,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4),
@@ -2543,7 +3683,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5),
@@ -2553,7 +3693,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6),
@@ -2563,7 +3703,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7),
@@ -2573,7 +3713,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -2585,18 +3725,18 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1[] = {
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_2),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_4),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_5),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_6),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_7),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_7),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1),
@@ -2606,7 +3746,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2),
@@ -2616,7 +3756,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3),
@@ -2626,7 +3766,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4),
@@ -2636,7 +3776,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5),
@@ -2646,7 +3786,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6),
@@ -2656,7 +3796,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7),
@@ -2666,7 +3806,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -2678,18 +3818,18 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1[] = {
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_2),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_4),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_5),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_6),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_7),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1_opt_1_opt_1_opt_2_opt_7),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1),
@@ -2699,7 +3839,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2),
@@ -2709,7 +3849,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3),
@@ -2719,7 +3859,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4),
@@ -2729,7 +3869,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5),
@@ -2739,7 +3879,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6),
@@ -2749,7 +3889,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7),
@@ -2759,7 +3899,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -2771,18 +3911,18 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1[] = {
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_2),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_4),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_5),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_6),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_7),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1_opt_1_opt_1_opt_3_opt_7),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_1_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
@@ -2798,23 +3938,23 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_1_2[] = {
 						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 					GEO_CLOSE_NODE(),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_4),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_5),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_6),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_7),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_4),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_5),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_6),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_7),
 				GEO_CLOSE_NODE(),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_1_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_2_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2_opt_1_opt_1_opt_3_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_1_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_2_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2_opt_1_opt_1_opt_3_1),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1),
@@ -2824,7 +3964,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2),
@@ -2834,7 +3974,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3),
@@ -2844,7 +3984,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4),
@@ -2854,7 +3994,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_4[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5),
@@ -2864,7 +4004,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_5[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6),
@@ -2874,7 +4014,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_6[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7),
@@ -2884,7 +4024,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_7[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1),
@@ -2894,7 +4034,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2),
@@ -2904,7 +4044,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3),
@@ -2914,7 +4054,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4),
@@ -2924,7 +4064,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5),
@@ -2934,7 +4074,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6),
@@ -2944,7 +4084,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7),
@@ -2954,7 +4094,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -2966,18 +4106,18 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1[] = {
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_2),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_4),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_5),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_6),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_7),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1_opt_1_opt_2_opt_1_opt_7),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1),
@@ -2987,7 +4127,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2),
@@ -2997,7 +4137,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3),
@@ -3007,7 +4147,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4),
@@ -3017,7 +4157,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5),
@@ -3027,7 +4167,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6),
@@ -3037,7 +4177,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7),
@@ -3047,7 +4187,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -3059,18 +4199,18 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1[] = {
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_2),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_4),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_5),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_6),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_7),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1_opt_1_opt_2_opt_2_opt_7),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1),
@@ -3080,7 +4220,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2),
@@ -3090,7 +4230,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3),
@@ -3100,7 +4240,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4),
@@ -3110,7 +4250,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5),
@@ -3120,7 +4260,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6),
@@ -3130,7 +4270,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7),
@@ -3140,7 +4280,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -3152,18 +4292,18 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1[] = {
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_2),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_4),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_5),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_6),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_7),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1_opt_1_opt_2_opt_3_opt_7),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_2_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
@@ -3179,23 +4319,23 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_2_2[] = {
 						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 					GEO_CLOSE_NODE(),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_4),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_5),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_6),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_7),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_4),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_5),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_6),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_7),
 				GEO_CLOSE_NODE(),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_1_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_2_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2_opt_1_opt_2_opt_3_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_1_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_2_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2_opt_1_opt_2_opt_3_1),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1),
@@ -3205,7 +4345,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2),
@@ -3215,7 +4355,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3),
@@ -3225,7 +4365,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4),
@@ -3235,7 +4375,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_4[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5),
@@ -3245,7 +4385,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_5[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6),
@@ -3255,7 +4395,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_6[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7),
@@ -3265,7 +4405,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_7[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1),
@@ -3275,7 +4415,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2),
@@ -3285,7 +4425,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3),
@@ -3295,7 +4435,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4),
@@ -3305,7 +4445,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5),
@@ -3315,7 +4455,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6),
@@ -3325,7 +4465,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7),
@@ -3335,7 +4475,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -3347,18 +4487,18 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1[] = {
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_2),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_4),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_5),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_6),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_7),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1_opt_1_opt_3_opt_1_opt_7),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1),
@@ -3368,7 +4508,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2),
@@ -3378,7 +4518,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3),
@@ -3388,7 +4528,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4),
@@ -3398,7 +4538,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5),
@@ -3408,7 +4548,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6),
@@ -3418,7 +4558,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7),
@@ -3428,7 +4568,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -3440,18 +4580,18 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1[] = {
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_2),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_4),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_5),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_6),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_7),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1_opt_1_opt_3_opt_2_opt_7),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1),
@@ -3461,7 +4601,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2),
@@ -3471,7 +4611,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_3[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_3[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3),
@@ -3481,7 +4621,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_4[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_4[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4),
@@ -3491,7 +4631,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_5[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_5[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5),
@@ -3501,7 +4641,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_6[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_6[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6),
@@ -3511,7 +4651,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_7[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7),
@@ -3521,7 +4661,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_o
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -3533,18 +4673,18 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1[] = {
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_2),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_3),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_4),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_5),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_6),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_7),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_2),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_3),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_4),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_5),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_6),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1_opt_1_opt_3_opt_3_opt_7),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2[] = {
+const GeoLayout og_megaman_geo_opt_1_9_opt_1_opt_3_2[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
@@ -3560,18 +4700,18 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2[] = {
 						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 					GEO_CLOSE_NODE(),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_4),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_5),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_6),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_7),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_4),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_5),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_6),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_7),
 				GEO_CLOSE_NODE(),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_1_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_2_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2_opt_1_opt_3_opt_3_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_1_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_2_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2_opt_1_opt_3_opt_3_1),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
@@ -3579,7 +4719,7 @@ const GeoLayout og_megaman_geo_opt_1_7_opt_1_opt_3_2[] = {
 const GeoLayout og_megaman_Happy_Face_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
 		GEO_OPEN_NODE(),
 			GEO_NODE_START(),
 			GEO_OPEN_NODE(),
@@ -3587,24 +4727,24 @@ const GeoLayout og_megaman_Happy_Face_opt_1[] = {
 				GEO_OPEN_NODE(),
 					GEO_NODE_START(),
 					GEO_OPEN_NODE(),
-						GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
+						GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
 						GEO_OPEN_NODE(),
 							GEO_NODE_START(),
 							GEO_OPEN_NODE(),
 								GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
 								GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 							GEO_CLOSE_NODE(),
+							GEO_BRANCH(1, og_megaman_geo_opt_1_3_opt_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_2_3_opt_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_3_3_opt_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_4_1_opt_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_5_1_opt_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_6_1_opt_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_7_1_opt_1),
 						GEO_CLOSE_NODE(),
 					GEO_CLOSE_NODE(),
 				GEO_CLOSE_NODE(),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_3_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_2_3_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_3_3_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_4_1_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_5_1_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_6_1_opt_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_7_1_opt_1),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
@@ -3612,140 +4752,56 @@ const GeoLayout og_megaman_Happy_Face_opt_1[] = {
 const GeoLayout og_megaman_geo_opt_1_3_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_2_3_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_3_3_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_4_1_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_5_1_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_6_1_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_7_1_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
@@ -3756,7 +4812,7 @@ const GeoLayout og_megaman_Capless_Head_opt_1[] = {
 		GEO_OPEN_NODE(),
 			GEO_NODE_START(),
 			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
 				GEO_OPEN_NODE(),
 					GEO_NODE_START(),
 					GEO_OPEN_NODE(),
@@ -3764,7 +4820,7 @@ const GeoLayout og_megaman_Capless_Head_opt_1[] = {
 						GEO_OPEN_NODE(),
 							GEO_NODE_START(),
 							GEO_OPEN_NODE(),
-								GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
+								GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
 								GEO_OPEN_NODE(),
 									GEO_NODE_START(),
 									GEO_OPEN_NODE(),
@@ -3772,17 +4828,23 @@ const GeoLayout og_megaman_Capless_Head_opt_1[] = {
 										GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
 										GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 									GEO_CLOSE_NODE(),
+									GEO_BRANCH(1, og_megaman_geo_opt_1_4_opt_1),
+									GEO_BRANCH(1, og_megaman_geo_opt_2_4_opt_1),
+									GEO_BRANCH(1, og_megaman_geo_opt_3_4_opt_1),
+									GEO_BRANCH(1, og_megaman_geo_opt_4_2_opt_1),
+									GEO_BRANCH(1, og_megaman_geo_opt_5_2_opt_1),
+									GEO_BRANCH(1, og_megaman_geo_opt_6_2_opt_1),
+									GEO_BRANCH(1, og_megaman_geo_opt_7_2_opt_1),
 								GEO_CLOSE_NODE(),
 							GEO_CLOSE_NODE(),
+							GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_1),
 						GEO_CLOSE_NODE(),
 					GEO_CLOSE_NODE(),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_4_opt_1),
-					GEO_BRANCH(1, og_megaman_geo_opt_2_4_opt_1),
-					GEO_BRANCH(1, og_megaman_geo_opt_3_4_opt_1),
-					GEO_BRANCH(1, og_megaman_geo_opt_4_2_opt_1),
-					GEO_BRANCH(1, og_megaman_geo_opt_5_2_opt_1),
-					GEO_BRANCH(1, og_megaman_geo_opt_6_2_opt_1),
-					GEO_BRANCH(1, og_megaman_geo_opt_7_2_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_1),
 				GEO_CLOSE_NODE(),
 			GEO_CLOSE_NODE(),
 			GEO_BRANCH(1, og_megaman_Happy_Face_opt_1_1),
@@ -3793,132 +4855,1371 @@ const GeoLayout og_megaman_Capless_Head_opt_1[] = {
 const GeoLayout og_megaman_geo_opt_1_4_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_2_4_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_3_4_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_4_2_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_5_2_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_6_2_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_7_2_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_4_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_5_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_6_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1_opt_7_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_5_opt_1_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_4_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_5_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_6_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_2_opt_7_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_5_opt_2_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_4_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_5_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_6_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_3_opt_7_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_5_opt_3_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+				GEO_OPEN_NODE(),
+					GEO_NODE_START(),
+					GEO_OPEN_NODE(),
+						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_0),
+						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+					GEO_CLOSE_NODE(),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_4_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_5_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_6_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_7_opt_1),
+				GEO_CLOSE_NODE(),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_0),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_4_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_5_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_6_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_7_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_1_1_opt_1_opt_1_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_0),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_4_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_5_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_6_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_7_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_2_1_opt_1_opt_2_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_0),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_4_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_5_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_6_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_7_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_1_6_opt_1_opt_3_1_opt_1_opt_3_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+				GEO_OPEN_NODE(),
+					GEO_NODE_START(),
+					GEO_OPEN_NODE(),
+						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_0),
+						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+					GEO_CLOSE_NODE(),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_4_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_5_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_6_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_7_opt_1),
+				GEO_CLOSE_NODE(),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_0),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_4_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_5_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_6_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_7_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_1_1_opt_2_opt_1_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_0),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_4_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_5_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_6_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_7_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_2_1_opt_2_opt_2_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_0),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_4_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_5_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_6_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_7_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_2_6_opt_2_opt_3_1_opt_2_opt_3_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+				GEO_OPEN_NODE(),
+					GEO_NODE_START(),
+					GEO_OPEN_NODE(),
+						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_0),
+						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+					GEO_CLOSE_NODE(),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_4_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_5_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_6_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_7_opt_1),
+				GEO_CLOSE_NODE(),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_0),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_4_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_5_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_6_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_7_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_1_1_opt_3_opt_1_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_1),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_0),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_4_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_5_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_6_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_7_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_2_1_opt_3_opt_2_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_2),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
+		GEO_OPEN_NODE(),
+			GEO_NODE_START(),
+			GEO_OPEN_NODE(),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_0),
+				GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+			GEO_CLOSE_NODE(),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_1_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_2_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_3_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_4_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_5_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_6_opt_1),
+			GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_7_opt_1),
+		GEO_CLOSE_NODE(),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_1_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_2_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_3_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_4_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_5_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_6_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_geo_opt_3_6_opt_3_opt_3_1_opt_3_opt_3_opt_7_opt_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4_opt_3),
+	GEO_CLOSE_NODE(),
+	GEO_RETURN(),
+};
+const GeoLayout og_megaman_Happy_Face_opt_1_1[] = {
+	GEO_NODE_START(),
+	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
 		GEO_OPEN_NODE(),
 			GEO_NODE_START(),
@@ -3927,45 +6228,24 @@ const GeoLayout og_megaman_geo_opt_7_2_opt_1[] = {
 				GEO_OPEN_NODE(),
 					GEO_NODE_START(),
 					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Capless_Head_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Capless_Head_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
-	GEO_CLOSE_NODE(),
-	GEO_RETURN(),
-};
-const GeoLayout og_megaman_Happy_Face_opt_1_1[] = {
-	GEO_NODE_START(),
-	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
+						GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
 						GEO_OPEN_NODE(),
 							GEO_NODE_START(),
 							GEO_OPEN_NODE(),
 								GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
 								GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 							GEO_CLOSE_NODE(),
+							GEO_BRANCH(1, og_megaman_geo_opt_1_3_opt_1_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_2_3_opt_1_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_3_3_opt_1_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_4_1_opt_1_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_5_1_opt_1_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_6_1_opt_1_1),
+							GEO_BRANCH(1, og_megaman_geo_opt_7_1_opt_1_1),
 						GEO_CLOSE_NODE(),
 					GEO_CLOSE_NODE(),
 				GEO_CLOSE_NODE(),
 			GEO_CLOSE_NODE(),
-			GEO_BRANCH(1, og_megaman_geo_opt_1_3_opt_1_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_2_3_opt_1_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_3_3_opt_1_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_4_1_opt_1_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_5_1_opt_1_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_6_1_opt_1_1),
-			GEO_BRANCH(1, og_megaman_geo_opt_7_1_opt_1_1),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
@@ -3973,140 +6253,56 @@ const GeoLayout og_megaman_Happy_Face_opt_1_1[] = {
 const GeoLayout og_megaman_geo_opt_1_3_opt_1_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_1),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_2_3_opt_1_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_2),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_3_3_opt_1_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_3),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_4_1_opt_1_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_4),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_5_1_opt_1_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_5),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_6_1_opt_1_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_6),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
 const GeoLayout og_megaman_geo_opt_7_1_opt_1_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-		GEO_OPEN_NODE(),
-			GEO_NODE_START(),
-			GEO_OPEN_NODE(),
-				GEO_SWITCH_CASE(0, geo_custom_mouth_switch),
-				GEO_OPEN_NODE(),
-					GEO_NODE_START(),
-					GEO_OPEN_NODE(),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1),
-						GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
-					GEO_CLOSE_NODE(),
-				GEO_CLOSE_NODE(),
-			GEO_CLOSE_NODE(),
-		GEO_CLOSE_NODE(),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_1_opt_7),
+		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Happy_Face_Switch_Option_Happy_Eyes_DL_mesh_layer_4),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
@@ -4132,9 +6328,9 @@ const GeoLayout og_megaman_MegaBuster_L_opt_1[] = {
 					GEO_OPEN_NODE(),
 						GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 					GEO_CLOSE_NODE(),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_5_opt_1),
-					GEO_BRANCH(1, og_megaman_geo_opt_2_5_opt_1),
-					GEO_BRANCH(1, og_megaman_geo_opt_3_5_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_7_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_7_opt_1),
 					GEO_BRANCH(1, og_megaman_geo_opt_4_3_opt_1),
 					GEO_BRANCH(1, og_megaman_geo_opt_5_3_opt_1),
 					GEO_BRANCH(1, og_megaman_geo_opt_6_3_opt_1),
@@ -4148,21 +6344,21 @@ const GeoLayout og_megaman_MegaBuster_L_opt_1[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_5_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_7_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_2_5_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_2_7_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_3_5_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_3_7_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
@@ -4264,9 +6460,9 @@ const GeoLayout og_megaman_MegaBuster_R_opt_1[] = {
 					GEO_OPEN_NODE(),
 						GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 					GEO_CLOSE_NODE(),
-					GEO_BRANCH(1, og_megaman_geo_opt_1_6_opt_1),
-					GEO_BRANCH(1, og_megaman_geo_opt_2_6_opt_1),
-					GEO_BRANCH(1, og_megaman_geo_opt_3_6_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_1_8_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_2_8_opt_1),
+					GEO_BRANCH(1, og_megaman_geo_opt_3_8_opt_1),
 					GEO_BRANCH(1, og_megaman_geo_opt_4_4_opt_1),
 					GEO_BRANCH(1, og_megaman_geo_opt_5_4_opt_1),
 					GEO_BRANCH(1, og_megaman_geo_opt_6_4_opt_1),
@@ -4280,21 +6476,21 @@ const GeoLayout og_megaman_MegaBuster_R_opt_1[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_6_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_1_8_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_2_6_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_2_8_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_3_6_opt_1[] = {
+const GeoLayout og_megaman_geo_opt_3_8_opt_1[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 261, 0, 0, NULL),
@@ -4343,7 +6539,7 @@ const GeoLayout og_megaman_geo_opt_9_1_opt_1[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout og_megaman_geo_opt_1_7[] = {
+const GeoLayout og_megaman_geo_opt_1_9[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 0, 0, 0, NULL),
@@ -4389,23 +6585,23 @@ const GeoLayout og_megaman_geo_opt_1_7[] = {
 																			GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_4),
 																			GEO_DISPLAY_LIST(LAYER_TRANSPARENT, og_megaman_Head_DL_mesh_layer_1),
 																		GEO_CLOSE_NODE(),
-																		GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1),
-																		GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2),
-																		GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3),
-																		GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_4),
-																		GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_5),
-																		GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_6),
-																		GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_7),
+																		GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1),
+																		GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2),
+																		GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3),
+																		GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_4),
+																		GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_5),
+																		GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_6),
+																		GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_7),
 																	GEO_CLOSE_NODE(),
 																GEO_CLOSE_NODE(),
-																GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_1),
-																GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_1),
-																GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_1),
+																GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_1),
+																GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_1),
+																GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_1),
 															GEO_CLOSE_NODE(),
 														GEO_CLOSE_NODE(),
-														GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_1_2),
-														GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_2_2),
-														GEO_BRANCH(1, og_megaman_geo_opt_1_7_opt_1_opt_3_2),
+														GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_1_2),
+														GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_2_2),
+														GEO_BRANCH(1, og_megaman_geo_opt_1_9_opt_1_opt_3_2),
 													GEO_CLOSE_NODE(),
 												GEO_CLOSE_NODE(),
 												GEO_BRANCH(1, og_megaman_Happy_Face_opt_1),
@@ -4742,7 +6938,7 @@ const GeoLayout og_megaman_geo[] = {
 									GEO_CLOSE_NODE(),
 								GEO_CLOSE_NODE(),
 							GEO_CLOSE_NODE(),
-							GEO_BRANCH(1, og_megaman_geo_opt_1_7),
+							GEO_BRANCH(1, og_megaman_geo_opt_1_9),
 						GEO_CLOSE_NODE(),
 					GEO_CLOSE_NODE(),
 				GEO_CLOSE_NODE(),
