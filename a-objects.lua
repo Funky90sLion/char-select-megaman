@@ -40,10 +40,10 @@ function rock_shot_init(o)
     o.oVelY = 0
 
     -- hitbox
-    o.hitboxRadius = 80
+    o.hitboxRadius = 50
+    o.hitboxHeight = 50
     o.oWallHitboxRadius = 0
-    o.hitboxHeight = 80
-    o.hitboxDownOffset = 80
+    o.hitboxDownOffset = 35
     obj_set_model_extended(o, shotModelTable[o.oChargeLevel])
 
     --network_init_object(o, true, { "oShotOwner" })
@@ -55,15 +55,15 @@ function rock_shot_loop(o)
     o.oForwardVel = 60
     obj_set_model_extended(o, shotModelTable[o.oChargeLevel])
     
+    if projectileattack(o, o.oMoveAngleYaw, o.oChargeLevel + 1) then
+        rock_shot_death(o)
+    end
+    
     if (collisionFlags & OBJ_COL_FLAG_GROUNDED) ~= 0 
         or (collisionFlags & OBJ_COL_FLAG_HIT_WALL) ~= 0
         or o.oTimer > 9000 then
             rock_shot_death(o)
     end
-    
-    --[[if projectileattack(o, o.oMoveAngleYaw) then
-        rock_shot_death(o)
-    end]]
     o.oInteractStatus = o.oInteractStatus + ~(INT_STATUS_INTERACTED)
 end
 

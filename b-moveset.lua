@@ -6,6 +6,8 @@ for i = 0, (MAX_PLAYERS - 1) do
     local r = gRockStates[i]
     r.shootAnimState = 0
     r.chargeLevel = 0
+    r.shotsLeft = 3
+    r.shotsCooldown = 0
 end
 
 ACT_ROCK_WALKING = allocate_mario_action(ACT_GROUP_MOVING | ACT_FLAG_MOVING)
@@ -443,7 +445,15 @@ function rock_pew_pew(m)
         }
 
         if (m.controller.buttonPressed & B_BUTTON) ~= 0 and rockShootActs[m.action] then
-            rock_shoot_lemon(m, 0)
+            if r.shotsLeft > 0 then
+                r.shotsCooldown = 45
+                r.shotsLeft = r.shotsLeft - 1
+                rock_shoot_lemon(m, 0)
+            end
+        end
+
+        if r.shotsCooldown < 0 then
+            r.shotsLeft = 3
         end
 
         if (m.controller.buttonDown & B_BUTTON) ~= 0 then
@@ -453,12 +463,16 @@ function rock_pew_pew(m)
         else
             if r.chargeLevel > 30 and rockShootActs[m.action]  then
                 rock_shoot_lemon(m, math.floor(r.chargeLevel / 30))
+            else
+                r.chargeLevel = 0
             end
         end
+
+        r.shotsCooldown = r.shotsCooldown - 1
     else
-       r.shootAnimState = 0
-       r.chargeLevel = 0
-       return
+        r.shootAnimState = 0
+        r.chargeLevel = 0
+        return
     end
 end
 
