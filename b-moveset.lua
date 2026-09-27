@@ -354,12 +354,14 @@ function rock_update(m)
         end
     end
 
-    if (m.controller.buttonPressed & Y_BUTTON) ~= 0 and m.action == ACT_IDLE then
-        set_mario_action(m, ACT_PUNCHING, 0)
-    end
+    if m.action == ACT_IDLE then
+        if r.chargeLevel > 30 and (m.controller.buttonDown & B_BUTTON) == 0 then
+            set_mario_action(m, ACT_ROCK_SHOOTING_IDLE, 0)
+        end
 
-    if r.chargeLevel > 30 and m.action == ACT_IDLE and (m.controller.buttonDown & B_BUTTON) == 0 then
-        set_mario_action(m, ACT_ROCK_SHOOTING_IDLE, 0)
+        if (m.controller.buttonPressed & Y_BUTTON) ~= 0 then
+            set_mario_action(m, ACT_PUNCHING, 0)
+        end
     end
 
     r.shootAnimState = r.shootAnimState - 1
@@ -376,7 +378,11 @@ function rock_on_set_action(m)
 	end
 
     if (m.controller.buttonPressed & B_BUTTON) ~= 0 and m.action == ACT_PUNCHING then
-        set_mario_action(m, ACT_ROCK_SHOOTING_IDLE, 0)
+        if r.shotsLeft > 0 then
+            set_mario_action(m, ACT_ROCK_SHOOTING_IDLE, 0)
+        else
+            m.action = ACT_IDLE
+        end
     end
 
     local jumpActions = {
@@ -458,13 +464,11 @@ function rock_pew_pew(m)
 
         if (m.controller.buttonDown & B_BUTTON) ~= 0 then
             r.chargeLevel = math.min(r.chargeLevel + 1, 65)
-            -- djui_chat_message_create(tostring(math.floor(r.chargeLevel / 30)))
+            djui_chat_message_create(tostring(r.chargeLevel))
             
         else
             if r.chargeLevel > 30 and rockShootActs[m.action]  then
                 rock_shoot_lemon(m, math.floor(r.chargeLevel / 30))
-            else
-                r.chargeLevel = 0
             end
         end
 
@@ -476,10 +480,10 @@ function rock_pew_pew(m)
     end
 end
 
-hook_event(HOOK_MARIO_UPDATE, rock_pew_pew)
-
 hook_mario_action(ACT_ROCK_WALKING, act_rock_walking)
 hook_mario_action(ACT_ROCK_SHOOTING_IDLE, act_rock_shooting_idle)
 hook_mario_action(ACT_ROCK_JUMP, {every_frame = act_rock_jump, gravity = act_rock_gravity})
 hook_mario_action(ACT_ROCK_FALL, {every_frame = act_rock_fall, gravity = act_rock_gravity})
 hook_mario_action(ACT_ROCK_SLIDE, act_rock_slide, INT_KICK)
+
+hook_event(HOOK_MARIO_UPDATE, rock_pew_pew)
