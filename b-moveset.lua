@@ -256,6 +256,12 @@ function act_rock_jump(m)
         smlua_anim_util_set_animation(m.marioObj, "megaman_jumping")
     end
 
+    if (m.controller.buttonDown & Z_TRIG) ~= 0 then
+        if (m.controller.buttonPressed & A_BUTTON) then
+            set_mario_action(m, ACT_GROUND_POUND, 0)
+        end
+    end
+
     if stepResult == AIR_STEP_LANDED then
 		set_mario_action(m, ACT_JUMP_LAND, 0)
     elseif stepResult == AIR_STEP_GRABBED_LEDGE then
@@ -293,6 +299,12 @@ function act_rock_fall(m)
     elseif stepResult == AIR_STEP_GRABBED_CEILING then
         set_mario_action(m, ACT_START_HANGING, 0)
 	end
+
+    if (m.controller.buttonDown & Z_TRIG) ~= 0 then
+        if (m.controller.buttonPressed & A_BUTTON) then
+            set_mario_action(m, ACT_GROUND_POUND, 0)
+        end
+    end
 
     m.actionTimer = m.actionTimer + 1
 end
@@ -355,10 +367,6 @@ function rock_update(m)
     end
 
     if m.action == ACT_IDLE then
-        if r.chargeLevel > 30 and (m.controller.buttonDown & B_BUTTON) == 0 then
-            set_mario_action(m, ACT_ROCK_SHOOTING_IDLE, 0)
-        end
-
         if (m.controller.buttonPressed & Y_BUTTON) ~= 0 then
             set_mario_action(m, ACT_PUNCHING, 0)
         end
@@ -446,6 +454,7 @@ function rock_pew_pew(m)
     if _G.charSelect.character_get_current_number(m.playerIndex) == CT_MEGAMAN then
         local rockShootActs = {
             [ACT_ROCK_JUMP] = true,
+            [ACT_ROCK_FALL] = true,
             [ACT_ROCK_WALKING] = true,
             [ACT_ROCK_SHOOTING_IDLE] = true
         }
@@ -463,21 +472,184 @@ function rock_pew_pew(m)
         end
 
         if (m.controller.buttonDown & B_BUTTON) ~= 0 then
-            r.chargeLevel = math.min(r.chargeLevel + 1, 65)
-            djui_chat_message_create(tostring(r.chargeLevel))
+            r.chargeLevel = r.chargeLevel + 1
+            --djui_chat_message_create(tostring(r.chargeLevel))
             
         else
-            if r.chargeLevel > 30 and rockShootActs[m.action]  then
-                rock_shoot_lemon(m, math.floor(r.chargeLevel / 30))
+            if r.chargeLevel > 30 then
+                if m.action == ACT_IDLE then
+                    if (m.controller.buttonDown & B_BUTTON) == 0 then
+                        set_mario_action(m, ACT_ROCK_SHOOTING_IDLE, 0)
+                    end
+                end
+
+                if rockShootActs[m.action]  then
+                    rock_shoot_lemon(m, math.min(2, math.floor(r.chargeLevel / 30)))
+                else
+                    r.chargeLevel = 0
+                end
             end
         end
 
         r.shotsCooldown = r.shotsCooldown - 1
+       
+        rock_charge_flashing(m)
     else
         r.shootAnimState = 0
         r.chargeLevel = 0
         return
     end
+
+end
+
+function rock_charge_flashing(m)-- Palette flashing.
+    local r = gRockStates[m.playerIndex]
+    if m.playerIndex == 0 then
+
+        local np = network_player_from_global_index(m.marioObj.globalPlayerIndex)
+        local isUsingCSPresets = _G.charSelect.character_get_current_palette_number()
+
+        local realPalette = {
+            CAP = network_player_get_palette_color(np, CAP),
+            SHIRT = network_player_get_palette_color(np, SHIRT),
+            PANTS = network_player_get_palette_color(np, PANTS),
+            GLOVES = network_player_get_palette_color(np, GLOVES),
+            EMBLEM = network_player_get_palette_color(np, EMBLEM),
+            SHOES = network_player_get_palette_color(np, SHOES)
+        }
+
+        if isUsingCSPresets > 0 then
+            realPalette = {
+                CAP = _G.charSelect.character_get_current_palette()[CAP],
+                SHIRT = _G.charSelect.character_get_current_palette()[SHIRT],
+                PANTS = _G.charSelect.character_get_current_palette()[PANTS],
+                GLOVES = _G.charSelect.character_get_current_palette()[GLOVES],
+                EMBLEM = _G.charSelect.character_get_current_palette()[EMBLEM],
+                SHOES = _G.charSelect.character_get_current_palette()[SHOES]
+            }
+        else
+            if r.chargeLevel <= 30 then
+                network_player_reset_override_palette(np)
+            end
+        end
+
+        -- The for loop doesn't let me use the keys so I hadta do this bullshit.
+        local parts = {
+            CAP = CAP,
+            SHIRT = SHIRT,
+            PANTS = PANTS,
+            GLOVES = GLOVES,
+            EMBLEM = EMBLEM,
+            SHOES = SHOES
+        }
+
+        local lightColor = {
+            [1] = {r = 255, g = 0, b = 120},
+            [2] = {r = 0, g = 255, b = 5}
+        }
+
+        local mixLevels = {
+            [1] = {opacity = 50, lerp = 0.3},
+            [2] = {opacity = 80, lerp = 0.4}
+        }
+
+        if r.chargeLevel > 30 then
+            local lerpValue = (r.chargeLevel >= 60) and (r.chargeLevel % 4 / 3) or (r.chargeLevel % 6 / 5)
+            local charge = math.min(2, math.floor(r.chargeLevel / 30))
+
+            for key, value in pairs(realPalette) do
+                local shiftedPallete = color_lerp(value, lightColor[charge], mixLevels[charge].lerp)
+                shiftedPallete = color_blend_add(lightColor[charge], shiftedPallete, mixLevels[charge].opacity)
+
+                network_player_set_override_palette_color(np, parts[key], 
+                color_lerp(value, shiftedPallete, 1 - lerpValue))
+            end
+
+            local ambientLerp = color_lerp({r = 127, g = 127, b = 127}, lightColor[charge], (1 - lerpValue) * mixLevels[charge].opacity/100)
+            m.marioBodyState.shadeR = ambientLerp.r
+            m.marioBodyState.shadeG = ambientLerp.g
+            m.marioBodyState.shadeB = ambientLerp.b
+        else
+            m.marioBodyState.shadeR = 127
+            m.marioBodyState.shadeG = 127
+            m.marioBodyState.shadeB = 127
+        end
+    end
+end
+
+-- Bunch of color blending functions. Will probably get rid of the unused ones whenwe don't actually need them.
+function color_blend_overlay(blend, base)
+    local result = {r = 0, g = 0, b = 0}
+
+    for key, value in pairs(base) do
+        if value < 127.5 then
+            result[key] = (2 * base[key] * blend[key]) / 255
+        else
+            result[key] = 255 - ((2 * (255 - base[key]) * (255 - blend[key])) / 255)
+        end
+    end
+
+    return result
+end
+
+function color_blend_color_dodge(blend, base)
+    local result = {r = 0, g = 0, b = 0}
+
+    for key, value in pairs(base) do
+
+        local blendVal = blend[key] / 255
+        local baseVal = value / 255
+        
+        result[key] = math.clamp(baseVal / (1 - blendVal), 0, 1) * 255
+    end
+
+    return result
+end
+
+function color_blend_screen(blend, base, opacity)
+    if opacity == nil then opacity = 100 end
+
+    local o = opacity/100
+    local result = {r = 0, g = 0, b = 0}
+
+    for key, value in pairs(base) do
+        local screen = 255 - (((255 - blend[key]) * (255 - value)) / 255)
+
+        result[key] = value * (1 - o) + screen * o
+    end
+
+    -- djui_chat_message_create(tostring(c.x) .. ", " .. tostring(c.y) .. ", " .. tostring(c.z))
+
+    return result
+end
+
+function color_blend_add(blend, base, opacity)
+    if opacity == nil then opacity = 100 end
+
+    local o = opacity/100
+    local result = {r = 0, g = 0, b = 0}
+
+    for key, value in pairs(base) do
+        local add = math.min(255, blend[key] + value)
+
+        result[key] = value * (1 - o) + add * o
+    end
+
+    -- djui_chat_message_create(tostring(c.x) .. ", " .. tostring(c.y) .. ", " .. tostring(c.z))
+
+    return result
+end
+
+function color_lerp(color1, color2, lerp)
+    local result = {r = 0, g = 0, b = 0}
+
+    for key, value in pairs(color1) do
+        result[key] = math.lerp(value, color2[key], lerp)
+    end
+
+    -- djui_chat_message_create(tostring(c.x) .. ", " .. tostring(c.y) .. ", " .. tostring(c.z))
+
+    return result
 end
 
 hook_mario_action(ACT_ROCK_WALKING, act_rock_walking)

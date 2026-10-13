@@ -44,6 +44,7 @@ function rock_shot_init(o)
     o.hitboxHeight = 50
     o.oWallHitboxRadius = 0
     o.hitboxDownOffset = 35
+    o.oForwardVel = 64
     obj_set_model_extended(o, shotModelTable[o.oChargeLevel])
 
     --network_init_object(o, true, { "oShotOwner" })
@@ -52,7 +53,7 @@ end
 
 function rock_shot_loop(o)
     local collisionFlags = object_step()
-    o.oForwardVel = 60
+    o.oForwardVel = 64
     obj_set_model_extended(o, shotModelTable[o.oChargeLevel])
     
     if projectileattack(o, o.oMoveAngleYaw, o.oChargeLevel + 1) then
@@ -81,6 +82,10 @@ end
 
 function rock_shot_death(o)
     local position = {x = o.oPosX, y = o.oPosY, z =o.oPosZ,}
+    local np = network_player_from_global_index(o.oShotOwner)
+    local r = gRockStates[np.localIndex]
+
+    r.shotsLeft = r.shotsLeft + 1
     obj_mark_for_deletion(o)
 end
 

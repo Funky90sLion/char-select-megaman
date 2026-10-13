@@ -116,7 +116,7 @@ end
 --------------------
 
 function rock_shot_bridge(o, shot_dir, shot_level)
-    if shot_level == 3 and (o.oFaceAnglePitch > -0x4000) then
+    if (o.oFaceAnglePitch > -0x4000) then
         o.oAction = 2
     end
     return true
